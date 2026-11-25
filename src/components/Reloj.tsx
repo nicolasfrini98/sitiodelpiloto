@@ -14,7 +14,7 @@ function dos(n: number) {
   return String(n).padStart(2, "0");
 }
 
-/** Hora UTC (Z) y hora oficial argentina, calculadas en el navegador. */
+/** Hora UTC (Z) y hora oficial argentina, calculadas en el navegador. Estilo de display de cabina. */
 export function Reloj({ className = "" }: { className?: string }) {
   const [ahora, setAhora] = useState<Date | null>(null);
 
@@ -30,17 +30,17 @@ export function Reloj({ className = "" }: { className?: string }) {
 
   return (
     <div
-      className={`flex items-center gap-2 font-mono text-xs leading-none tabular-nums ${className}`}
+      className={`flex items-stretch overflow-hidden rounded border border-slate-700 bg-black font-mono text-[13px] leading-none tabular-nums ${className}`}
       aria-label={ahora ? `Hora UTC ${utc}, hora local de Argentina ${local}` : "Reloj"}
       role="timer"
     >
-      <span className="rounded border border-sky-400/40 bg-black/40 px-1.5 py-1 text-sky-300">
+      <span className="flex items-center gap-1 px-1.5 py-1.5 text-cielo sm:px-2">
         {utc}
-        <span className="text-sky-500">Z</span>
+        <span className="text-[10px] text-sky-300/70">Z</span>
       </span>
-      <span className="rounded border border-amber-300/40 bg-black/40 px-1.5 py-1 text-amber-300">
+      <span className="flex items-center gap-1 border-l border-slate-700 px-1.5 py-1.5 text-ambar sm:px-2">
         {local}
-        <span className="ml-1 text-[10px] text-amber-500">ARG</span>
+        <span className="text-[10px] text-amber-300/70">ARG</span>
       </span>
     </div>
   );

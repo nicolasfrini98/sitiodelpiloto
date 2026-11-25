@@ -72,7 +72,7 @@ export function NovedadesLista({
               className={`rounded-full border px-3 py-1 text-sm transition ${
                 activo
                   ? "border-sky-400/60 bg-sky-500/20 text-sky-100"
-                  : "border-white/10 bg-slate-900/60 text-slate-300 hover:border-white/25 hover:text-white"
+                  : "border-trazo bg-slate-900/60 text-slate-300 hover:border-white/25 hover:text-white"
               }`}
             >
               {c} <span className="text-slate-400">({cantidades.get(c) ?? 0})</span>
@@ -82,17 +82,17 @@ export function NovedadesLista({
       </div>
 
       {visibles.length === 0 ? (
-        <p className="rounded-xl border border-white/10 bg-slate-900/60 p-5 text-sm text-slate-400">
+        <p className="rounded-md border border-trazo bg-slate-900/60 p-5 text-sm text-slate-400">
           No hay novedades en esta categoría por ahora.
         </p>
       ) : (
         <ul className="space-y-3">
           {visibles.map((n) => (
             <li key={n.enlace}>
-              <article className="flex gap-4 rounded-xl border border-white/10 bg-slate-900/60 p-4 transition hover:border-sky-400/40">
+              <article className="flex gap-4 rounded-md border border-trazo bg-slate-900/60 p-4 transition hover:border-sky-400/40">
                 <div className="min-w-0 flex-1 space-y-2">
                   <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs">
-                    <span className="rounded-full border border-white/10 bg-slate-800 px-2 py-0.5 font-medium text-slate-200">
+                    <span className="rounded-full border border-trazo bg-slate-800 px-2 py-0.5 font-medium text-slate-200">
                       {n.fuente}
                     </span>
                     <span className={COLOR_CATEGORIA[n.categoria]}>{n.categoria}</span>
@@ -127,7 +127,7 @@ export function NovedadesLista({
                     loading="lazy"
                     decoding="async"
                     referrerPolicy="no-referrer"
-                    className="hidden h-24 w-36 shrink-0 rounded-lg border border-white/10 object-cover sm:block"
+                    className="hidden h-24 w-36 shrink-0 rounded-lg border border-trazo object-cover sm:block"
                   />
                 )}
               </article>
@@ -136,7 +136,7 @@ export function NovedadesLista({
         </ul>
       )}
 
-      <details className="rounded-xl border border-white/10 bg-slate-900/60 p-4 text-sm text-slate-400">
+      <details className="rounded-md border border-trazo bg-slate-900/60 p-4 text-sm text-slate-400">
         <summary className="cursor-pointer select-none">
           Fuentes ({fuentes.length - caidas.length} de {fuentes.length} respondieron)
           {caidas.length > 0 && (

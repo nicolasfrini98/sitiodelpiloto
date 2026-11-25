@@ -23,7 +23,7 @@ export function SelectorAerodromo({ actual, opciones }: { actual: string; opcion
           const icao = e.target.value;
           iniciar(() => router.replace(`/meteorologia?icao=${icao}#pronostico`, { scroll: false }));
         }}
-        className="max-w-full rounded-lg border border-white/10 bg-slate-900 px-3 py-1.5 text-sm text-white"
+        className="max-w-full rounded-lg border border-trazo bg-slate-900 px-3 py-1.5 text-sm text-white"
       >
         {opciones.map((o) => (
           <option key={o.icao} value={o.icao}>

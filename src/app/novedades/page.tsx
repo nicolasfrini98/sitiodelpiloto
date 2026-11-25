@@ -13,7 +13,7 @@ export default function Page() {
   return (
     <div className="space-y-6">
       <header className="space-y-2">
-        <h1 className="text-3xl font-bold tracking-tight text-white">Novedades</h1>
+        <h1 className="text-4xl font-bold text-white sm:text-5xl">Novedades</h1>
         <p className="max-w-3xl text-slate-300">
           Noticias de aviación relevantes para pilotos argentinos, juntadas de {FUENTES_NOVEDADES.length} fuentes: vuelo a
           vela, aviación general, avisos oficiales de la ANAC y de EANA, y novedades internacionales. Mostramos el título y
@@ -33,7 +33,7 @@ async function Listado() {
   const { novedades, fuentes } = await obtenerNovedades();
   if (novedades.length === 0) {
     return (
-      <p className="rounded-xl border border-amber-400/30 bg-amber-500/10 p-5 text-sm text-amber-200">
+      <p className="rounded-md border border-amber-400/30 bg-amber-500/10 p-5 text-sm text-amber-200">
         No pudimos traer noticias de ninguna fuente en este momento. Probá de nuevo más tarde.
       </p>
     );
@@ -45,7 +45,7 @@ function Cargando() {
   return (
     <ul className="space-y-3" aria-busy="true" aria-label="Cargando novedades">
       {Array.from({ length: 5 }, (_, i) => (
-        <li key={i} className="h-28 animate-pulse rounded-xl border border-white/10 bg-slate-900/60" />
+        <li key={i} className="h-28 animate-pulse rounded-md border border-trazo bg-slate-900/60" />
       ))}
     </ul>
   );

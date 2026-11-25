@@ -3,7 +3,7 @@ import { fechaCorta, NORMATIVA_CONSULTADA, ULTIMA_REVISION, URL_RAAC_ANAC } from
 /** Aviso fijo de las páginas de /licencias: es un resumen, la norma vale lo que diga la ANAC. */
 export function AvisoNormativo() {
   return (
-    <aside className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-100">
+    <aside className="rounded-md border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-100">
       <p>
         <strong>Resumen orientativo; la norma oficial es la RAAC publicada por la ANAC.</strong>{" "}
         <a href={URL_RAAC_ANAC} target="_blank" rel="noopener noreferrer" className="text-amber-300 underline">

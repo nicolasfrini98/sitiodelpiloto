@@ -45,7 +45,7 @@ export default function MapaLeaflet({ metars, sigmets, alertas, radar }: DatosMa
           <label
             key={c.etiqueta}
             className={`flex cursor-pointer items-center gap-1.5 rounded-lg border px-2.5 py-1 ${
-              c.activo ? "border-sky-500/60 bg-sky-500/10 text-sky-200" : "border-white/10 text-slate-300"
+              c.activo ? "border-sky-500/60 bg-sky-500/10 text-sky-200" : "border-trazo text-slate-300"
             } ${c.disponible ? "" : "cursor-not-allowed opacity-50"}`}
           >
             <input
@@ -65,7 +65,7 @@ export default function MapaLeaflet({ metars, sigmets, alertas, radar }: DatosMa
         zoom={4}
         minZoom={3}
         scrollWheelZoom={false}
-        className="h-[520px] w-full rounded-xl border border-white/10"
+        className="h-[520px] w-full rounded-md border border-trazo"
         style={{ background: "#0f172a" }}
       >
         <TileLayer

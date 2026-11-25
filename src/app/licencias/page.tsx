@@ -26,7 +26,7 @@ export default function Page() {
   return (
     <div className="space-y-8">
       <header className="space-y-2">
-        <h1 className="text-3xl font-bold tracking-tight text-white">Licencias y habilitaciones</h1>
+        <h1 className="text-4xl font-bold text-white sm:text-5xl">Licencias y habilitaciones</h1>
         <p className="max-w-3xl text-slate-300">
           Qué pide la ANAC para cada licencia y habilitación de piloto: edad, certificado médico, examen teórico, horas
           de vuelo, prueba de pericia, atribuciones y cómo mantenerla vigente. Cada requisito cita la sección de la
@@ -60,7 +60,7 @@ function Tarjeta({ ficha }: { ficha: Ficha }) {
   return (
     <Link
       href={`/licencias/${ficha.id}`}
-      className="group flex flex-col rounded-xl border border-white/10 bg-slate-900/60 p-5 hover:border-sky-500/50 hover:bg-slate-900"
+      className="group flex flex-col rounded-md border border-trazo bg-slate-900/60 p-5 hover:border-sky-500/50 hover:bg-slate-900"
     >
       <div className="flex items-center gap-2 text-[10px] tracking-wide uppercase">
         <span className="text-sky-300">{NOMBRE_TIPO[ficha.tipo]}</span>

@@ -138,7 +138,7 @@ export function BancoPreguntas({
           </p>
         )}
 
-        <section className="rounded-xl border border-white/10 bg-slate-900/60 p-5">
+        <section className="rounded-md border border-trazo bg-slate-900/60 p-5">
           <h2 ref={tituloRef} tabIndex={-1} className="font-semibold text-white outline-none">
             Tu progreso en este navegador
           </h2>
@@ -163,7 +163,7 @@ export function BancoPreguntas({
           </p>
         </section>
 
-        <section className="space-y-4 rounded-xl border border-white/10 bg-slate-900/60 p-5">
+        <section className="space-y-4 rounded-md border border-trazo bg-slate-900/60 p-5">
           <h2 className="font-semibold text-white">Elegí qué preguntas</h2>
           <div className="grid gap-3 sm:grid-cols-2">
             <label className="block text-sm text-slate-300">
@@ -200,7 +200,7 @@ export function BancoPreguntas({
         </section>
 
         <div className="grid gap-4 md:grid-cols-2">
-          <section className="flex flex-col rounded-xl border border-white/10 bg-slate-900/60 p-5">
+          <section className="flex flex-col rounded-md border border-trazo bg-slate-900/60 p-5">
             <h2 className="font-semibold text-white">Modo práctica</h2>
             <p className="mt-1 flex-1 text-sm text-slate-300">
               Una pregunta a la vez. Al responder ves si acertaste, la explicación y la norma o documento de donde sale.
@@ -215,7 +215,7 @@ export function BancoPreguntas({
             </button>
           </section>
 
-          <section className="flex flex-col rounded-xl border border-white/10 bg-slate-900/60 p-5">
+          <section className="flex flex-col rounded-md border border-trazo bg-slate-900/60 p-5">
             <h2 className="font-semibold text-white">Modo examen</h2>
             <p className="mt-1 text-sm text-slate-300">
               Preguntas al azar, sin ver las respuestas hasta el final. Para aprobar el teórico real la RAAC 61.085(b) pide{" "}
@@ -290,7 +290,7 @@ export function BancoPreguntas({
           derecha={`${aciertos} bien`}
           materia={materias.find((m) => m.id === pregunta.materia)?.nombre}
         />
-        <article className="space-y-4 rounded-xl border border-white/10 bg-slate-900/60 p-5">
+        <article className="space-y-4 rounded-md border border-trazo bg-slate-900/60 p-5">
           <h2 ref={tituloRef} tabIndex={-1} className="text-lg font-medium text-white outline-none">
             {pregunta.enunciado}
           </h2>
@@ -301,7 +301,7 @@ export function BancoPreguntas({
               let estilo = "border-white/15 bg-slate-950 hover:border-sky-500/60";
               if (respondida && esCorrecta) estilo = "border-emerald-500 bg-emerald-500/15";
               else if (respondida && esElegida) estilo = "border-red-500 bg-red-500/15";
-              else if (respondida) estilo = "border-white/10 bg-slate-950 opacity-70";
+              else if (respondida) estilo = "border-trazo bg-slate-950 opacity-70";
               return (
                 <li key={original}>
                   <button
@@ -397,7 +397,7 @@ export function BancoPreguntas({
           }
           materia={materias.find((m) => m.id === pregunta.materia)?.nombre}
         />
-        <article className="space-y-4 rounded-xl border border-white/10 bg-slate-900/60 p-5">
+        <article className="space-y-4 rounded-md border border-trazo bg-slate-900/60 p-5">
           <h2 ref={tituloRef} tabIndex={-1} className="text-lg font-medium text-white outline-none">
             {pregunta.enunciado}
           </h2>
@@ -462,8 +462,8 @@ export function BancoPreguntas({
                 i === indice
                   ? "border-sky-400 text-white"
                   : respuestas[i] != null
-                    ? "border-white/10 bg-sky-900/50 text-slate-200"
-                    : "border-white/10 text-slate-400"
+                    ? "border-trazo bg-sky-900/50 text-slate-200"
+                    : "border-trazo text-slate-400"
               }`}
             >
               {i + 1}
@@ -494,7 +494,7 @@ export function BancoPreguntas({
   return (
     <div className="space-y-6">
       <section
-        className={`rounded-xl border p-5 ${aprobado ? "border-emerald-500/40 bg-emerald-500/10" : "border-amber-500/40 bg-amber-500/10"}`}
+        className={`rounded-md border p-5 ${aprobado ? "border-emerald-500/40 bg-emerald-500/10" : "border-amber-500/40 bg-amber-500/10"}`}
       >
         <h2 ref={tituloRef} tabIndex={-1} className="text-2xl font-bold text-white outline-none">
           {correctas} de {items.length} ({porcentaje} %)
@@ -541,7 +541,7 @@ export function BancoPreguntas({
           <h3 className="text-lg font-semibold text-white">Revisión de errores</h3>
           <ol className="space-y-3">
             {errores.map(({ it, r }) => (
-              <li key={it.pregunta.id} className="space-y-2 rounded-xl border border-white/10 bg-slate-900/60 p-4">
+              <li key={it.pregunta.id} className="space-y-2 rounded-md border border-trazo bg-slate-900/60 p-4">
                 <p className="font-medium text-white">{it.pregunta.enunciado}</p>
                 <p className="text-sm text-red-300">
                   Tu respuesta: {r == null ? "sin responder" : it.pregunta.opciones[r]}

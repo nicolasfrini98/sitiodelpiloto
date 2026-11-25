@@ -45,7 +45,7 @@ export default function Page() {
   return (
     <div className="space-y-8">
       <header className="space-y-2">
-        <h1 className="text-3xl font-bold tracking-tight text-white">Cambios en la normativa</h1>
+        <h1 className="text-4xl font-bold text-white sm:text-5xl">Cambios en la normativa</h1>
         <p className="max-w-3xl text-slate-300">
           Qué cambió en las RAAC y en otras normas de la ANAC que afectan a pilotos de avión, planeador y ultraliviano,
           instructores, alumnos y aeródromos. Cada cambio tiene un resumen en lenguaje claro, a quién afecta y el enlace
@@ -68,7 +68,7 @@ export default function Page() {
         />
       </section>
 
-      <aside className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-100">
+      <aside className="rounded-md border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-100">
         <strong>Resumen orientativo, no reemplaza la norma.</strong> Lo que vale es el texto publicado en el{" "}
         <a href={URL_BO} target="_blank" rel="noopener noreferrer" className="text-amber-300 underline">
           Boletín Oficial
@@ -91,7 +91,7 @@ export default function Page() {
             {plazos.map((p) => (
               <li
                 key={p.cambio.id + p.fecha + p.descripcion}
-                className="rounded-xl border border-white/10 bg-slate-900/60 p-4"
+                className="rounded-md border border-trazo bg-slate-900/60 p-4"
               >
                 <p className="font-mono text-lg font-semibold text-amber-300">
                   {p.aproximada ? "≈ " : ""}
@@ -131,7 +131,7 @@ export default function Page() {
         <h2 className="text-xl font-semibold text-white">Fuentes que se revisan cada mes</h2>
         <ul className="space-y-2 text-sm">
           {FUENTES_MONITOREADAS.map((f) => (
-            <li key={f.id} className="rounded-lg border border-white/10 bg-slate-900/40 p-3">
+            <li key={f.id} className="rounded-lg border border-trazo bg-slate-900/40 p-3">
               <a href={f.url} target="_blank" rel="noopener noreferrer" className="font-medium text-sky-400 hover:underline">
                 {f.nombre} ↗
               </a>
@@ -146,8 +146,8 @@ export default function Page() {
 
 function Dato({ titulo, valor, detalle }: { titulo: string; valor: string; detalle?: string }) {
   return (
-    <div className="rounded-xl border border-white/10 bg-slate-900/60 p-4">
-      <p className="text-xs tracking-wide text-slate-400 uppercase">{titulo}</p>
+    <div className="rounded-md border border-trazo bg-slate-900/60 p-4">
+      <p className="text-sm text-slate-400">{titulo}</p>
       <p className="mt-1 text-2xl font-semibold text-white">{valor}</p>
       {detalle && <p className="mt-1 text-xs text-slate-400">{detalle}</p>}
     </div>

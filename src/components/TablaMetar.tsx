@@ -41,12 +41,12 @@ export function TablaMetar({ filas }: { filas: FilaMetar[] }) {
           value={texto}
           onChange={(e) => setTexto(e.target.value)}
           placeholder="Buscar por OACI, IATA, ciudad o provincia (ej: SACO, Córdoba)"
-          className="flex-1 rounded-lg border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:border-sky-500 focus:outline-none"
+          className="flex-1 rounded-lg border border-trazo bg-slate-900 px-3 py-2 text-sm text-white placeholder:text-slate-500 focus:border-sky-500 focus:outline-none"
         />
         <select
           value={provincia}
           onChange={(e) => setProvincia(e.target.value)}
-          className="rounded-lg border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white"
+          className="rounded-lg border border-trazo bg-slate-900 px-3 py-2 text-sm text-white"
           aria-label="Provincia"
         >
           <option value="">Todas las provincias</option>
@@ -61,7 +61,7 @@ export function TablaMetar({ filas }: { filas: FilaMetar[] }) {
         <select
           value={categoria}
           onChange={(e) => setCategoria(e.target.value as typeof categoria)}
-          className="rounded-lg border border-white/10 bg-slate-900 px-3 py-2 text-sm text-white"
+          className="rounded-lg border border-trazo bg-slate-900 px-3 py-2 text-sm text-white"
           aria-label="Categoría de vuelo"
         >
           {FILTROS_CATEGORIA.map((c) => (
@@ -76,7 +76,7 @@ export function TablaMetar({ filas }: { filas: FilaMetar[] }) {
         Mostrando {visibles.length} de {filas.length} aeródromos.
       </p>
 
-      <ul className="divide-y divide-white/5 overflow-hidden rounded-xl border border-white/10 bg-slate-900/60">
+      <ul className="divide-y divide-white/5 overflow-hidden rounded-md border border-trazo bg-slate-900/60">
         {visibles.map(({ aerodromo: a, metar: m }) => (
           <li key={a.icao}>
             <Link href={`/metar/${a.icao}`} className="block px-4 py-3 hover:bg-white/5">

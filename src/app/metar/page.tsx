@@ -15,7 +15,7 @@ export default function Page() {
   return (
     <div className="space-y-6">
       <header className="space-y-2">
-        <h1 className="text-3xl font-bold text-white">METAR / TAF de Argentina</h1>
+        <h1 className="text-4xl font-bold text-white sm:text-5xl">METAR / TAF de Argentina</h1>
         <p className="max-w-3xl text-slate-300">
           Último reporte de cada aeródromo argentino que publica METAR. Tocá un aeródromo para ver el TAF, el historial de
           las últimas horas y datos útiles como altitud de densidad y base estimada de cúmulos. Se actualiza solo cada 5

@@ -54,13 +54,13 @@ export function InformeRegulaciones({
 
   return (
     <div className="space-y-5">
-      <div className="flex flex-wrap items-end gap-3 rounded-xl border border-white/10 bg-slate-900/60 p-4">
+      <div className="flex flex-wrap items-end gap-3 rounded-md border border-trazo bg-slate-900/60 p-4">
         <label className="flex flex-col gap-1 text-xs text-slate-400">
           A quién afecta
           <select
             value={destinatario}
             onChange={(e) => setDestinatario(e.target.value as Destinatario | "todos-los-cambios")}
-            className="rounded-md border border-white/10 bg-slate-950 px-3 py-2 text-sm text-slate-100"
+            className="rounded-md border border-trazo bg-slate-950 px-3 py-2 text-sm text-slate-100"
           >
             <option value="todos-los-cambios">Cualquiera</option>
             {destinatarios
@@ -84,7 +84,7 @@ export function InformeRegulaciones({
                 className={`rounded-md border px-3 py-1.5 text-sm ${
                   impacto === o.id
                     ? "border-sky-500/60 bg-sky-500/20 text-sky-100"
-                    : "border-white/10 text-slate-300 hover:bg-white/10"
+                    : "border-trazo text-slate-300 hover:bg-white/10"
                 }`}
               >
                 {o.nombre}
@@ -100,14 +100,14 @@ export function InformeRegulaciones({
       {visibles.length === 0 ? (
         <p className="text-sm text-slate-400">No hay cambios con ese filtro.</p>
       ) : (
-        <ol className="relative space-y-4 border-l border-white/10 pl-5">
+        <ol className="relative space-y-4 border-l border-trazo pl-5">
           {visibles.map((c) => (
             <li key={c.id} id={c.id} className="relative scroll-mt-24">
               <span
                 aria-hidden
                 className={`absolute top-5 -left-[1.6rem] h-2.5 w-2.5 rounded-full ring-4 ring-slate-950 ${PUNTO_IMPACTO[c.impacto]}`}
               />
-              <article className="rounded-xl border border-white/10 bg-slate-900/60 p-5">
+              <article className="rounded-md border border-trazo bg-slate-900/60 p-5">
                 <div className="flex flex-wrap items-center gap-2 text-xs">
                   <time dateTime={c.fechaPublicacion} className="font-mono text-slate-400">
                     BO {fechaCorta(c.fechaPublicacion)}

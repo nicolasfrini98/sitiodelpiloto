@@ -70,7 +70,7 @@ async function Ficha({ params }: Pick<PageProps<"/metar/[icao]">, "params">) {
 
       {!historial.ok && <p className="text-red-400">No se pudo cargar el METAR: {historial.error}</p>}
       {historial.ok && !ultimo && (
-        <p className="rounded-lg border border-white/10 bg-slate-900/60 p-4 text-slate-400">
+        <p className="rounded-lg border border-trazo bg-slate-900/60 p-4 text-slate-400">
           No hay METAR en las últimas 12 horas. Muchos aeródromos no operan H24.
         </p>
       )}
@@ -81,7 +81,7 @@ async function Ficha({ params }: Pick<PageProps<"/metar/[icao]">, "params">) {
         {!taf.ok && <p className="text-red-400">No se pudo cargar el TAF: {taf.error}</p>}
         {taf.ok && !taf.datos && <p className="text-sm text-slate-400">Este aeródromo no tiene TAF vigente.</p>}
         {taf.ok && taf.datos && (
-          <pre className="overflow-x-auto rounded-lg border border-white/10 bg-slate-900 p-4 font-mono text-sm whitespace-pre-wrap text-sky-200">
+          <pre className="overflow-x-auto rounded-lg border border-trazo bg-slate-900 p-4 font-mono text-sm whitespace-pre-wrap text-sky-200">
             {taf.datos.rawTAF.replace(/\s(?=(BECMG|TEMPO|FM\d{6}|PROB\d{2}))/g, "\n  ")}
           </pre>
         )}
@@ -90,7 +90,7 @@ async function Ficha({ params }: Pick<PageProps<"/metar/[icao]">, "params">) {
       {historial.ok && historial.datos.length > 1 && (
         <section className="space-y-2">
           <h2 className="text-xl font-semibold text-white">Últimas 12 horas</h2>
-          <ul className="space-y-1 rounded-lg border border-white/10 bg-slate-900 p-4 font-mono text-xs text-slate-300">
+          <ul className="space-y-1 rounded-lg border border-trazo bg-slate-900 p-4 font-mono text-xs text-slate-300">
             {historial.datos.map((m) => (
               <li key={`${m.obsTime}-${m.metarType}`} className="break-words">
                 {m.rawOb}
@@ -105,7 +105,7 @@ async function Ficha({ params }: Pick<PageProps<"/metar/[icao]">, "params">) {
 
 function Dato({ titulo, valor, nota }: { titulo: string; valor: string; nota?: string }) {
   return (
-    <div className="rounded-lg border border-white/10 bg-slate-900/60 p-3">
+    <div className="rounded-lg border border-trazo bg-slate-900/60 p-3">
       <p className="text-xs text-slate-400">{titulo}</p>
       <p className="text-lg font-semibold text-white">{valor}</p>
       {nota && <p className="text-xs text-slate-500">{nota}</p>}

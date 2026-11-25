@@ -23,7 +23,7 @@ export default function Page() {
   return (
     <div className="space-y-10">
       <header className="space-y-3">
-        <h1 className="text-3xl font-bold tracking-tight text-white">Estudio para los teóricos de la ANAC</h1>
+        <h1 className="text-4xl font-bold text-white sm:text-5xl">Estudio para los teóricos de la ANAC</h1>
         <p className="max-w-3xl text-slate-300">
           Banco de preguntas por licencia, con modo práctica (explicación y fuente al responder) y modo examen
           (preguntas al azar, cronómetro y revisión de errores). Cada respuesta cita la RAAC o el documento de la ANAC de
@@ -41,7 +41,7 @@ export default function Page() {
             <Link
               key={l.id}
               href={`/estudio/${l.id}`}
-              className="group flex flex-col rounded-xl border border-white/10 bg-slate-900/60 p-5 hover:border-sky-500/50 hover:bg-slate-900"
+              className="group flex flex-col rounded-md border border-trazo bg-slate-900/60 p-5 hover:border-sky-500/50 hover:bg-slate-900"
             >
               <div className="flex items-baseline justify-between gap-3">
                 <h2 className="text-lg font-semibold text-white group-hover:text-sky-300">{l.nombre}</h2>
@@ -62,7 +62,7 @@ export default function Page() {
         })}
       </section>
 
-      <section className="space-y-3 rounded-xl border border-white/10 bg-slate-900/60 p-5 text-sm text-slate-300">
+      <section className="space-y-3 rounded-md border border-trazo bg-slate-900/60 p-5 text-sm text-slate-300">
         <h2 className="text-lg font-semibold text-white">Cómo se armó el banco</h2>
         <ul className="list-disc space-y-2 pl-5">
           <li>

@@ -30,7 +30,7 @@ export default function Page({ searchParams }: PageProps<"/meteorologia">) {
   return (
     <div className="space-y-10">
       <header className="space-y-2">
-        <h1 className="text-3xl font-bold text-white">Meteorología en tiempo real</h1>
+        <h1 className="text-4xl font-bold text-white sm:text-5xl">Meteorología en tiempo real</h1>
         <p className="max-w-3xl text-slate-300">
           Mapa de METAR con categoría de vuelo, SIGMET vigentes en las FIR argentinas, alertas del SMN, imagen satelital y
           un pronóstico horario pensado para vuelo a vela. Se actualiza solo cada 5 minutos. Es información de apoyo: para
@@ -96,7 +96,7 @@ export default function Page({ searchParams }: PageProps<"/meteorologia">) {
 function Cargando({ texto, alto = false }: { texto: string; alto?: boolean }) {
   return (
     <div
-      className={`flex items-center justify-center rounded-xl border border-white/10 bg-slate-900/60 text-sm text-slate-400 ${
+      className={`flex items-center justify-center rounded-md border border-trazo bg-slate-900/60 text-sm text-slate-400 ${
         alto ? "h-[560px]" : "h-24"
       }`}
     >
@@ -106,7 +106,7 @@ function Cargando({ texto, alto = false }: { texto: string; alto?: boolean }) {
 }
 
 function MensajeError({ texto }: { texto: string }) {
-  return <p className="rounded-xl border border-red-500/30 bg-red-950/30 p-4 text-sm text-red-300">{texto}</p>;
+  return <p className="rounded-md border border-red-500/30 bg-red-950/30 p-4 text-sm text-red-300">{texto}</p>;
 }
 
 // ---------------------------------------------------------------------------
@@ -158,7 +158,7 @@ async function ListaSigmet() {
   if (!r.ok) return <MensajeError texto={`No se pudieron cargar los SIGMET (${r.error}).`} />;
   if (r.datos.length === 0) {
     return (
-      <p className="rounded-xl border border-emerald-500/30 bg-emerald-950/30 p-4 text-sm text-emerald-200">
+      <p className="rounded-md border border-emerald-500/30 bg-emerald-950/30 p-4 text-sm text-emerald-200">
         No hay SIGMET vigentes en las FIR argentinas en este momento (según aviationweather.gov).
       </p>
     );
@@ -169,7 +169,7 @@ async function ListaSigmet() {
         const capas = [nivel(s.base), nivel(s.top)].filter(Boolean);
         const mov = s.dir && s.dir !== "-" ? `Mov. ${s.dir} ${s.spd ?? ""} kt` : s.dir === "-" ? "Estacionario" : null;
         return (
-          <article key={idSigmet(s)} className="space-y-2 rounded-xl border border-amber-500/30 bg-slate-900/60 p-4">
+          <article key={idSigmet(s)} className="space-y-2 rounded-md border border-amber-500/30 bg-slate-900/60 p-4">
             <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
               <h3 className="font-semibold text-amber-300">{fenomeno(s)}</h3>
               <span className="font-mono text-xs text-slate-400">
@@ -267,7 +267,7 @@ async function AlertasSmn() {
   if (!r.ok) return <MensajeError texto={`No se pudieron cargar las alertas del SMN (${r.error}). Consultalas en smn.gob.ar.`} />;
   if (r.datos.length === 0) {
     return (
-      <p className="rounded-xl border border-emerald-500/30 bg-emerald-950/30 p-4 text-sm text-emerald-200">
+      <p className="rounded-md border border-emerald-500/30 bg-emerald-950/30 p-4 text-sm text-emerald-200">
         El SMN no tiene alertas vigentes en este momento.
       </p>
     );
@@ -277,7 +277,7 @@ async function AlertasSmn() {
       {r.datos.map((a) => (
         <article
           key={`${a.evento}-${a.nivel}-${a.desde}-${a.hasta}-${a.descripcion.length}`}
-          className={`space-y-1.5 rounded-xl border bg-slate-900/60 p-4 ${ESTILO_NIVEL[a.nivel]}`}
+          className={`space-y-1.5 rounded-md border bg-slate-900/60 p-4 ${ESTILO_NIVEL[a.nivel]}`}
         >
           <h3 className="font-semibold">
             Alerta {a.nivel} · {a.evento}
@@ -317,7 +317,7 @@ function EnlacesSmn() {
           href={e.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="group rounded-xl border border-white/10 bg-slate-900/60 p-4 hover:border-sky-500/50"
+          className="group rounded-md border border-trazo bg-slate-900/60 p-4 hover:border-sky-500/50"
         >
           <h3 className="font-semibold text-white group-hover:text-sky-300">SMN · {e.titulo} ↗</h3>
           <p className="mt-1 text-xs text-slate-400">{e.texto}</p>
@@ -396,7 +396,7 @@ async function TablaPronostico({ icao }: { icao: string }) {
       {[...dias.entries()].map(([clave, horas]) => (
         <div key={clave} className="space-y-1">
           <h3 className="font-semibold text-white capitalize">{FORMATO_DIA.format(new Date(horas[0].hora * 1000))}</h3>
-          <div className="overflow-x-auto rounded-xl border border-white/10">
+          <div className="overflow-x-auto rounded-md border border-trazo">
             <table className="w-full min-w-[960px] text-right text-sm">
               <thead className="bg-slate-900 text-xs text-slate-400">
                 <tr>
@@ -458,7 +458,7 @@ async function TablaPronostico({ icao }: { icao: string }) {
         </div>
       ))}
 
-      <details className="rounded-xl border border-white/10 bg-slate-900/60 p-4 text-sm text-slate-300">
+      <details className="rounded-md border border-trazo bg-slate-900/60 p-4 text-sm text-slate-300">
         <summary className="cursor-pointer font-semibold text-white">
           * Cómo marcamos las horas para térmicas (orientativo)
         </summary>
@@ -501,7 +501,7 @@ async function Satelite() {
     <div className="grid gap-4 lg:grid-cols-2">
       {imagenes.map((r, i) =>
         r.ok ? (
-          <figure key={r.datos.producto} className="space-y-2 rounded-xl border border-white/10 bg-slate-900/60 p-3">
+          <figure key={r.datos.producto} className="space-y-2 rounded-md border border-trazo bg-slate-900/60 p-3">
             <a href={r.datos.url} target="_blank" rel="noopener noreferrer">
               {/* Imagen externa grande que cambia cada 10 min: no la pasamos por el optimizador de next/image. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}

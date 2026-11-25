@@ -58,7 +58,7 @@ export function Bienvenida() {
     <aside
       role="complementary"
       aria-labelledby="bienvenida-titulo"
-      className={`fixed right-3 bottom-3 left-3 z-[1200] overflow-hidden rounded-2xl border border-amber-300/40 bg-slate-900/95 text-slate-200 shadow-2xl backdrop-blur transition-all duration-500 ease-out sm:left-auto sm:w-[22rem] ${
+      className={`fixed right-3 bottom-3 left-3 z-[1200] overflow-hidden rounded-md border border-amber-400/50 bg-carta/95 text-slate-200 shadow-2xl backdrop-blur transition-all duration-500 ease-out sm:left-auto sm:w-[22rem] ${
         visible ? "translate-x-0 opacity-100" : "translate-x-[110%] opacity-0"
       }`}
     >
@@ -76,7 +76,7 @@ export function Bienvenida() {
       <div className="flex gap-3 p-4 pr-10">
         <AvatarPiloto className="h-16 w-16 shrink-0" />
         <div className="space-y-1">
-          <h2 id="bienvenida-titulo" className="text-lg leading-tight font-bold text-white uppercase">
+          <h2 id="bienvenida-titulo" className="text-xl leading-tight font-bold text-white">
             Bienvenidos a bordo
           </h2>
           <p className="text-sm leading-snug">
@@ -90,14 +90,14 @@ export function Bienvenida() {
         <button
           type="button"
           onClick={copiar}
-          className="flex-1 rounded-lg bg-amber-400 px-3 py-2 font-display font-semibold tracking-wide text-slate-950 uppercase hover:bg-amber-300"
+          className="flex-1 rounded bg-ambar px-3 py-2 font-display text-lg font-semibold text-black hover:bg-amber-300"
         >
           {copiado ? "¡Copiado!" : "Copiar alias"}
         </button>
         <button
           type="button"
           onClick={cerrar}
-          className="flex-1 rounded-lg border border-white/20 px-3 py-2 font-display font-semibold tracking-wide text-white uppercase hover:border-sky-400 hover:text-sky-300"
+          className="flex-1 rounded border border-white/25 px-3 py-2 font-display text-lg font-semibold text-white hover:border-sky-400 hover:text-sky-300"
         >
           Entrar al sitio
         </button>

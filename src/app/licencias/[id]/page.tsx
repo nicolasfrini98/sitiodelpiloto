@@ -38,15 +38,15 @@ export default async function Page({ params }: PageProps<"/licencias/[id]">) {
       </Link>
 
       <header className="space-y-2">
-        <p className="text-xs tracking-wide text-sky-300 uppercase">{NOMBRE_TIPO[ficha.tipo]}</p>
-        <h1 className="text-3xl font-bold tracking-tight text-white">{ficha.nombre}</h1>
+        <p className="font-display text-lg font-semibold text-ambar">{NOMBRE_TIPO[ficha.tipo]}</p>
+        <h1 className="text-4xl font-bold text-white sm:text-5xl">{ficha.nombre}</h1>
         <p className="max-w-3xl text-slate-300">{ficha.resumen}</p>
       </header>
 
       <AvisoNormativo />
 
       {ficha.cambiosRecientes.length > 0 && (
-        <section className="space-y-2 rounded-xl border border-sky-500/30 bg-sky-500/10 p-4">
+        <section className="space-y-2 rounded-md border border-sky-500/30 bg-sky-500/10 p-4">
           <h2 className="font-semibold text-sky-200">Cambio reciente</h2>
           <ul className="space-y-2 text-sm text-slate-200">
             {ficha.cambiosRecientes.map((c) => (
@@ -66,7 +66,7 @@ export default async function Page({ params }: PageProps<"/licencias/[id]">) {
           const lista = ficha[s.clave];
           if (lista.length === 0) return null;
           return (
-            <section key={s.clave} className="rounded-xl border border-white/10 bg-slate-900/60 p-5">
+            <section key={s.clave} className="rounded-md border border-trazo bg-slate-900/60 p-5">
               <h2 className="mb-3 font-semibold text-white">{s.titulo}</h2>
               <ListaRequisitos lista={lista} />
             </section>

@@ -43,8 +43,8 @@ export default async function Page({ params }: PageProps<"/estudio/[licencia]">)
       </Link>
 
       <header className="space-y-2">
-        <p className="text-xs tracking-wide text-sky-300 uppercase">Banco de preguntas</p>
-        <h1 className="text-3xl font-bold tracking-tight text-white">{l.nombre}</h1>
+        <p className="font-display text-lg font-semibold text-ambar">Banco de preguntas</p>
+        <h1 className="text-4xl font-bold text-white sm:text-5xl">{l.nombre}</h1>
         <p className="max-w-3xl text-slate-300">
           {preguntas.length} preguntas en {conteo.length} materias. Materias que exige la ANAC ({l.citaMaterias}):{" "}
           {l.materiasAnac}

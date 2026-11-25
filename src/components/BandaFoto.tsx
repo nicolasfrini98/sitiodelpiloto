@@ -2,7 +2,10 @@ import Image from "next/image";
 import { FOTOS, type NombreFoto } from "@/lib/fotos";
 import { CreditoFoto } from "./CreditoFoto";
 
-/** Banda con foto que encabeza cada sección. El título real (h1) sigue en la página. */
+/**
+ * Banda con foto que encabeza cada sección. La etiqueta es un cartel de posición de calle de rodaje
+ * (negro con letras amarillas): dice "dónde estás". El título real (h1) sigue en la página.
+ */
 export function BandaFoto({
   foto,
   etiqueta,
@@ -14,7 +17,7 @@ export function BandaFoto({
 }) {
   const f = FOTOS[foto];
   return (
-    <figure className="relative -mx-4 -mt-8 mb-8 h-56 sm:mt-0 overflow-hidden sm:mx-0 sm:h-80 sm:rounded-2xl">
+    <figure className="relative -mx-4 -mt-8 mb-10 h-48 overflow-hidden border-b border-trazo sm:mx-0 sm:mt-0 sm:h-64 sm:rounded-md sm:border">
       <Image
         src={f.src}
         alt={f.alt}
@@ -25,11 +28,9 @@ export function BandaFoto({
         className="object-cover"
         style={{ objectPosition: posicion }}
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-[var(--background)] via-[var(--background)]/30 to-transparent" />
-      <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 px-4 pb-3 sm:px-6">
-        <span className="etiqueta-hud">{etiqueta}</span>
-        <CreditoFoto foto={foto} />
-      </div>
+      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
+      <span className="etiqueta-hud absolute top-4 left-4 sm:left-6">{etiqueta}</span>
+      <CreditoFoto foto={foto} className="absolute right-3 bottom-2 sm:right-4" />
     </figure>
   );
 }

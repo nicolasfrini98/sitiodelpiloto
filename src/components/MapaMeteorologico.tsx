@@ -28,7 +28,7 @@ export type DatosMapa = {
 const MapaLeaflet = dynamic(() => import("./MapaLeaflet"), {
   ssr: false,
   loading: () => (
-    <div className="flex h-[560px] items-center justify-center rounded-xl border border-white/10 bg-slate-900/60 text-sm text-slate-400">
+    <div className="flex h-[560px] items-center justify-center rounded-md border border-trazo bg-slate-900/60 text-sm text-slate-400">
       Cargando mapa…
     </div>
   ),
