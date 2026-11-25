@@ -1,0 +1,393 @@
+{
+  "ultimaRevision": "2026-11-25",
+  "revisadoHasta": "2026-11-25",
+  "frecuencia": "mensual",
+  "fuentesMonitoreadas": [
+    {
+      "id": "bo-primera",
+      "nombre": "Boletín Oficial — Primera sección",
+      "url": "https://www.boletinoficial.gob.ar/seccion/primera",
+      "que": "Resoluciones y disposiciones de la ANAC (buscar \"Administración Nacional de Aviación Civil\") y decretos que toquen la aviación civil. Es la fuente que hace vigente una norma."
+    },
+    {
+      "id": "anac-raac",
+      "nombre": "ANAC — RAAC vigentes",
+      "url": "https://www.argentina.gob.ar/anac/resoluciones-disposiciones-y-otras-normas-aeronauticas/raac",
+      "que": "Ediciones y enmiendas de cada Parte de las RAAC, con enlace a la resolución que las aprueba."
+    },
+    {
+      "id": "anac-resoluciones",
+      "nombre": "ANAC — Resoluciones y disposiciones",
+      "url": "https://www.argentina.gob.ar/anac/normativa/resoluciones-y-disposiciones",
+      "que": "Listado de resoluciones y disposiciones que la ANAC destaca en su sitio."
+    },
+    {
+      "id": "normativa-nacional",
+      "nombre": "Argentina.gob.ar — Normativa (InfoLEG)",
+      "url": "https://www.argentina.gob.ar/normativa",
+      "que": "Texto original y anexos de cada norma publicada en el Boletín Oficial."
+    },
+    {
+      "id": "ais-anac",
+      "nombre": "ANAC/EANA — Información aeronáutica (AIP, AIC)",
+      "url": "https://ais.anac.gob.ar/",
+      "que": "Circulares de información aeronáutica y enmiendas al AIP que cambien espacio aéreo o procedimientos."
+    }
+  ],
+  "cambios": [
+    {
+      "id": "res-anac-533-2026",
+      "fechaPublicacion": "2026-07-31",
+      "tipo": "Resolución",
+      "numero": "533/2026",
+      "organismo": "ANAC",
+      "titulo": "Procedimientos generales de meteorología aeronáutica (PROGEN-MET)",
+      "partes": ["RAAC 203"],
+      "resumen": "Aprueba el documento que reglamenta la nueva Parte 203: cómo el proveedor del servicio meteorológico (EANA) tiene que observar, elaborar y difundir la información MET, alineado con el PANS-MET de la OACI. Rige desde el 1/8/2026. No cambia lo que el piloto tiene que hacer.",
+      "aQuienAfecta": ["todos"],
+      "impacto": "bajo",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/345231/20260731",
+      "estado": "confirmado",
+      "fechasClave": [{ "fecha": "2026-08-01", "descripcion": "Entrada en vigencia del PROGEN-MET y de la nueva Parte 203." }]
+    },
+    {
+      "id": "res-anac-425-2026",
+      "fechaPublicacion": "2026-07-07",
+      "tipo": "Resolución",
+      "numero": "425/2026",
+      "organismo": "ANAC",
+      "titulo": "Aproximaciones PBN a pistas de vuelo visual en aeródromos no controlados",
+      "partes": ["RAAC 91", "RAAC 153", "RAAC 154", "RAAC 211"],
+      "resumen": "Primer marco para diseñar aproximaciones satelitales (PBN) a pistas visuales de aeródromos sin control de tránsito. Cada procedimiento necesita su evaluación de seguridad; no habilita aproximaciones de forma automática. La decisión de continuar y aterrizar sigue siendo del piloto al mando, con las referencias visuales a la vista.",
+      "aQuienAfecta": ["avion", "aerodromos", "explotadores"],
+      "impacto": "medio",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/344097/20260707",
+      "estado": "confirmado",
+      "notas": "El anexo técnico (IF-2026-65687606-APN-DNINA#ANAC) solo está en la edición web del Boletín Oficial; no se resumió su contenido."
+    },
+    {
+      "id": "res-anac-389-2026",
+      "fechaPublicacion": "2026-06-19",
+      "tipo": "Resolución",
+      "numero": "389/2026",
+      "organismo": "ANAC",
+      "titulo": "Nueva edición de la Parte 203 — Servicio meteorológico para la navegación aérea",
+      "partes": ["RAAC 203"],
+      "resumen": "Reescribe la Parte 203 para incorporar la Enmienda 82 del Anexo 3 de la OACI. Regula al proveedor del servicio meteorológico, no crea obligaciones nuevas para los pilotos. Vigente desde el 1/8/2026.",
+      "aQuienAfecta": ["todos"],
+      "impacto": "bajo",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/343320/20260619",
+      "estado": "confirmado",
+      "fechasClave": [{ "fecha": "2026-08-01", "descripcion": "Entrada en vigencia de la nueva Parte 203." }]
+    },
+    {
+      "id": "res-anac-311-2026",
+      "fechaPublicacion": "2026-05-22",
+      "tipo": "Resolución",
+      "numero": "311/2026",
+      "organismo": "ANAC",
+      "titulo": "Enmienda de la Parte 91 — operaciones Bush y STOL y reglas generales de vuelo",
+      "partes": ["RAAC 91 (Subparte B, 91.113, 91.115, 91.117, 91.119, 91.128, 91.327, entre otras)"],
+      "resumen": "Reconoce las operaciones Bush y STOL (pistas cortas y superficies no preparadas) y actualiza, tomando los LAR como base, reglas que usa todo piloto: derecho de paso, velocidades, alturas mínimas de seguridad y tránsito de aeródromo. Ajusta también la 91.327 (aeronaves deportivas livianas). Vigente desde su publicación.",
+      "aQuienAfecta": ["avion", "planeador", "ultraliviano", "instructores", "alumnos", "propietarios"],
+      "impacto": "alto",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/342274/20260522",
+      "enlacesExtra": [
+        { "titulo": "Texto original en Argentina.gob.ar", "url": "https://www.argentina.gob.ar/normativa/nacional/norma-426039/texto" }
+      ],
+      "estado": "confirmado",
+      "notas": "Los valores nuevos de cada sección están en el anexo IF-2026-50987064-APN-DNSO#ANAC, que no se pudo leer completo. Las preguntas de /estudio basadas en el texto de la Parte 91 de 2017 hay que revisarlas contra este anexo."
+    },
+    {
+      "id": "res-anac-313-2026",
+      "fechaPublicacion": "2026-05-22",
+      "tipo": "Resolución",
+      "numero": "313/2026",
+      "organismo": "ANAC",
+      "titulo": "Nueva edición de la Parte 137 — trabajo aéreo agrícola, lucha contra incendios y modificación del tiempo",
+      "partes": ["RAAC 137"],
+      "resumen": "Unifica y actualiza los requisitos de certificación, operación y calificación del personal para aeroaplicación, lucha contra incendios y modificación artificial del tiempo. Vigente desde su publicación.",
+      "aQuienAfecta": ["avion", "explotadores"],
+      "impacto": "medio",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/342276/20260522",
+      "estado": "confirmado"
+    },
+    {
+      "id": "disp-dnso-70-2026",
+      "fechaPublicacion": "2026-05-15",
+      "tipo": "Disposición",
+      "numero": "70/2026",
+      "organismo": "ANAC — Dirección Nacional de Seguridad Operacional",
+      "titulo": "Circular de asesoramiento CA 91.403 — Informe de la condición de aeronavegabilidad (IACA)",
+      "partes": ["RAAC 91.403(d)"],
+      "resumen": "Guía para que propietarios y operadores de aviación general presenten el informe anual de condición de aeronavegabilidad, que mantiene válido el certificado de aeronavegabilidad. Es material de asesoramiento: no cambia la obligación, explica cómo cumplirla.",
+      "aQuienAfecta": ["propietarios", "avion", "planeador"],
+      "impacto": "bajo",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/342009/20260515",
+      "estado": "confirmado"
+    },
+    {
+      "id": "res-anac-292-2026",
+      "fechaPublicacion": "2026-05-13",
+      "tipo": "Resolución",
+      "numero": "292/2026",
+      "organismo": "ANAC",
+      "titulo": "Enmienda de la Parte 61 — licencia de piloto de aeronave deportiva liviana, examinadores y pilotos militares",
+      "partes": ["RAAC 61 (61.020, 61.050, 61.055, 61.305, 61.310, 61.325, 61.520, 61.620, 61.630, 61.1130, Capítulo K, nuevo Capítulo O y Apéndice D)"],
+      "resumen": "Crea la licencia de piloto de aeronave deportiva liviana (LSA, Capítulo O), actualiza las facultades de los examinadores de vuelo (Capítulo K), ajusta requisitos de habilitaciones de tipo y de los pilotos de Fuerzas Armadas y de Seguridad que piden licencia civil, y retoca requisitos de privado, comercial e instructor. Vigente desde su publicación.",
+      "aQuienAfecta": ["avion", "ultraliviano", "alumnos", "instructores", "examinadores"],
+      "impacto": "alto",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341871/20260513",
+      "enlacesExtra": [
+        { "titulo": "Anexo con las secciones enmendadas (InfoLEG)", "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425728/res292.pdf" }
+      ],
+      "estado": "confirmado",
+      "fichas": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo-avion", "multimotor"]
+    },
+    {
+      "id": "res-anac-293-2026",
+      "fechaPublicacion": "2026-05-13",
+      "tipo": "Resolución",
+      "numero": "293/2026",
+      "organismo": "ANAC",
+      "titulo": "Nueva edición de la Parte 141 — Centros de instrucción de aeronáutica civil (CIAC)",
+      "partes": ["RAAC 141"],
+      "resumen": "Nueva Parte 141 para escuelas de vuelo y aeroclubes con CIAC. Los cursos ya empezados se terminan con el programa viejo y siguen valiendo para la licencia. Los CIAC tienen hasta el 31/12/2026 para adecuar su manual (MIP); si no lo hacen no pueden inscribir alumnos nuevos. Todo curso que empiece desde el 1/1/2027 tiene que seguir los programas de la nueva Parte 141.",
+      "aQuienAfecta": ["ciac", "alumnos", "instructores", "avion", "planeador"],
+      "impacto": "alto",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341872/20260513",
+      "enlacesExtra": [
+        { "titulo": "Texto original en Argentina.gob.ar", "url": "https://www.argentina.gob.ar/normativa/nacional/norma-425729/texto" },
+        { "titulo": "Anexo: texto de la Parte 141 (InfoLEG)", "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425729/res293.pdf" }
+      ],
+      "estado": "confirmado",
+      "fechasClave": [
+        { "fecha": "2026-06-30", "descripcion": "Último día para empezar cursos de menos de 5 meses con programas aprobados antes de la nueva Parte 141." },
+        { "fecha": "2026-12-31", "descripcion": "Los CIAC deben tener adecuados sus procedimientos y su MIP a la nueva Parte 141; si no, no pueden abrir cursos ni inscribir alumnos nuevos." },
+        { "fecha": "2027-01-01", "descripcion": "Todo curso que empiece desde esta fecha sigue los programas y requisitos de la nueva Parte 141." }
+      ]
+    },
+    {
+      "id": "res-anac-294-2026",
+      "fechaPublicacion": "2026-05-13",
+      "tipo": "Resolución",
+      "numero": "294/2026",
+      "organismo": "ANAC",
+      "titulo": "Nueva edición de la Parte 142 (centros de entrenamiento) y enmienda de la Parte 147",
+      "partes": ["RAAC 142", "RAAC 147.310(j)"],
+      "resumen": "Nueva Parte 142 para los centros de entrenamiento (CEAC), con el mismo esquema de transición que la Parte 141: manuales adecuados al 31/12/2026 y cursos nuevos según la norma nueva desde el 1/1/2027. Suma un inciso a la Parte 147 (escuelas de mecánicos).",
+      "aQuienAfecta": ["ciac", "alumnos", "explotadores"],
+      "impacto": "medio",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341873/20260513",
+      "estado": "confirmado",
+      "fechasClave": [
+        { "fecha": "2026-12-31", "descripcion": "Los CEAC deben tener adecuado su MIP a la nueva Parte 142." },
+        { "fecha": "2027-01-01", "descripcion": "Los cursos de CEAC que empiecen desde esta fecha siguen la nueva Parte 142." }
+      ]
+    },
+    {
+      "id": "res-anac-264-2026",
+      "fechaPublicacion": "2026-05-04",
+      "tipo": "Resolución",
+      "numero": "264/2026",
+      "organismo": "ANAC",
+      "titulo": "Cuarta edición de la Parte 154 — Diseño de aeródromos",
+      "partes": ["RAAC 154"],
+      "resumen": "Actualiza los requisitos de diseño de aeródromos a las últimas enmiendas del Anexo 14 de la OACI (incluida la Enmienda 18). Afecta a quienes proyectan u operan aeródromos.",
+      "aQuienAfecta": ["aerodromos"],
+      "impacto": "bajo",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341456/20260504",
+      "estado": "confirmado"
+    },
+    {
+      "id": "dnu-274-2026",
+      "fechaPublicacion": "2026-04-24",
+      "tipo": "Decreto de necesidad y urgencia",
+      "numero": "274/2026",
+      "organismo": "Poder Ejecutivo Nacional",
+      "titulo": "El servicio meteorológico aeronáutico pasa a EANA",
+      "partes": ["Ley 27.161 art. 15"],
+      "resumen": "EANA pasa a ser responsable del servicio meteorológico para la navegación aérea (METAR, TAF, pronósticos), por sí o mediante terceros que cumplan los requisitos de la ANAC. El SMN sigue prestándolo, asistiendo a EANA, durante una transición de hasta 180 días hábiles.",
+      "aQuienAfecta": ["todos"],
+      "impacto": "medio",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341111/20260424",
+      "estado": "confirmado",
+      "fechasClave": [
+        { "fecha": "2027-01-15", "descripcion": "Fin aproximado de la transición: 180 días hábiles desde el 24/04/2026 (fecha estimada, no figura en la norma).", "aproximada": true }
+      ],
+      "notas": "No es una norma de la ANAC, pero cambia quién emite la información meteorológica que usan todos los pilotos."
+    },
+    {
+      "id": "res-anac-117-2026",
+      "fechaPublicacion": "2026-02-27",
+      "tipo": "Resolución",
+      "numero": "117/2026",
+      "organismo": "ANAC",
+      "titulo": "Enmienda de las Partes 91, 121 y 135 — TAWS, ACAS/TCAS, registradores y ELT",
+      "partes": ["RAAC 91", "RAAC 121", "RAAC 135"],
+      "resumen": "Actualiza los requisitos de equipamiento (alerta de proximidad al terreno, anticolisión, registradores de vuelo y transmisor de localización de emergencia) tomando la norma FAA con adaptaciones. Fija el 31/12/2026 para implementar ACAS/TCAS en las aeronaves alcanzadas. Apunta sobre todo a explotadores comerciales.",
+      "aQuienAfecta": ["explotadores", "propietarios", "avion"],
+      "impacto": "medio",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/338802/20260227",
+      "estado": "confirmado",
+      "fechasClave": [
+        { "fecha": "2026-12-31", "descripcion": "Plazo para implementar ACAS/TCAS según la Res. 117/2026 (art. 5)." }
+      ],
+      "notas": "El texto publicado no detalla qué aeronaves de aviación general quedan alcanzadas; está en los anexos. Revisá el anexo antes de concluir que tu aeronave necesita equipamiento nuevo."
+    },
+    {
+      "id": "res-anac-75-2026",
+      "fechaPublicacion": "2026-01-29",
+      "tipo": "Resolución",
+      "numero": "75/2026",
+      "organismo": "ANAC",
+      "titulo": "Examinadores designados: curso básico y procedimiento para rendir con examinador",
+      "partes": ["RAAC 61 Capítulo K"],
+      "resumen": "Aprueba el curso básico de examinadores, el procedimiento para designar examinadores de conocimientos y de vuelo, y el trámite para rendir con un examinador designado. Así se puede rendir más cerca de donde uno vive. Mientras no se reglamente la evaluación de conocimientos, los examinadores de pericia pueden tomar también el teórico.",
+      "aQuienAfecta": ["alumnos", "instructores", "examinadores", "avion", "planeador"],
+      "impacto": "medio",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337908/20260129",
+      "estado": "confirmado",
+      "fichas": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo-avion", "instructor-vuelo-planeador"]
+    },
+    {
+      "id": "res-anac-65-2026",
+      "fechaPublicacion": "2026-01-27",
+      "tipo": "Resolución",
+      "numero": "65/2026",
+      "organismo": "ANAC",
+      "titulo": "Parte 61, Edición VI — Licencias y habilitaciones de piloto",
+      "partes": ["RAAC 61"],
+      "resumen": "Nueva edición de la Parte 61 que reemplaza la de la Res. 651/2025. Reordena capítulos (planeador pasa al Capítulo H), integra la experiencia nocturna a la licencia de piloto privado y elimina la habilitación de vuelo nocturno separada. Lleva al 31/12/2027 el plazo para el repaso de vuelo cada 24 meses (61.135) y da una vía al teórico de TLA para quienes rindieron comercial de primera.",
+      "aQuienAfecta": ["avion", "planeador", "alumnos", "instructores", "ciac"],
+      "impacto": "alto",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337793/20260127",
+      "enlacesExtra": [
+        { "titulo": "Texto completo de la Parte 61 Ed. VI (InfoLEG)", "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422623/res65.pdf" }
+      ],
+      "estado": "confirmado",
+      "fechasClave": [
+        { "fecha": "2027-12-31", "descripcion": "Plazo para cumplir el repaso de vuelo de la 61.135 (1 h en tierra + 1 h en vuelo con instructor)." },
+        { "fecha": "2027-12-31", "descripcion": "Fin del régimen transitorio de la 61.535(c): hasta esa fecha el aspirante a privado puede reemplazar las 3 h nocturnas por 3 h de doble comando (licencia sin atribuciones nocturnas)." }
+      ],
+      "fichas": ["alumno-piloto", "piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo-planeador", "vuelo-por-instrumentos", "remolque-planeadores", "vuelo-nocturno"]
+    },
+    {
+      "id": "res-anac-55-2026",
+      "fechaPublicacion": "2026-01-26",
+      "tipo": "Resolución",
+      "numero": "55/2026",
+      "organismo": "ANAC",
+      "titulo": "Cuarta edición de la Parte 153 — Operación de aeródromos",
+      "partes": ["RAAC 153"],
+      "resumen": "Nueva Parte 153 que concentra fauna, seguridad en pista y otros requisitos de operación de aeródromos. Los operadores de aeródromo asumen servicios que prestaba la ANAC (dirección de plataforma, permisos para circular, FOLLOW-ME).",
+      "aQuienAfecta": ["aerodromos"],
+      "impacto": "bajo",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337727/20260126",
+      "estado": "confirmado"
+    },
+    {
+      "id": "res-anac-54-2026",
+      "fechaPublicacion": "2026-01-26",
+      "tipo": "Resolución",
+      "numero": "54/2026",
+      "organismo": "ANAC",
+      "titulo": "Nueva Parte 77 — Objetos y actividades que pueden afectar las operaciones aéreas",
+      "partes": ["RAAC 77"],
+      "resumen": "Reúne en una sola norma los requisitos para obras, antenas, instalaciones y actividades de terceros cerca de los aeródromos (superficies limitadoras de obstáculos).",
+      "aQuienAfecta": ["aerodromos"],
+      "impacto": "bajo",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337726/20260126",
+      "estado": "confirmado"
+    },
+    {
+      "id": "res-anac-35-2026",
+      "fechaPublicacion": "2026-01-20",
+      "tipo": "Resolución",
+      "numero": "35/2026",
+      "organismo": "ANAC",
+      "titulo": "Parte 67, Edición V — Certificación médica aeronáutica",
+      "partes": ["RAAC 67"],
+      "resumen": "Nueva edición de la Parte 67. El cambio central: los médicos (AME) y centros (CMAE) examinadores pueden calificar en primera instancia, para que el certificado médico salga más rápido. Vigente desde su publicación.",
+      "aQuienAfecta": ["avion", "planeador", "ultraliviano", "alumnos", "instructores"],
+      "impacto": "alto",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337568/20260120",
+      "enlacesExtra": [
+        { "titulo": "Texto completo de la Parte 67 Ed. V (InfoLEG)", "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422462/res35.pdf" }
+      ],
+      "estado": "confirmado",
+      "fichas": ["alumno-piloto", "piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion"]
+    },
+    {
+      "id": "res-anac-957-2025",
+      "fechaPublicacion": "2025-12-22",
+      "tipo": "Resolución",
+      "numero": "957/2025",
+      "organismo": "ANAC",
+      "titulo": "Adecuación de las Partes 91, 121 y 135 a la nueva Parte 61 — sin plan de vuelo VFR y VFR nocturno",
+      "partes": ["RAAC 91 (incl. 91.153)", "RAAC 121", "RAAC 135"],
+      "resumen": "Saca la obligación de presentar plan de vuelo para la aviación general VFR (sección 91.153, vigente desde el 1/3/2026), levanta las restricciones al VFR nocturno para quien cumpla las condiciones de la Parte 61 y alinea la Parte 91 con la eliminación del comercial de primera y de las habilitaciones de VFR controlado y nocturno local.",
+      "aQuienAfecta": ["avion", "planeador", "instructores", "alumnos", "explotadores"],
+      "impacto": "alto",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/336551/20251222",
+      "enlacesExtra": [
+        { "titulo": "Texto original en Argentina.gob.ar", "url": "https://www.argentina.gob.ar/normativa/nacional/norma-421650/texto" },
+        { "titulo": "Comunicado oficial (plan de vuelo VFR desde el 1/3/2026)", "url": "https://www.argentina.gob.ar/node/488145" }
+      ],
+      "estado": "confirmado",
+      "fechasClave": [
+        { "fecha": "2026-03-01", "descripcion": "Entra en vigencia la sección 91.153: la aviación general VFR deja de presentar plan de vuelo obligatorio." },
+        { "fecha": "2026-09-01", "descripcion": "Plazo para que los explotadores Parte 135 sin MEL aprobada la obtengan." }
+      ],
+      "fichas": ["vuelo-nocturno", "piloto-privado-avion"]
+    },
+    {
+      "id": "res-anac-900-2025",
+      "fechaPublicacion": "2025-12-03",
+      "tipo": "Resolución",
+      "numero": "900/2025",
+      "organismo": "ANAC",
+      "titulo": "Nueva edición de la Parte 11 — Cómo se hacen y se enmiendan las RAAC",
+      "partes": ["RAAC 11"],
+      "resumen": "Actualiza las reglas para redactar, aprobar y enmendar las RAAC y para notificar diferencias a la OACI, con los LAR como referencia. No cambia reglas de vuelo ni licencias.",
+      "aQuienAfecta": ["todos"],
+      "impacto": "bajo",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/335464/20251203",
+      "estado": "confirmado"
+    },
+    {
+      "id": "res-anac-651-2025",
+      "fechaPublicacion": "2025-09-19",
+      "tipo": "Resolución",
+      "numero": "651/2025",
+      "organismo": "ANAC",
+      "titulo": "Nueva edición de la Parte 61 (reemplazada por la Res. 65/2026) y ajustes en Partes 67, 141, 142 y otras",
+      "partes": ["RAAC 61", "RAAC 67.29 y Apéndice A", "RAAC 63", "RAAC 64", "RAAC 65", "RAAC 105", "RAAC 141", "RAAC 142", "RAAC 147"],
+      "resumen": "Fue la primera gran reforma de la Parte 61: suma la figura del examinador, se acerca al Anexo 1 de la OACI y elimina el comercial de primera clase (con transición para sus titulares hasta el 1/1/2026). Los cursos teóricos terminados antes del 31/12/2025 se aceptaron. Cuatro meses después la reemplazó la Edición VI (Res. 65/2026).",
+      "aQuienAfecta": ["avion", "planeador", "alumnos", "instructores", "ciac"],
+      "impacto": "alto",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/331607/20250919",
+      "estado": "confirmado",
+      "fechasClave": [
+        { "fecha": "2025-12-31", "descripcion": "Cursos teóricos terminados hasta esta fecha sirven para acreditar los conocimientos." },
+        { "fecha": "2026-01-01", "descripcion": "Fin de la transición para titulares de comercial de primera clase." }
+      ],
+      "fichas": ["piloto-comercial-avion"]
+    },
+    {
+      "id": "res-anac-44-2025",
+      "fechaPublicacion": "2025-01-20",
+      "tipo": "Resolución",
+      "numero": "44/2025",
+      "organismo": "ANAC",
+      "titulo": "Exámenes teóricos: la ANAC puede usar otro sistema además de TCexam",
+      "partes": ["Exámenes de conocimientos (Res. ANAC 306/2014)"],
+      "resumen": "Faculta a la Dirección de Licencias al Personal a tomar los exámenes teóricos con plataformas distintas de TCexam (el sistema aprobado por la Res. 306/2014). Antes de cada examen se tiene que avisar al postulante qué sistema se va a usar. No cambia el contenido de los exámenes.",
+      "aQuienAfecta": ["alumnos", "instructores", "ciac"],
+      "impacto": "bajo",
+      "enlace": "https://www.boletinoficial.gob.ar/detalleAviso/primera/319828/1",
+      "estado": "confirmado",
+      "notas": "Queda fuera de la ventana de 18 meses; se mantiene porque explica cómo se rinden hoy los teóricos que practicás en /estudio."
+    }
+  ]
+}

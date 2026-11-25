@@ -25,7 +25,11 @@ tiempo real, novedades, material de estudio por licencia ANAC e informe de cambi
   práctica (explicación y fuente al responder, filtro por materia) y modo examen (preguntas al azar, cronómetro
   opcional, puntaje y revisión de errores). Cada pregunta cita la RAAC o el cuestionario publicado por la ANAC e indica
   si se verificó. Datos en `src/data/estudio/`. Material orientativo, no oficial.
-- 🚧 Novedades y Regulaciones: estructura creada, contenido pendiente.
+- ✅ **Regulaciones** (`/regulaciones`): informe de los cambios normativos que afectan a pilotos (resoluciones de la
+  ANAC, nuevas ediciones y enmiendas de las RAAC 61, 67, 91, 141 y otras), con resumen en lenguaje claro, a quién
+  afecta, impacto, enlace al Boletín Oficial y los plazos de transición que vienen. Se actualiza una vez por mes
+  siguiendo `docs/revision-mensual-regulaciones.md`; datos en `src/data/regulaciones.json`.
+- 🚧 Novedades: estructura creada, contenido pendiente.
 
 ## Desarrollo
 

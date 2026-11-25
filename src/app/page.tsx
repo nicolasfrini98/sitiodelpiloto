@@ -13,7 +13,7 @@ const TARJETAS = [
   { href: "/licencias", titulo: "Licencias", texto: "Requisitos ANAC para cada licencia y habilitación, con la cita a la RAAC.", listo: true },
   { href: "/novedades", titulo: "Novedades", texto: "Vuelo a vela, carrera aérea y avisos oficiales.", listo: false },
   { href: "/estudio", titulo: "Estudio", texto: "Banco de preguntas para los teóricos ANAC: práctica y simulacro de examen, con la fuente de cada respuesta.", listo: true },
-  { href: "/regulaciones", titulo: "Regulaciones", texto: "Informe de cambios en las RAAC.", listo: false },
+  { href: "/regulaciones", titulo: "Regulaciones", texto: "Qué cambió en las RAAC y normas ANAC, a quién afecta y los plazos que vienen. Se revisa cada mes.", listo: true },
 ];
 
 export default function Home() {

@@ -12,7 +12,7 @@ Sitio web para pilotos de planeador y de avión en carrera en Argentina. Seccion
 | `/novedades`    | Placeholder   | Noticias de vuelo a vela, carrera aérea y avisos ANAC/EANA             |
 | `/estudio`      | Hecha         | Banco de preguntas para los teóricos ANAC (planeador, privado, comercial, instructor) con fuente y `verificada` por pregunta; datos en `src/data/estudio/` (un JSON por materia + `indice.json`), tipos en `src/lib/estudio.ts` |
 | `/estudio/[licencia]` | Hecha    | Modo práctica (explicación y fuente al responder, filtro por materia) y modo examen (al azar, cronómetro, revisión de errores); progreso en localStorage |
-| `/regulaciones` | Placeholder   | Informe que se actualiza cuando la ANAC cambia las RAAC                |
+| `/regulaciones` | Hecha         | Informe mensual de cambios normativos (ANAC/BO): línea de tiempo con filtro por destinatario e impacto, plazos que vienen; datos en `src/data/regulaciones.json`, tipos en `src/lib/regulaciones.ts`, corrida mensual en `docs/revision-mensual-regulaciones.md` |
 
 ## Stack
 
@@ -52,7 +52,8 @@ Sitio web para pilotos de planeador y de avión en carrera en Argentina. Seccion
 - Radar: RainViewer `https://api.rainviewer.com/public/weather-maps.json` (teselas hasta zoom 7; cobertura parcial en Argentina).
 - Satélite: GOES-19 de NOAA/NESDIS STAR, sector `ssa` (`https://cdn.star.nesdis.noaa.gov/GOES19/ABI/SECTOR/ssa/`).
 - Mapa base: teselas de OpenStreetMap (`tile.openstreetmap.org`, oscurecidas con CSS; atribución obligatoria). Los basemaps de CARTO ahora devuelven "API KEY REQUIRED" sin clave.
-- Pendientes de integrar: productos aeronáuticos del SMN (`smn.gob.ar`), NOTAM de EANA/ANAC (`ais.anac.gob.ar`), RAAC (`anac.gob.ar`), Boletín Oficial.
+- Normativa (`/regulaciones`, `/licencias`): Boletín Oficial, página de RAAC de la ANAC e InfoLEG (`argentina.gob.ar/normativa`), relevados a mano una vez por mes (no se piden en tiempo de ejecución). `boletinoficial.gob.ar` e InfoLEG devuelven 403 a `curl`: usar WebFetch/WebSearch.
+- Pendientes de integrar: productos aeronáuticos del SMN (`smn.gob.ar`), NOTAM de EANA/ANAC (`ais.anac.gob.ar`).
 
 ## Agentes del proyecto (`.claude/agents/`)
 
