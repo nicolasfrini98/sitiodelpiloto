@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Logo } from "./Logo";
+import { Reloj } from "./Reloj";
 
 export const SECCIONES = [
   { href: "/novedades", titulo: "Novedades" },
@@ -13,6 +14,12 @@ export const SECCIONES = [
 export function Encabezado() {
   return (
     <header className="sticky top-0 z-[1100] border-b border-white/10 bg-[#050d1c]/85 backdrop-blur">
+      <div className="border-b border-white/5 bg-black/40">
+        <div className="mx-auto flex max-w-6xl items-center justify-end gap-3 px-4 py-1">
+          <span className="hidden text-[11px] tracking-[0.2em] text-slate-500 uppercase sm:inline">Hora</span>
+          <Reloj />
+        </div>
+      </div>
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-2.5">
         <Link href="/" className="flex items-center gap-2.5 text-white">
           <Logo className="h-8 w-8 text-sky-400" />
