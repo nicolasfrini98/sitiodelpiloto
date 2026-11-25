@@ -9,7 +9,7 @@ Sitio web para pilotos de planeador y de avión en carrera en Argentina. Seccion
 | `/meteorologia` | Hecha         | Mapa de METAR (Leaflet) con SIGMET, alertas SMN y radar; SIGMET de las FIR argentinas; alertas SMN (CAP); pronóstico horario para vuelo a vela por aeródromo (`?icao=`); satélite GOES-19 |
 | `/licencias`    | Hecha         | Requisitos por licencia/habilitación (RAAC 61 Ed. VI + Res. 292/2026, RAAC 67 Ed. V) con cita por requisito; datos en `src/data/licencias.json`, tipos en `src/lib/licencias.ts` |
 | `/licencias/[id]` | Hecha       | Ficha de cada licencia/habilitación: requisitos, cambios recientes, fuentes oficiales |
-| `/novedades`    | Placeholder   | Noticias de vuelo a vela, carrera aérea y avisos ANAC/EANA             |
+| `/novedades`    | Hecha         | Agregador de noticias (ANAC, EANA, Aviacionline, Gaceta Aeronáutica, Gliding Australia, DG, EASA, AOPA) con filtro por categoría y estado de cada fuente; fuentes y parser en `src/lib/novedades.ts` (`obtenerUltimasNovedades(n)` para la portada) |
 | `/estudio`      | Hecha         | Banco de preguntas para los teóricos ANAC (planeador, privado, comercial, instructor) con fuente y `verificada` por pregunta; datos en `src/data/estudio/` (un JSON por materia + `indice.json`), tipos en `src/lib/estudio.ts` |
 | `/estudio/[licencia]` | Hecha    | Modo práctica (explicación y fuente al responder, filtro por materia) y modo examen (al azar, cronómetro, revisión de errores); progreso en localStorage |
 | `/regulaciones` | Hecha         | Informe mensual de cambios normativos (ANAC/BO): línea de tiempo con filtro por destinatario e impacto, plazos que vienen; datos en `src/data/regulaciones.json`, tipos en `src/lib/regulaciones.ts`, corrida mensual en `docs/revision-mensual-regulaciones.md` |
@@ -53,6 +53,7 @@ Sitio web para pilotos de planeador y de avión en carrera en Argentina. Seccion
 - Satélite: GOES-19 de NOAA/NESDIS STAR, sector `ssa` (`https://cdn.star.nesdis.noaa.gov/GOES19/ABI/SECTOR/ssa/`).
 - Mapa base: teselas de OpenStreetMap (`tile.openstreetmap.org`, oscurecidas con CSS; atribución obligatoria). Los basemaps de CARTO ahora devuelven "API KEY REQUIRED" sin clave.
 - Normativa (`/regulaciones`, `/licencias`): Boletín Oficial, página de RAAC de la ANAC e InfoLEG (`argentina.gob.ar/normativa`), relevados a mano una vez por mes (no se piden en tiempo de ejecución). `boletinoficial.gob.ar` e InfoLEG devuelven 403 a `curl`: usar WebFetch/WebSearch.
+- Noticias (`/novedades`): RSS de EANA (`eana.com.ar/rss.xml`, sin licitaciones), Aviacionline (`/rss.xml`, solo `/espanol/`), Gaceta Aeronáutica, Gliding Australia, DG Aviation, EASA y AOPA; la ANAC no tiene feed y se lee el listado HTML de `argentina.gob.ar/anac/noticias`. Cache de horas por fuente; solo título, bajada corta y enlace. Descartadas (FAVAV, FAI/IGC, WeGlide, OLC, SSA, BGA, FAA, OACI…) documentadas al final de `src/lib/novedades.ts`.
 - Pendientes de integrar: productos aeronáuticos del SMN (`smn.gob.ar`), NOTAM de EANA/ANAC (`ais.anac.gob.ar`).
 
 ## Agentes del proyecto (`.claude/agents/`)

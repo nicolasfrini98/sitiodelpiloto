@@ -29,7 +29,7 @@ tiempo real, novedades, material de estudio por licencia ANAC e informe de cambi
   ANAC, nuevas ediciones y enmiendas de las RAAC 61, 67, 91, 141 y otras), con resumen en lenguaje claro, a quién
   afecta, impacto, enlace al Boletín Oficial y los plazos de transición que vienen. Se actualiza una vez por mes
   siguiendo `docs/revision-mensual-regulaciones.md`; datos en `src/data/regulaciones.json`.
-- 🚧 Novedades: estructura creada, contenido pendiente.
+- ✅ **Novedades** (`/novedades`): agregador de noticias de aviación (ANAC, EANA, medios argentinos, vuelo a vela e internacionales) con filtro por categoría.
 
 ## Desarrollo
 

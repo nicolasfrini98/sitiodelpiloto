@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Barlow, Barlow_Condensed, JetBrains_Mono } from "next/font/google";
 import { Encabezado } from "@/components/Encabezado";
 import { Pie } from "@/components/Pie";
 import "./globals.css";
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+// Barlow está inspirada en la señalización de rutas y aeropuertos: legible y amable.
+const barlow = Barlow({ variable: "--font-barlow", subsets: ["latin"], weight: ["400", "500", "600", "700"] });
+const barlowCondensed = Barlow_Condensed({
+  variable: "--font-barlow-condensed",
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+});
+const mono = JetBrains_Mono({ variable: "--font-jetbrains-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: { default: "Sitio del Piloto", template: "%s · Sitio del Piloto" },
@@ -15,7 +21,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="es-AR" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
+    <html
+      lang="es-AR"
+      className={`${barlow.variable} ${barlowCondensed.variable} ${mono.variable} h-full antialiased`}
+    >
       <body className="flex min-h-full flex-col">
         <Encabezado />
         <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">{children}</main>

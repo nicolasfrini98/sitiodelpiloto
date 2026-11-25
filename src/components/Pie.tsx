@@ -1,7 +1,13 @@
+import { Logo } from "./Logo";
+
 export function Pie() {
   return (
-    <footer className="mt-16 border-t border-white/10 bg-slate-950">
-      <div className="mx-auto max-w-6xl space-y-2 px-4 py-6 text-xs text-slate-400">
+    <footer className="mt-20 border-t border-white/10 bg-black/30">
+      <div className="franjas-pista" />
+      <div className="mx-auto max-w-6xl space-y-3 px-4 py-8 text-xs text-slate-400">
+        <p className="flex items-center gap-2 font-display text-base font-semibold tracking-wider text-slate-300 uppercase">
+          <Logo className="h-5 w-5 text-sky-400" /> Sitio del Piloto
+        </p>
         <p>
           <strong className="text-slate-300">Uso informativo.</strong> Los datos meteorológicos provienen de fuentes
           públicas (aviationweather.gov / NOAA, que redistribuye los reportes del SMN) y pueden tener demoras o errores.
@@ -9,7 +15,8 @@ export function Pie() {
         </p>
         <p>
           Otras fuentes: alertas del SMN (feed CAP, CC BY 4.0), pronósticos de Open-Meteo (CC BY 4.0), radar de
-          RainViewer, imágenes GOES-19 de NOAA/NESDIS STAR y mapa base © OpenStreetMap.
+          RainViewer, imágenes GOES-19 de NOAA/NESDIS STAR y mapa base © OpenStreetMap. Fotos de Wikimedia Commons con
+          licencia libre; el autor y la licencia figuran junto a cada una.
         </p>
         <p>Horas en UTC (Z) y hora oficial argentina (UTC−3).</p>
       </div>
