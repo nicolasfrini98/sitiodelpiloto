@@ -6,7 +6,7 @@ Sitio web para pilotos de planeador y de avión en carrera en Argentina. Seccion
 | --------------- | ------------- | ---------------------------------------------------------------------- |
 | `/metar`        | Hecha         | Último METAR de cada aeródromo argentino, filtros, categoría de vuelo  |
 | `/metar/[icao]` | Hecha         | Ficha: METAR decodificado, TAF, historial 12 h, altitud de densidad, base de cúmulos |
-| `/meteorologia` | Placeholder   | Meteorología en tiempo real (satélite, radar, térmicas, viento en altura, SIGMET) |
+| `/meteorologia` | Hecha         | Mapa de METAR (Leaflet) con SIGMET, alertas SMN y radar; SIGMET de las FIR argentinas; alertas SMN (CAP); pronóstico horario para vuelo a vela por aeródromo (`?icao=`); satélite GOES-19 |
 | `/novedades`    | Placeholder   | Noticias de vuelo a vela, carrera aérea y avisos ANAC/EANA             |
 | `/estudio`      | Placeholder   | Preguntas y respuestas por licencia ANAC                               |
 | `/regulaciones` | Placeholder   | Informe que se actualiza cuando la ANAC cambia las RAAC                |
@@ -43,7 +43,13 @@ Sitio web para pilotos de planeador y de avión en carrera en Argentina. Seccion
 
 - METAR/TAF/estaciones: `https://aviationweather.gov/api/data/` (pública, sin clave, cache de 60 s). Redistribuye los reportes del SMN.
   Solo ~93 aeródromos argentinos publican METAR; el resto no tiene estación meteorológica.
-- Pendientes de integrar: SMN (`smn.gob.ar`), NOTAM de EANA/ANAC (`ais.anac.gob.ar`), RAAC (`anac.gob.ar`), Boletín Oficial.
+- SIGMET: `https://aviationweather.gov/api/data/isigmet?format=json`, filtrado por FIR SAEF/SACF/SAMF/SARR/SAVF.
+- Alertas SMN: feed CAP oficial `https://ssl.smn.gob.ar/CAP/AR.php` (RSS índice → un XML CAP por zona). CC BY 4.0.
+- Pronóstico para vuelo a vela: Open-Meteo `https://api.open-meteo.com/v1/forecast` (sin clave, CC BY 4.0).
+- Radar: RainViewer `https://api.rainviewer.com/public/weather-maps.json` (teselas hasta zoom 7; cobertura parcial en Argentina).
+- Satélite: GOES-19 de NOAA/NESDIS STAR, sector `ssa` (`https://cdn.star.nesdis.noaa.gov/GOES19/ABI/SECTOR/ssa/`).
+- Mapa base: teselas de OpenStreetMap (`tile.openstreetmap.org`, oscurecidas con CSS; atribución obligatoria). Los basemaps de CARTO ahora devuelven "API KEY REQUIRED" sin clave.
+- Pendientes de integrar: productos aeronáuticos del SMN (`smn.gob.ar`), NOTAM de EANA/ANAC (`ais.anac.gob.ar`), RAAC (`anac.gob.ar`), Boletín Oficial.
 
 ## Agentes del proyecto (`.claude/agents/`)
 

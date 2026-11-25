@@ -83,3 +83,44 @@ export async function obtenerTaf(icao: string): Promise<Resultado<Taf | null>> {
   if (!r.ok) return r;
   return { ok: true, datos: r.datos[0] ?? null };
 }
+
+// ---------------------------------------------------------------------------
+// SIGMET internacionales (endpoint isigmet). Devuelve todos los del mundo; filtramos por FIR.
+
+/** FIR argentinas: Ezeiza, Córdoba, Mendoza, Resistencia y Comodoro Rivadavia. */
+export const FIR_ARGENTINAS = ["SAEF", "SACF", "SAMF", "SARR", "SAVF"] as const;
+
+export type Sigmet = {
+  icaoId: string; // oficina emisora (MWO), ej. SABE
+  firId: string;
+  firName: string;
+  receiptTime: string;
+  validTimeFrom: number; // segundos epoch UTC
+  validTimeTo: number;
+  seriesId: string;
+  hazard: string; // TS, TURB, ICE, MTW, VA, TC…
+  qualifier: string | null; // EMBD, SEV, OBSC…
+  base: number | null; // ft
+  top: number | null; // ft
+  geom: string;
+  coords: { lat: number; lon: number }[] | null;
+  dir: string | null;
+  spd: string | null;
+  chng: string | null; // INTSF, WKN, NC
+  rawSigmet: string;
+};
+
+/** SIGMET vigentes en las FIR argentinas, ordenados por FIR y vigencia. */
+export async function obtenerSigmetArgentina(): Promise<Resultado<Sigmet[]>> {
+  "use cache";
+  cacheLife("minutes");
+  const r = await pedir<Sigmet[]>("isigmet?format=json", []);
+  if (!r.ok) return r;
+  // Dentro de "use cache" la hora queda fijada junto con el resultado (se recalcula al revalidar).
+  const ahora = Date.now() / 1000;
+  const firs: readonly string[] = FIR_ARGENTINAS;
+  const datos = r.datos
+    .filter((s) => firs.includes(s.firId) && s.validTimeTo > ahora)
+    .sort((a, b) => a.firId.localeCompare(b.firId) || a.validTimeFrom - b.validTimeFrom);
+  return { ok: true, datos };
+}

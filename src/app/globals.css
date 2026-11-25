@@ -17,3 +17,8 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
+
+/* Mapa base de OpenStreetMap en modo oscuro (solo la capa base, no el radar ni los polígonos). */
+.teselas-oscuras {
+  filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9);
+}

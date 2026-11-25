@@ -7,6 +7,10 @@ export function Pie() {
           públicas (aviationweather.gov / NOAA, que redistribuye los reportes del SMN) y pueden tener demoras o errores.
           No reemplazan la información oficial de EANA, el SMN ni la ANAC para la planificación de un vuelo.
         </p>
+        <p>
+          Otras fuentes: alertas del SMN (feed CAP, CC BY 4.0), pronósticos de Open-Meteo (CC BY 4.0), radar de
+          RainViewer, imágenes GOES-19 de NOAA/NESDIS STAR y mapa base © OpenStreetMap.
+        </p>
         <p>Horas en UTC (Z) y hora oficial argentina (UTC−3).</p>
       </div>
     </footer>

@@ -97,3 +97,17 @@ export function baseCumulos(m: Metar): number | null {
 export function numero(n: number): string {
   return n.toLocaleString("es-AR");
 }
+
+/** "25/11 21:00" en hora local argentina. */
+export function fechaHoraLocal(epoch: number): string {
+  const p = new Intl.DateTimeFormat("es-AR", {
+    timeZone: ZONA_AR,
+    day: "2-digit",
+    month: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).formatToParts(new Date(epoch * 1000));
+  const v = (t: string) => p.find((x) => x.type === t)?.value ?? "";
+  return `${v("day")}/${v("month")} ${v("hour")}:${v("minute")}`;
+}
