@@ -1,0 +1,932 @@
+[
+  {
+    "icao": "SAAC",
+    "iata": "COC",
+    "nombre": "Concordia/Pierreste",
+    "provincia": "E",
+    "lat": -31.308,
+    "lon": -58.016,
+    "elevacionM": 50,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAAG",
+    "iata": "GHU",
+    "nombre": "Gualeguaychu Ae",
+    "provincia": "E",
+    "lat": -33.01,
+    "lon": -58.613,
+    "elevacionM": 23,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAAJ",
+    "iata": "JNI",
+    "nombre": "Junin Arpt",
+    "provincia": "B",
+    "lat": -34.553,
+    "lon": -60.931,
+    "elevacionM": 80,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAAP",
+    "iata": "PRA",
+    "nombre": "Parana/Gen Urquiza",
+    "provincia": "E",
+    "lat": -31.79,
+    "lon": -60.483,
+    "elevacionM": 77,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAAR",
+    "iata": "ROS",
+    "nombre": "Rosario Intl",
+    "provincia": "S",
+    "lat": -32.918,
+    "lon": -60.782,
+    "elevacionM": 24,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAAU",
+    "iata": null,
+    "nombre": "Villaguay Arpt",
+    "provincia": "E",
+    "lat": -31.858,
+    "lon": -59.074,
+    "elevacionM": 42,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAAV",
+    "iata": "SFN",
+    "nombre": "Sauce Viejo Arpt",
+    "provincia": "S",
+    "lat": -31.712,
+    "lon": -60.812,
+    "elevacionM": 19,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SABA",
+    "iata": null,
+    "nombre": "Buenos Aires ",
+    "provincia": "C",
+    "lat": -34.608,
+    "lon": -58.401,
+    "elevacionM": 23,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SABE",
+    "iata": "AEP",
+    "nombre": "Buenos Aires/Newbery Arpt",
+    "provincia": "C",
+    "lat": -34.559,
+    "lon": -58.416,
+    "elevacionM": 3,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SACI",
+    "iata": null,
+    "nombre": "Pilar Observato",
+    "provincia": "X",
+    "lat": -31.668,
+    "lon": -63.882,
+    "elevacionM": 335,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SACO",
+    "iata": "COR",
+    "nombre": "Cordoba/Taravella Intl",
+    "provincia": "X",
+    "lat": -31.324,
+    "lon": -64.208,
+    "elevacionM": 474,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SACP",
+    "iata": null,
+    "nombre": "Chepes",
+    "provincia": "F",
+    "lat": -31.333,
+    "lon": -66.6,
+    "elevacionM": 663,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SACT",
+    "iata": null,
+    "nombre": "Gobernador Gordillo",
+    "provincia": "F",
+    "lat": -30.349,
+    "lon": -66.295,
+    "elevacionM": 454,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SACV",
+    "iata": null,
+    "nombre": "Villa De Maria",
+    "provincia": "X",
+    "lat": -29.898,
+    "lon": -63.722,
+    "elevacionM": 353,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SADD",
+    "iata": null,
+    "nombre": "Don Torcuato Arpt",
+    "provincia": "B",
+    "lat": -34.498,
+    "lon": -58.604,
+    "elevacionM": 4,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SADF",
+    "iata": null,
+    "nombre": "San Fernando Intl",
+    "provincia": "B",
+    "lat": -34.457,
+    "lon": -58.593,
+    "elevacionM": 4,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SADJ",
+    "iata": null,
+    "nombre": "Mariano Moreno Arpt",
+    "provincia": "B",
+    "lat": -34.5606,
+    "lon": -58.7896,
+    "elevacionM": 32,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SADL",
+    "iata": "LPG",
+    "nombre": "La Plata Arpt",
+    "provincia": "B",
+    "lat": -34.972,
+    "lon": -57.895,
+    "elevacionM": 18,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SADM",
+    "iata": null,
+    "nombre": "Buenos Aires/Moron",
+    "provincia": "B",
+    "lat": -34.676,
+    "lon": -58.643,
+    "elevacionM": 18,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SADP",
+    "iata": "EPA",
+    "nombre": "El Palomar Arpt",
+    "provincia": "B",
+    "lat": -34.61,
+    "lon": -58.613,
+    "elevacionM": 19,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAEZ",
+    "iata": "EZE",
+    "nombre": "Buenos Aires/Pistarini Arpt",
+    "provincia": "B",
+    "lat": -34.822,
+    "lon": -58.536,
+    "elevacionM": 16,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAME",
+    "iata": "MDZ",
+    "nombre": "Mendoza/Plumerillo Arpt",
+    "provincia": "M",
+    "lat": -32.832,
+    "lon": -68.793,
+    "elevacionM": 709,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAMI",
+    "iata": null,
+    "nombre": "San Martin",
+    "provincia": "M",
+    "lat": -33.083,
+    "lon": -68.417,
+    "elevacionM": 653,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAMJ",
+    "iata": null,
+    "nombre": "Jachal",
+    "provincia": "J",
+    "lat": -30.25,
+    "lon": -68.74,
+    "elevacionM": 1168,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAMM",
+    "iata": "LGS",
+    "nombre": "Malargue Arpt",
+    "provincia": "M",
+    "lat": -35.481,
+    "lon": -69.583,
+    "elevacionM": 1428,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAMR",
+    "iata": "AFA",
+    "nombre": "San Rafael Arpt",
+    "provincia": "M",
+    "lat": -34.585,
+    "lon": -68.414,
+    "elevacionM": 756,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAMS",
+    "iata": null,
+    "nombre": "San Carlos",
+    "provincia": "M",
+    "lat": -33.771,
+    "lon": -69.034,
+    "elevacionM": 951,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAMU",
+    "iata": null,
+    "nombre": "Uspallata",
+    "provincia": "M",
+    "lat": -32.601,
+    "lon": -69.335,
+    "elevacionM": 1918,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SANC",
+    "iata": "CTC",
+    "nombre": "Catamarca Arpt",
+    "provincia": "K",
+    "lat": -28.593,
+    "lon": -65.754,
+    "elevacionM": 468,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SANE",
+    "iata": "SDE",
+    "nombre": "Santiago Del Estero",
+    "provincia": "G",
+    "lat": -27.755,
+    "lon": -64.3,
+    "elevacionM": 198,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SANI",
+    "iata": null,
+    "nombre": "Tinogasta",
+    "provincia": "K",
+    "lat": -28.041,
+    "lon": -67.577,
+    "elevacionM": 1225,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SANL",
+    "iata": "IRJ",
+    "nombre": "La Rioja/Capt Vincen",
+    "provincia": "F",
+    "lat": -29.383,
+    "lon": -66.795,
+    "elevacionM": 438,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SANO",
+    "iata": null,
+    "nombre": "Chilecito",
+    "provincia": "F",
+    "lat": -29.224,
+    "lon": -67.439,
+    "elevacionM": 918,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SANR",
+    "iata": null,
+    "nombre": "Termas de Rio Hondo Intl",
+    "provincia": "G",
+    "lat": -27.497,
+    "lon": -64.936,
+    "elevacionM": 286,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SANT",
+    "iata": "TUC",
+    "nombre": "Tucuman/Matlenzo Intl",
+    "provincia": "T",
+    "lat": -26.841,
+    "lon": -65.105,
+    "elevacionM": 446,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SANU",
+    "iata": "UAQ",
+    "nombre": "San Juan Arpt",
+    "provincia": "J",
+    "lat": -31.572,
+    "lon": -68.418,
+    "elevacionM": 596,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SANW",
+    "iata": "CRR",
+    "nombre": "Ceres",
+    "provincia": "S",
+    "lat": -29.876,
+    "lon": -61.933,
+    "elevacionM": 88,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAOC",
+    "iata": "RCU",
+    "nombre": "Rio Cuarto Arpt",
+    "provincia": "X",
+    "lat": -33.095,
+    "lon": -64.273,
+    "elevacionM": 422,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAOD",
+    "iata": "VDR",
+    "nombre": "Villa Dolores Arpt",
+    "provincia": "X",
+    "lat": -31.951,
+    "lon": -65.149,
+    "elevacionM": 564,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAOL",
+    "iata": null,
+    "nombre": "Laboulaye",
+    "provincia": "X",
+    "lat": -34.135,
+    "lon": -63.362,
+    "elevacionM": 139,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAOM",
+    "iata": null,
+    "nombre": "Marcos Juarez Arpt",
+    "provincia": "X",
+    "lat": -32.684,
+    "lon": -62.158,
+    "elevacionM": 112,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAOR",
+    "iata": "VME",
+    "nombre": "Villa Reynolds Arpt",
+    "provincia": "D",
+    "lat": -33.73,
+    "lon": -65.387,
+    "elevacionM": 489,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAOS",
+    "iata": "RLO",
+    "nombre": "Valle Del Conlara Intl",
+    "provincia": "D",
+    "lat": -32.384701,
+    "lon": -65.186501,
+    "elevacionM": 616,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAOU",
+    "iata": "LUQ",
+    "nombre": "San Luis Arpt",
+    "provincia": "D",
+    "lat": -33.273,
+    "lon": -66.356,
+    "elevacionM": 704,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SARC",
+    "iata": "CNQ",
+    "nombre": "Corrientes Arpt",
+    "provincia": "W",
+    "lat": -27.445,
+    "lon": -58.762,
+    "elevacionM": 60,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SARE",
+    "iata": "RES",
+    "nombre": "Resistencia Arpt",
+    "provincia": "H",
+    "lat": -27.45,
+    "lon": -59.056,
+    "elevacionM": 52,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SARF",
+    "iata": "FMA",
+    "nombre": "Formosa Intl",
+    "provincia": "P",
+    "lat": -26.213,
+    "lon": -58.228,
+    "elevacionM": 65,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SARI",
+    "iata": "IGR",
+    "nombre": "Puerto Iguazú Intl",
+    "provincia": "N",
+    "lat": -25.737,
+    "lon": -54.473,
+    "elevacionM": 268,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SARL",
+    "iata": "AOL",
+    "nombre": "Paso de los Libres Arpt",
+    "provincia": "W",
+    "lat": -29.689,
+    "lon": -57.152,
+    "elevacionM": 70,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SARM",
+    "iata": "MCS",
+    "nombre": "Monte Caseros Arpt",
+    "provincia": "W",
+    "lat": -30.272,
+    "lon": -57.64,
+    "elevacionM": 48,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SARP",
+    "iata": "PSS",
+    "nombre": "Posadas Arpt",
+    "provincia": "N",
+    "lat": -27.386,
+    "lon": -55.969,
+    "elevacionM": 123,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SARS",
+    "iata": "PRQ",
+    "nombre": "Presidencia Pena Arpt",
+    "provincia": "H",
+    "lat": -26.749,
+    "lon": -60.487,
+    "elevacionM": 95,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SASA",
+    "iata": "SLA",
+    "nombre": "Salta/Guemes Arpt",
+    "provincia": "A",
+    "lat": -24.856,
+    "lon": -65.486,
+    "elevacionM": 1235,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SASJ",
+    "iata": "JUJ",
+    "nombre": "Jujuy/El Cadilal Arpt",
+    "provincia": "Y",
+    "lat": -24.387,
+    "lon": -65.098,
+    "elevacionM": 913,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SASO",
+    "iata": "ORA",
+    "nombre": "Orán Arpt",
+    "provincia": "A",
+    "lat": -23.153,
+    "lon": -64.329,
+    "elevacionM": 358,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SASQ",
+    "iata": null,
+    "nombre": "La Quiaca Observator",
+    "provincia": "Y",
+    "lat": -22.103,
+    "lon": -65.6,
+    "elevacionM": 3467,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SASR",
+    "iata": null,
+    "nombre": "Rivadavia",
+    "provincia": "A",
+    "lat": -24.185,
+    "lon": -62.885,
+    "elevacionM": 209,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAST",
+    "iata": "TTG",
+    "nombre": "Tartagal Arpt",
+    "provincia": "A",
+    "lat": -22.617,
+    "lon": -63.795,
+    "elevacionM": 448,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SATR",
+    "iata": "RCQ",
+    "nombre": "Reconquista Arpt",
+    "provincia": "S",
+    "lat": -29.210278,
+    "lon": -59.683333,
+    "elevacionM": 49,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SATU",
+    "iata": "UZU",
+    "nombre": "Curuzu Cuatia Arpt",
+    "provincia": "W",
+    "lat": -29.771,
+    "lon": -57.979,
+    "elevacionM": 74,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAVB",
+    "iata": "EHL",
+    "nombre": "El Bolson Arpt",
+    "provincia": "R",
+    "lat": -41.948,
+    "lon": -71.533,
+    "elevacionM": 332,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAVC",
+    "iata": "CRD",
+    "nombre": "Comodoro Rivadavia Arpt",
+    "provincia": "U",
+    "lat": -45.79,
+    "lon": -67.471,
+    "elevacionM": 58,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAVE",
+    "iata": "EQS",
+    "nombre": "Esquel Arpt",
+    "provincia": "U",
+    "lat": -42.906,
+    "lon": -71.147,
+    "elevacionM": 799,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAVO",
+    "iata": null,
+    "nombre": "San Antonio Oeste",
+    "provincia": "R",
+    "lat": -40.757,
+    "lon": -65.031,
+    "elevacionM": 14,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAVP",
+    "iata": null,
+    "nombre": "Paso De Indios",
+    "provincia": "U",
+    "lat": -43.856,
+    "lon": -69.044,
+    "elevacionM": 514,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAVT",
+    "iata": "REL",
+    "nombre": "Trelew/Almirante Zar Intl",
+    "provincia": "U",
+    "lat": -43.209,
+    "lon": -65.282,
+    "elevacionM": 37,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAVV",
+    "iata": "VDM",
+    "nombre": "Viedma/Castello",
+    "provincia": "R",
+    "lat": -40.867,
+    "lon": -63.001,
+    "elevacionM": 4,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAVY",
+    "iata": "PMY",
+    "nombre": "El Tehuelche Arpt",
+    "provincia": "U",
+    "lat": -42.7592,
+    "lon": -65.1027,
+    "elevacionM": 130,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAWA",
+    "iata": null,
+    "nombre": "Lago Argentino Arpt",
+    "provincia": "Z",
+    "lat": -50.327,
+    "lon": -72.276,
+    "elevacionM": 182,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAWC",
+    "iata": "FTE",
+    "nombre": "El Calafate Arpt",
+    "provincia": "Z",
+    "lat": -50.284,
+    "lon": -72.052,
+    "elevacionM": 204,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAWD",
+    "iata": "PUD",
+    "nombre": "Puerto Deseado Arpt",
+    "provincia": "Z",
+    "lat": -47.735,
+    "lon": -65.904,
+    "elevacionM": 78,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAWE",
+    "iata": "RGA",
+    "nombre": "Rio Grande/Quijada Intl",
+    "provincia": "E",
+    "lat": -53.781,
+    "lon": -67.754,
+    "elevacionM": 22,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAWG",
+    "iata": "RGL",
+    "nombre": "Rio Gallegos Intl",
+    "provincia": "Z",
+    "lat": -51.609,
+    "lon": -69.306,
+    "elevacionM": 18,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAWH",
+    "iata": "USH",
+    "nombre": "Ushuaia/Malvinas Arpt",
+    "provincia": "V",
+    "lat": -54.844,
+    "lon": -68.308,
+    "elevacionM": 22,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAWJ",
+    "iata": "ULA",
+    "nombre": "San Julian Aero",
+    "provincia": "Z",
+    "lat": -49.307,
+    "lon": -67.803,
+    "elevacionM": 48,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAWP",
+    "iata": "PMQ",
+    "nombre": "Perito Moreno Arpt",
+    "provincia": "Z",
+    "lat": -46.537,
+    "lon": -70.983,
+    "elevacionM": 429,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAWR",
+    "iata": "GGS",
+    "nombre": "Gobernador Gregores",
+    "provincia": "Z",
+    "lat": -48.783,
+    "lon": -70.167,
+    "elevacionM": 357,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAWU",
+    "iata": "RZA",
+    "nombre": "Santa Cruz Arpt",
+    "provincia": "Z",
+    "lat": -50.017,
+    "lon": -68.579,
+    "elevacionM": 113,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAZA",
+    "iata": null,
+    "nombre": "Azul Arpt",
+    "provincia": "B",
+    "lat": -36.832,
+    "lon": -59.886,
+    "elevacionM": 150,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAZB",
+    "iata": "BHI",
+    "nombre": "Bahia Blanca/Espora Arpt",
+    "provincia": "B",
+    "lat": -38.725,
+    "lon": -62.169,
+    "elevacionM": 77,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAZD",
+    "iata": null,
+    "nombre": "Dolores Arpt",
+    "provincia": "B",
+    "lat": -36.32,
+    "lon": -57.721,
+    "elevacionM": 9,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAZE",
+    "iata": null,
+    "nombre": "Pigüé Arpt",
+    "provincia": "B",
+    "lat": -37.602,
+    "lon": -62.378,
+    "elevacionM": 304,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAZG",
+    "iata": "GPO",
+    "nombre": "General Pico Arpt",
+    "provincia": "L",
+    "lat": -35.696,
+    "lon": -63.758,
+    "elevacionM": 135,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAZH",
+    "iata": "OYO",
+    "nombre": "Tres Arroyos Arpt",
+    "provincia": "B",
+    "lat": -38.392,
+    "lon": -60.329,
+    "elevacionM": 113,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAZM",
+    "iata": "MDQ",
+    "nombre": "Mar del Plata Arpt",
+    "provincia": "B",
+    "lat": -37.932,
+    "lon": -57.581,
+    "elevacionM": 17,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAZN",
+    "iata": "NQN",
+    "nombre": "Neuquen Arpt",
+    "provincia": "R",
+    "lat": -38.95,
+    "lon": -68.141,
+    "elevacionM": 273,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAZP",
+    "iata": "PEH",
+    "nombre": "Pehuajo Arpt",
+    "provincia": "B",
+    "lat": -35.839,
+    "lon": -61.858,
+    "elevacionM": 82,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAZQ",
+    "iata": null,
+    "nombre": "Rio Colorado",
+    "provincia": "R",
+    "lat": -39.017,
+    "lon": -64.083,
+    "elevacionM": 80,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAZR",
+    "iata": "RSA",
+    "nombre": "Santa Rosa Arpt",
+    "provincia": "L",
+    "lat": -36.593,
+    "lon": -64.28,
+    "elevacionM": 190,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAZS",
+    "iata": "BRC",
+    "nombre": "San Carlos de Bariloche Arpt",
+    "provincia": "R",
+    "lat": -41.151,
+    "lon": -71.157,
+    "elevacionM": 843,
+    "tieneTaf": true
+  },
+  {
+    "icao": "SAZT",
+    "iata": "TDL",
+    "nombre": "Tandil Arpt",
+    "provincia": "B",
+    "lat": -37.241,
+    "lon": -59.23,
+    "elevacionM": 180,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAZV",
+    "iata": "VLG",
+    "nombre": "Villa Gesell",
+    "provincia": "B",
+    "lat": -37.235,
+    "lon": -57.029,
+    "elevacionM": 5,
+    "tieneTaf": false
+  },
+  {
+    "icao": "SAZY",
+    "iata": "CPC",
+    "nombre": "Chapelco",
+    "provincia": "Q",
+    "lat": -40.075,
+    "lon": -71.137,
+    "elevacionM": 783,
+    "tieneTaf": true
+  }
+]
