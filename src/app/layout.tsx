@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Barlow, Barlow_Condensed, JetBrains_Mono } from "next/font/google";
+import { Bienvenida } from "@/components/Bienvenida";
 import { Encabezado } from "@/components/Encabezado";
 import { Pie } from "@/components/Pie";
 import "./globals.css";
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Encabezado />
         <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">{children}</main>
         <Pie />
+        <Bienvenida />
       </body>
     </html>
   );

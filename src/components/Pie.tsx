@@ -1,3 +1,4 @@
+import { ALIAS_APORTE, TITULAR_APORTE } from "@/lib/aporte";
 import { Logo } from "./Logo";
 
 export function Pie() {
@@ -19,6 +20,10 @@ export function Pie() {
           licencia libre; el autor y la licencia figuran junto a cada una.
         </p>
         <p>Horas en UTC (Z) y hora oficial argentina (UTC−3).</p>
+        <p className="text-slate-300">
+          ¿Te sirve el sitio? Podés apoyar la carrera de piloto de su autor con un aporte al alias{" "}
+          <strong className="font-mono text-amber-300">{ALIAS_APORTE}</strong> ({TITULAR_APORTE}). ¡Gracias!
+        </p>
       </div>
     </footer>
   );
