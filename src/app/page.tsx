@@ -10,6 +10,7 @@ import { capas, viento, visibilidad } from "@/lib/metar";
 const TARJETAS = [
   { href: "/metar", titulo: "METAR / TAF", texto: "Reportes de los aeródromos argentinos, decodificados y al día.", listo: true },
   { href: "/meteorologia", titulo: "Meteorología", texto: "Mapa de METAR, SIGMET, alertas del SMN, satélite y pronóstico para vuelo a vela.", listo: true },
+  { href: "/licencias", titulo: "Licencias", texto: "Requisitos ANAC para cada licencia y habilitación, con la cita a la RAAC.", listo: true },
   { href: "/novedades", titulo: "Novedades", texto: "Vuelo a vela, carrera aérea y avisos oficiales.", listo: false },
   { href: "/estudio", titulo: "Estudio", texto: "Preguntas y respuestas por licencia ANAC.", listo: false },
   { href: "/regulaciones", titulo: "Regulaciones", texto: "Informe de cambios en las RAAC.", listo: false },

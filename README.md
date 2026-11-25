@@ -15,6 +15,11 @@ tiempo real, novedades, material de estudio por licencia ANAC e informe de cambi
   orientativas para térmicas) e imágenes GOES-19. Fuentes: aviationweather.gov, [SMN](https://www.smn.gob.ar/) (CAP,
   CC BY 4.0), [Open-Meteo](https://open-meteo.com/) (CC BY 4.0), [RainViewer](https://www.rainviewer.com/),
   [NOAA/NESDIS STAR](https://www.star.nesdis.noaa.gov/GOES/) y mapa base © OpenStreetMap.
+- ✅ **Licencias** (`/licencias`, `/licencias/piloto-privado-avion`, …): requisitos para cada licencia y habilitación
+  de piloto (alumno piloto, planeador, privado, comercial, instructor, vuelo por instrumentos, multimotor, remolque,
+  vuelo nocturno) según la RAAC 61 (Edición VI, Res. ANAC 65/2026, enmendada por Res. 292/2026) y la RAAC 67
+  (Edición V, Res. ANAC 35/2026). Cada requisito cita su sección; los datos están en `src/data/licencias.json`.
+  Resumen orientativo: la norma oficial es la que publica la [ANAC](https://www.argentina.gob.ar/anac/resoluciones-disposiciones-y-otras-normas-aeronauticas/raac).
 - 🚧 Novedades, Estudio y Regulaciones: estructura creada, contenido pendiente.
 
 ## Desarrollo

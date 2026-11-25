@@ -4,6 +4,7 @@ export const SECCIONES = [
   { href: "/novedades", titulo: "Novedades" },
   { href: "/metar", titulo: "METAR / TAF" },
   { href: "/meteorologia", titulo: "Meteorología" },
+  { href: "/licencias", titulo: "Licencias" },
   { href: "/estudio", titulo: "Estudio" },
   { href: "/regulaciones", titulo: "Regulaciones" },
 ];

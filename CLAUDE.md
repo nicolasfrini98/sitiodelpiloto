@@ -7,6 +7,8 @@ Sitio web para pilotos de planeador y de avión en carrera en Argentina. Seccion
 | `/metar`        | Hecha         | Último METAR de cada aeródromo argentino, filtros, categoría de vuelo  |
 | `/metar/[icao]` | Hecha         | Ficha: METAR decodificado, TAF, historial 12 h, altitud de densidad, base de cúmulos |
 | `/meteorologia` | Hecha         | Mapa de METAR (Leaflet) con SIGMET, alertas SMN y radar; SIGMET de las FIR argentinas; alertas SMN (CAP); pronóstico horario para vuelo a vela por aeródromo (`?icao=`); satélite GOES-19 |
+| `/licencias`    | Hecha         | Requisitos por licencia/habilitación (RAAC 61 Ed. VI + Res. 292/2026, RAAC 67 Ed. V) con cita por requisito; datos en `src/data/licencias.json`, tipos en `src/lib/licencias.ts` |
+| `/licencias/[id]` | Hecha       | Ficha de cada licencia/habilitación: requisitos, cambios recientes, fuentes oficiales |
 | `/novedades`    | Placeholder   | Noticias de vuelo a vela, carrera aérea y avisos ANAC/EANA             |
 | `/estudio`      | Placeholder   | Preguntas y respuestas por licencia ANAC                               |
 | `/regulaciones` | Placeholder   | Informe que se actualiza cuando la ANAC cambia las RAAC                |

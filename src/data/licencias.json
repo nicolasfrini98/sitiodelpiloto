@@ -1,0 +1,540 @@
+{
+  "ultimaRevision": "2026-11-25",
+  "normativaConsultada": [
+    {
+      "parte": "RAAC 61",
+      "titulo": "Licencias y habilitaciones para pilotos",
+      "edicion": "Edición VI (enero de 2026)",
+      "aprobadaPor": "Resolución ANAC 65/2026 (BO 27/01/2026)",
+      "enmiendas": ["Resolución ANAC 292/2026 (BO 13/05/2026)"]
+    },
+    {
+      "parte": "RAAC 67",
+      "titulo": "Certificación médica aeronáutica",
+      "edicion": "Edición V (enero de 2026)",
+      "aprobadaPor": "Resolución ANAC 35/2026 (BO 20/01/2026)",
+      "enmiendas": []
+    }
+  ],
+  "fuentes": [
+    {
+      "id": "raac61-ed6",
+      "titulo": "RAAC Parte 61, Edición VI — texto completo (anexo IF-2026-08332239-APN-DNSO#ANAC de la Res. ANAC 65/2026)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422623/res65.pdf",
+      "fecha": "2026-01-27",
+      "detalle": "Publicado por InfoLEG (Ministerio de Justicia). El mismo anexo está enlazado desde la página de RAAC de la ANAC."
+    },
+    {
+      "id": "res65-2026",
+      "titulo": "Resolución ANAC 65/2026 — Nueva edición de la Parte 61 (Boletín Oficial)",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337793/20260127",
+      "fecha": "2026-01-27",
+      "detalle": "Firmada el 26/01/2026. Vigente desde su publicación. Fija el 31/12/2027 como plazo para el repaso de vuelo (61.135)."
+    },
+    {
+      "id": "res292-2026",
+      "titulo": "Resolución ANAC 292/2026 — Enmienda de la Parte 61 (Boletín Oficial)",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341871/20260513",
+      "fecha": "2026-05-13",
+      "detalle": "Enmienda 61.020, 61.050, 61.055, 61.305, 61.310, 61.325, 61.520, 61.620, 61.630, 61.1130 y el Capítulo K; incorpora el Capítulo O (aeronave deportiva liviana) y el Apéndice D. Anexo IF-2026-47078747-APN-DNSO#ANAC."
+    },
+    {
+      "id": "res292-2026-anexo",
+      "titulo": "Anexo de la Resolución ANAC 292/2026 (texto de las secciones enmendadas)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425728/res292.pdf",
+      "fecha": "2026-05-13"
+    },
+    {
+      "id": "res651-2025",
+      "titulo": "Resolución ANAC 651/2025 — Nueva edición de la Parte 61 (Boletín Oficial)",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/331607/20250919",
+      "fecha": "2025-09-19",
+      "detalle": "Firmada el 18/09/2025. Reemplazada por la edición aprobada por la Res. ANAC 65/2026."
+    },
+    {
+      "id": "res957-2025",
+      "titulo": "Resolución ANAC 957/2025 — Adecuación de las Partes 91, 121 y 135 a la nueva Parte 61 (Boletín Oficial)",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/336551/20251222",
+      "fecha": "2025-12-22",
+      "detalle": "Los considerandos indican que la nueva Parte 61 elimina la licencia de Piloto Comercial de Primera Clase y las habilitaciones de vuelo VFR controlado y de vuelo nocturno local."
+    },
+    {
+      "id": "raac67-ed5",
+      "titulo": "RAAC Parte 67, Edición V — texto completo (anexo IF-2026-04951387-APN-DNSO#ANAC de la Res. ANAC 35/2026)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422462/res35.pdf",
+      "fecha": "2026-01-20"
+    },
+    {
+      "id": "res35-2026",
+      "titulo": "Resolución ANAC 35/2026 — Nueva edición de la Parte 67 (Boletín Oficial)",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337568/20260120",
+      "fecha": "2026-01-20",
+      "detalle": "Firmada el 19/01/2026. Vigente desde su publicación."
+    },
+    {
+      "id": "anac-raac",
+      "titulo": "ANAC — Página oficial de las RAAC",
+      "url": "https://www.argentina.gob.ar/anac/resoluciones-disposiciones-y-otras-normas-aeronauticas/raac",
+      "fecha": "2026-11-25",
+      "detalle": "Consultada el 25/11/2026. Lista la Res. 65/2026 (Parte 61) y la Res. 35/2026 (Parte 67)."
+    }
+  ],
+  "fichas": [
+    {
+      "id": "alumno-piloto",
+      "tipo": "autorizacion",
+      "nombre": "Alumno piloto",
+      "categoria": "general",
+      "resumen": "Autorización para volar solo durante la instrucción, antes de obtener la licencia. Es el primer paso para avión, planeador, globo libre y ultraliviano.",
+      "requisitosPrevios": [
+        { "texto": "Estudios primarios completos o equivalentes reconocidos por autoridad competente.", "cita": "RAAC 61.405(c)" },
+        { "texto": "Autorización de padres o tutor si el postulante es menor de edad.", "cita": "RAAC 61.405(d)" },
+        { "texto": "Leer, hablar y comprender correctamente el idioma español.", "cita": "RAAC 61.405(e)" }
+      ],
+      "edad": [
+        { "texto": "16 años para la autorización de vuelo solo de alumno piloto privado de avión (también helicóptero y aeronave de despegue vertical).", "cita": "RAAC 61.405(a)" },
+        { "texto": "15 años para planeador, globo libre y ultraliviano motorizado (ULM).", "cita": "RAAC 61.405(b)" }
+      ],
+      "aptitudPsicofisica": [
+        { "texto": "Certificado médico aeronáutico (CMA) Clase 2.", "cita": "RAAC 61.405(f); RAAC 67.020(b)(6)" },
+        { "texto": "Validez del CMA Clase 2: hasta 36 meses; 12 meses si el alumno piloto tiene más de 40 años (según la edad al momento del examen).", "cita": "RAAC 67.025(a)(2)(i) y (g)" }
+      ],
+      "conocimientos": [
+        { "texto": "Instrucción teórica aprobada, dada por un instructor de vuelo calificado, como mínimo en: reglamento del aire; métodos y procedimientos de los servicios de tránsito aéreo; conocimiento general de la categoría de aeronave; aerodinámica básica y principios de vuelo.", "cita": "RAAC 61.405(g)" },
+        { "texto": "Antes del vuelo solo, demostrar ante el instructor el conocimiento de las normas RAAC aplicables, los procedimientos del aeródromo y las características y limitaciones de la aeronave.", "cita": "RAAC 61.410(b)" }
+      ],
+      "experiencia": [
+        { "texto": "Instrucción de vuelo registrada en las maniobras previas al vuelo solo: preparación del vuelo, rodaje, despegues y aterrizajes (incluso con viento cruzado), virajes, ascensos, descensos, circuitos de tránsito, vuelo lento, emergencias y maniobras con referencia al terreno.", "cita": "RAAC 61.410(c) y (d)" },
+        { "texto": "Avión: además, aproximaciones con motor en ralentí y potencia parcial, deslizadas, aproximaciones frustradas, aterrizajes forzosos simulados y entradas en pérdida con recuperación.", "cita": "RAAC 61.410(e)" },
+        { "texto": "Planeador: además, inspección del aparejo de remolque y señales, remolque aéreo o en tierra (o autolanzamiento), armado y desarmado, pérdidas, planeos en recta, viraje y espiral, deslizadas, uso de térmicas o ladera y corte de la línea de remolque.", "cita": "RAAC 61.410(g)" },
+        { "texto": "Para volar solo en travesía (aspirantes a piloto privado): instrucción específica en navegación, meteorología, emergencias y, en avión, vuelo por referencia a instrumentos y uso de la radio; en planeador, aterrizajes sin altímetro desde 2.000 ft.", "cita": "RAAC 61.425(b)" },
+        { "texto": "Para volar solo en espacio aéreo controlado o en un aeropuerto dentro de él: instrucción en tierra y en vuelo para ese espacio aéreo y firma del instructor en el libro de vuelo.", "cita": "RAAC 61.430" }
+      ],
+      "pericia": [
+        { "texto": "No hay prueba de pericia ante la ANAC: el instructor de vuelo firma la autorización (Apéndice C) y el libro de vuelo, certificando que dio la instrucción en esa marca y modelo y que el alumno está capacitado para el vuelo solo.", "cita": "RAAC 61.410(k)" },
+        { "texto": "Cada vuelo solo de travesía requiere un aval firmado del instructor en el libro de vuelo tras revisar la planificación.", "cita": "RAAC 61.425(c)" }
+      ],
+      "atribuciones": [
+        { "texto": "Volar solo bajo las condiciones que fije el instructor en el libro de vuelo.", "cita": "RAAC 61.410(k); 61.415(a)(8)" },
+        { "texto": "No puede actuar como piloto al mando: con pasajeros; con carga, en vuelos o promociones por compensación; en vuelos internacionales; con visibilidad en vuelo o en superficie menor de 5 km; ni sin referencias visuales con la superficie.", "cita": "RAAC 61.415(a)" },
+        { "texto": "No puede ser piloto ni tripulante de una aeronave que requiera más de un piloto, salvo recibiendo instrucción.", "cita": "RAAC 61.415(b)" }
+      ],
+      "vigencia": [
+        { "texto": "La autorización de alumno piloto vale 24 meses, siempre que se tenga el certificado médico adecuado.", "cita": "RAAC 61.060(b)" }
+      ],
+      "cambiosRecientes": [
+        { "texto": "La Parte 61 se renumeró por completo: el capítulo de alumno piloto ahora es el C (secciones 61.400 a 61.430).", "norma": "Resolución ANAC 65/2026", "fecha": "2026-01-27", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337793/20260127" }
+      ],
+      "fuentes": ["raac61-ed6", "res65-2026", "raac67-ed5", "res35-2026"]
+    },
+    {
+      "id": "piloto-planeador",
+      "tipo": "licencia",
+      "nombre": "Piloto de planeador",
+      "categoria": "planeador",
+      "resumen": "Licencia para actuar como piloto al mando de planeadores con el método de lanzamiento en el que se formó. Su validez va atada al certificado médico.",
+      "requisitosPrevios": [
+        { "texto": "Leer, hablar y comprender el idioma español.", "cita": "RAAC 61.905(b)" },
+        { "texto": "Competencia en inglés; si no se demuestra, la licencia lleva una restricción.", "cita": "RAAC 61.905(c); 61.165" },
+        { "texto": "Educación primaria completa o equivalente.", "cita": "RAAC 61.905(d)" }
+      ],
+      "edad": [
+        { "texto": "16 años cumplidos.", "cita": "RAAC 61.905(a)" }
+      ],
+      "aptitudPsicofisica": [
+        { "texto": "CMA Clase 2.", "cita": "RAAC 61.905(e); RAAC 67.020(b)(4)" },
+        { "texto": "Validez del CMA Clase 2: hasta 36 meses. La reducción a 12 meses para mayores de 40 años que fija la RAAC 67 menciona solo al alumno piloto y al piloto privado.", "cita": "RAAC 67.025(a)(2)" }
+      ],
+      "conocimientos": [
+        { "texto": "Curso reconocido o aprobado ante un CIAC, o instrucción teórica de un instructor autorizado, en: derecho aéreo; conocimiento general del planeador; performance y planificación (masa y centrado, lanzamiento y aterrizaje, planificación VFR); actuación humana y gestión de amenazas y errores; meteorología aplicada al vuelo a vela; navegación; procedimientos operacionales (métodos de lanzamiento, emergencias); principios de vuelo.", "cita": "RAAC 61.910" },
+        { "texto": "Examen teórico ante la ANAC o un examinador designado.", "cita": "RAAC 61.905(f)" },
+        { "texto": "Nota mínima de aprobación: 75 % en el examen general y en cada área. Si se reprueba, se puede repetir a los 30 días (antes, con aval escrito de un instructor). Tras tres reprobaciones, hay que volver a hacer un curso teórico completo.", "cita": "RAAC 61.085" }
+      ],
+      "experiencia": [
+        { "texto": "Mínimo 6 horas de vuelo de instrucción en planeador, de las cuales 2 horas en vuelo solo.", "cita": "RAAC 61.920(a)" },
+        { "texto": "No menos de 20 lanzamientos y aterrizajes, por remolque aéreo o despegue autopropulsado.", "cita": "RAAC 61.920(a)" },
+        { "texto": "Si ya tiene licencia de piloto de avión, helicóptero o aeronave de despegue vertical, las horas de doble comando y la cantidad de remolques y aterrizajes se pueden reducir hasta un 50 %.", "cita": "RAAC 61.920(b)" },
+        { "texto": "Contenido de la instrucción: armado e inspección; método de lanzamiento (torno, auto o remolque aéreo: la licencia queda limitada al método elegido); circuito y prevención de colisiones; vuelo en toda la envolvente; pérdidas y espirales; aterrizajes con viento cruzado; travesía visual y a estima; emergencias. El instructor anota en el libro de vuelo que el alumno es competente.", "cita": "RAAC 61.915" }
+      ],
+      "pericia": [
+        { "texto": "Prueba de pericia en vuelo, que puede incluir un examen oral, ante un inspector de la ANAC o un examinador designado.", "cita": "RAAC 61.905(g)" },
+        { "texto": "Debe demostrar como piloto al mando las maniobras de la instrucción, gestionando amenazas y errores, dentro de las limitaciones del planeador, con suavidad, precisión y buen juicio.", "cita": "RAAC 61.925" }
+      ],
+      "atribuciones": [
+        { "texto": "Piloto al mando de cualquier planeador, siempre que tenga experiencia operacional en el método de lanzamiento utilizado.", "cita": "RAAC 61.930(a)" },
+        { "texto": "Para llevar pasajeros: mínimo 10 horas de vuelo como piloto de planeador.", "cita": "RAAC 61.930(b)" }
+      ],
+      "vigencia": [
+        { "texto": "A diferencia de las licencias de avión, la de planeador no es permanente: su validez coincide con el vencimiento del certificado médico.", "cita": "RAAC 61.060(a); 61.960" },
+        { "texto": "Para renovar: 6 vuelos en planeador de 15 minutos o más en los últimos 12 meses, 3 de ellos en el último semestre; o, si además tiene licencia válida de avión, 2 vuelos de 15 minutos o más en los últimos 24 meses.", "cita": "RAAC 61.965(a) y (b)" },
+        { "texto": "Experiencia reciente para actuar como piloto al mando: 3 despegues y 3 aterrizajes con circuito en los 180 días anteriores.", "cita": "RAAC 61.140(a)" },
+        { "texto": "Repaso de vuelo: dentro de los 24 meses anteriores, al menos 1 hora de instrucción en tierra y 1 hora en vuelo con instructor, firmado en el libro de vuelo (una prueba de pericia aprobada lo reemplaza).", "cita": "RAAC 61.135" }
+      ],
+      "cambiosRecientes": [
+        { "texto": "Nueva numeración: el capítulo de piloto de planeador pasó a ser el H (61.900 a 61.970). El repaso de vuelo de la 61.135 (ex 61.57) tiene plazo de cumplimiento hasta el 31/12/2027.", "norma": "Resolución ANAC 65/2026", "fecha": "2026-01-27", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337793/20260127" }
+      ],
+      "notas": [
+        "La 61.905(c) remite al \"Apéndice 2\" para la competencia lingüística; en la Edición VI ese contenido es el Apéndice B."
+      ],
+      "fuentes": ["raac61-ed6", "res65-2026", "raac67-ed5", "res35-2026"]
+    },
+    {
+      "id": "piloto-privado-avion",
+      "tipo": "licencia",
+      "nombre": "Piloto privado de avión",
+      "categoria": "avion",
+      "resumen": "Licencia para volar aviones sin fines de lucro, de día y, con la instrucción correspondiente, de noche en VFR. Es la base para la habilitación de vuelo por instrumentos y la licencia comercial.",
+      "requisitosPrevios": [
+        { "texto": "Leer, hablar y comprender el idioma español.", "cita": "RAAC 61.505(b)" },
+        { "texto": "Competencia en inglés si se usa en las comunicaciones radiotelefónicas; si no, la licencia lleva una limitación.", "cita": "RAAC 61.505(c); 61.165" },
+        { "texto": "Primario completo o equivalente.", "cita": "RAAC 61.505(d)" }
+      ],
+      "edad": [
+        { "texto": "16 años cumplidos (pilotos de avión).", "cita": "RAAC 61.505(a)" }
+      ],
+      "aptitudPsicofisica": [
+        { "texto": "CMA Clase 2.", "cita": "RAAC 61.505(e); RAAC 67.020(b)(3)" },
+        { "texto": "Validez: hasta 36 meses; 12 meses si el piloto privado tiene más de 40 años.", "cita": "RAAC 67.025(a)(2)(i)" },
+        { "texto": "Si quiere la habilitación de vuelo por instrumentos, además debe cumplir la agudeza visual y auditiva de la Clase 1.", "cita": "RAAC 67.020(b)(3); 61.315(a)(3)" }
+      ],
+      "conocimientos": [
+        { "texto": "Curso aprobado o reconocido ante un CIAC, o instrucción teórica de un instructor autorizado, en: derecho aéreo (incluye reporte de accidentes e incidentes); conocimiento general de la aeronave; performance, planificación y carga; actuación humana; meteorología; navegación; procedimientos operacionales (AIP, NOTAM, reglaje de altímetro, emergencias); principios de vuelo (pérdida y barrena); radiotelefonía VFR.", "cita": "RAAC 61.510" },
+        { "texto": "Examen teórico ante la ANAC o un examinador.", "cita": "RAAC 61.505(f)" },
+        { "texto": "Nota mínima: 75 % general y por área. Repetición a los 30 días (o antes con aval de un instructor); tras tres reprobaciones, curso completo nuevamente.", "cita": "RAAC 61.085" }
+      ],
+      "experiencia": [
+        { "texto": "Total de 40 horas de instrucción y vuelo solo si hizo el curso en un CIAC, o 35 horas si completó íntegramente un curso de instrucción reconocida en un CIAC Tipo III.", "cita": "RAAC 61.520(a)(1), texto de la Res. ANAC 292/2026" },
+        { "texto": "Dentro de ese total: al menos 20 horas de instrucción en doble mando.", "cita": "RAAC 61.520(a)(1)(i)" },
+        { "texto": "10 horas de vuelo solo diurno en la clase de avión que se busca, con 5 horas de travesía.", "cita": "RAAC 61.520(a)(1)(ii)" },
+        { "texto": "Un vuelo de travesía de 150 NM (270 km) como mínimo, con aterrizajes completos en 2 aeródromos diferentes.", "cita": "RAAC 61.520(a)(1)(iii)" },
+        { "texto": "Hasta 5 horas en un dispositivo de instrucción para simulación de vuelo aprobado por la ANAC.", "cita": "RAAC 61.520(a)(1)(iv)" },
+        { "texto": "3 horas de instrucción en vuelo nocturno con 10 despegues y 10 aterrizajes, cada uno con circuito de tránsito. Hasta el 31/12/2027 se pueden reemplazar por 3 horas de doble comando; en ese caso la licencia sale sin atribuciones VFR nocturnas.", "cita": "RAAC 61.520(a)(1)(v); 61.535(c)" },
+        { "texto": "Créditos por otras categorías, solo para el total: 10 horas con 100 horas o más en planeador; 5 o 10 horas con 100 o 500 horas en helicóptero; tope de 10 horas.", "cita": "RAAC 61.520(a)(2)" },
+        { "texto": "Titulares de licencia de piloto de aeronave deportiva liviana (LSA): se reconocen hasta 25 horas, si el CIAC presenta un informe de riesgo sobre la equivalencia de la LSA con el avión convencional.", "cita": "RAAC 61.520(a)(2)(v), incorporado por Res. ANAC 292/2026" },
+        { "texto": "Instrucción con instructor autorizado registrada en el libro de vuelo, con declaración de competencia válida por 30 días desde el último vuelo de preparación para la pericia.", "cita": "RAAC 61.515" }
+      ],
+      "pericia": [
+        { "texto": "Prueba de pericia en vuelo con examen oral, ante un inspector de la ANAC o un examinador designado.", "cita": "RAAC 61.505(g)" },
+        { "texto": "Contenido: gestión de amenazas y errores; prevuelo, masa y centrado; circuito; vuelo lento y pérdidas; picados en espiral; despegues y aterrizajes normales, con viento cruzado y de pista corta; viraje de 180° solo por instrumentos; travesía; emergencias; aeródromos controlados y fraseología.", "cita": "RAAC 61.515(a); 61.525" }
+      ],
+      "atribuciones": [
+        { "texto": "Piloto al mando o copiloto, sin fines de lucro, de cualquier avión en el que esté habilitado.", "cita": "RAAC 61.530(a)" },
+        { "texto": "Puede volar por un negocio o empleo si el vuelo es solo incidental y no lleva pasajeros ni bienes por compensación.", "cita": "RAAC 61.530(b)" },
+        { "texto": "No puede pagar menos que su parte prorrateada de los gastos (combustible, aceite, tasas aeroportuarias o alquiler) en un vuelo con pasajeros.", "cita": "RAAC 61.530(c)" },
+        { "texto": "Vuelos benéficos o comunitarios según la Parte 91; reembolso de gastos en búsqueda y salvamento autorizados; demostración a compradores si es comercializador con 200 horas.", "cita": "RAAC 61.530(d) a (f)" },
+        { "texto": "No puede volar IFR: la instrucción por instrumentos y nocturna de la licencia no habilita para eso.", "cita": "RAAC 61.530(h)" }
+      ],
+      "vigencia": [
+        { "texto": "La licencia es permanente, pero sus atribuciones requieren CMA vigente, habilitaciones válidas, experiencia reciente y repaso de vuelo.", "cita": "RAAC 61.060(a)(1)" },
+        { "texto": "Experiencia reciente: 3 despegues y 3 aterrizajes con circuito en los 180 días anteriores, en la categoría y clase.", "cita": "RAAC 61.140(a)(2)" },
+        { "texto": "Repaso de vuelo cada 24 meses: 1 hora en tierra y 1 hora en vuelo con instructor (una pericia aprobada lo reemplaza). Plazo de cumplimiento: hasta el 31/12/2027.", "cita": "RAAC 61.135; Res. ANAC 65/2026 art. 2" },
+        { "texto": "Más de 24 meses sin volar: se pierden las atribuciones; para recuperarlas hace falta CMA vigente, reentrenamiento con instructor y pericia ante la ANAC o un examinador.", "cita": "RAAC 61.060(a)(2)" }
+      ],
+      "cambiosRecientes": [
+        { "texto": "Se suma un crédito de hasta 25 horas para titulares de licencia LSA y se ajusta la redacción del total de 40/35 horas.", "norma": "Resolución ANAC 292/2026", "fecha": "2026-05-13", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341871/20260513" },
+        { "texto": "La instrucción nocturna (3 h) pasa a formar parte de la licencia y desaparece la habilitación de vuelo nocturno separada. Régimen transitorio en la 61.535 hasta el 31/12/2027.", "norma": "Resolución ANAC 65/2026", "fecha": "2026-01-27", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337793/20260127" }
+      ],
+      "fuentes": ["raac61-ed6", "res65-2026", "res292-2026", "res292-2026-anexo", "raac67-ed5", "res35-2026"]
+    },
+    {
+      "id": "piloto-comercial-avion",
+      "tipo": "licencia",
+      "nombre": "Piloto comercial de avión",
+      "categoria": "avion",
+      "resumen": "Licencia profesional: permite volar con fines de lucro, trabajo aéreo y transporte aéreo comercial. Ya no existe la licencia de Piloto Comercial de Primera Clase.",
+      "requisitosPrevios": [
+        { "texto": "Leer, hablar y comprender el idioma español.", "cita": "RAAC 61.605(b)" },
+        { "texto": "Competencia en inglés; si no se demuestra, la licencia lleva una restricción.", "cita": "RAAC 61.605(c); 61.165" },
+        { "texto": "Secundario completo o equivalente.", "cita": "RAAC 61.605(d)" }
+      ],
+      "edad": [
+        { "texto": "18 años cumplidos.", "cita": "RAAC 61.605(a)" }
+      ],
+      "aptitudPsicofisica": [
+        { "texto": "CMA Clase 1.", "cita": "RAAC 61.605(e); RAAC 67.020(a)(1)" },
+        { "texto": "Validez: hasta 12 meses; 6 meses desde los 40 años en transporte comercial con un solo piloto llevando pasajeros, y desde los 60 años en transporte aéreo comercial.", "cita": "RAAC 67.025(a)(1), (b) y (c)" }
+      ],
+      "conocimientos": [
+        { "texto": "Curso de instrucción aprobado o reconocido ante un CIAC (obligatorio), en: derecho aéreo; conocimiento general de aeronaves (incluye mantenimiento); performance y carga; actuación humana; meteorología (incluye hielo y frentes); navegación; procedimientos operacionales (mercancías peligrosas, instrucciones a pasajeros); principios de vuelo; radiotelefonía IFR.", "cita": "RAAC 61.610" },
+        { "texto": "Examen teórico ante la ANAC o un examinador; nota mínima 75 % general y por área.", "cita": "RAAC 61.605(f); 61.085" }
+      ],
+      "experiencia": [
+        { "texto": "Total de 200 horas de vuelo como piloto de avión, o 150 horas si se acumularon en un curso de instrucción integrado aprobado o reconocido.", "cita": "RAAC 61.620(a)(1), texto de la Res. ANAC 292/2026" },
+        { "texto": "100 horas como piloto al mando (70 en un curso aprobado o reconocido).", "cita": "RAAC 61.620(a)(1)(i)" },
+        { "texto": "20 horas de travesía como piloto al mando, con un vuelo de 300 NM (540 km) como mínimo y aterrizajes completos en 2 aeródromos diferentes.", "cita": "RAAC 61.620(a)(1)(ii)" },
+        { "texto": "10 horas de instrucción de vuelo por instrumentos (hasta 5 en simulador).", "cita": "RAAC 61.620(a)(1)(iii)" },
+        { "texto": "Para ejercer las atribuciones de noche: 5 horas de vuelo nocturno con 5 despegues y 5 aterrizajes como piloto al mando.", "cita": "RAAC 61.620(a)(1)(iv)" },
+        { "texto": "Créditos por otras categorías, solo para el total: 20 horas con 300 horas al mando de helicóptero; 10 horas con 200 horas al mando de planeador; tope de 25 horas.", "cita": "RAAC 61.620(a)(2)" },
+        { "texto": "El tiempo en dispositivo de simulación de vuelo se acepta hasta 20 horas del total, a criterio de la ANAC.", "cita": "RAAC 61.620(a)(3)" },
+        { "texto": "Instrucción en doble mando registrada en el libro de vuelo, con declaración de competencia válida por 30 días. Incluye vuelo con potencia asimétrica si se busca una habilitación multimotor.", "cita": "RAAC 61.615(a)" }
+      ],
+      "pericia": [
+        { "texto": "Examen de vuelo con examen oral, ante un inspector de la ANAC o un examinador designado.", "cita": "RAAC 61.605(g)" },
+        { "texto": "Contenido: gestión de amenazas y errores; masa y centrado; pérdidas y prevención de barrenas; picados en espiral; aterrizajes con viento cruzado y de pista corta; recuperación de actitudes anormales por instrumentos; emergencias; travesía y desviaciones; aeródromos controlados.", "cita": "RAAC 61.615(a); 61.625" }
+      ],
+      "atribuciones": [
+        { "texto": "Todas las atribuciones del piloto privado, con fines de lucro.", "cita": "RAAC 61.630(a)" },
+        { "texto": "Piloto al mando en trabajo aéreo y transporte aéreo comercial en aeronaves de la categoría certificadas para la operación.", "cita": "RAAC 61.630(b), texto de la Res. ANAC 292/2026" },
+        { "texto": "Copiloto en aeronaves de la categoría que requieran copiloto.", "cita": "RAAC 61.630(c)" },
+        { "texto": "Con la habilitación correspondiente, instructor de vuelo remunerado.", "cita": "RAAC 61.630(e)" },
+        { "texto": "Transporte comercial internacional: hasta los 60 años (65 en operaciones con más de un piloto). En transporte comercial nacional, desde los 65 años debe cumplir los exámenes de la RAAC 67.", "cita": "RAAC 61.635" }
+      ],
+      "vigencia": [
+        { "texto": "La licencia es permanente; las atribuciones requieren CMA vigente, habilitaciones válidas, experiencia reciente y repaso de vuelo (o el programa del explotador RAAC 121/135).", "cita": "RAAC 61.060(a)(1)" },
+        { "texto": "Experiencia reciente: 3 despegues y 3 aterrizajes con circuito en los 90 días anteriores, en la categoría, clase y tipo.", "cita": "RAAC 61.140(a)(1)" },
+        { "texto": "Repaso de vuelo cada 24 meses (1 h en tierra + 1 h en vuelo con instructor), salvo pericia aprobada o programa aprobado de un explotador 121/135. Plazo de cumplimiento: hasta el 31/12/2027.", "cita": "RAAC 61.135; Res. ANAC 65/2026 art. 2" },
+        { "texto": "Más de 24 meses sin volar: reentrenamiento con instructor y pericia para recuperar las atribuciones.", "cita": "RAAC 61.060(a)(2)" }
+      ],
+      "cambiosRecientes": [
+        { "texto": "Se eliminó la licencia de Piloto Comercial de Primera Clase. Hay una transición para quienes ya rindieron sus exámenes: al completar las horas de TLA, pueden acreditar el requisito teórico de TLA con el certificado del curso hecho en un CIAC.", "norma": "Resolución ANAC 651/2025 y Resolución ANAC 65/2026 (art. 3)", "fecha": "2026-01-27", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337793/20260127" },
+        { "texto": "La atribución de piloto al mando en trabajo aéreo y transporte comercial ya no se limita a aeronaves certificadas para un solo piloto: ahora es \"certificada para la operación\". El total reducido de 150 h se refiere a un curso integrado.", "norma": "Resolución ANAC 292/2026", "fecha": "2026-05-13", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341871/20260513" }
+      ],
+      "fuentes": ["raac61-ed6", "res65-2026", "res651-2025", "res957-2025", "res292-2026", "res292-2026-anexo", "raac67-ed5", "res35-2026"]
+    },
+    {
+      "id": "instructor-vuelo-avion",
+      "tipo": "habilitacion",
+      "nombre": "Instructor de vuelo de avión",
+      "categoria": "avion",
+      "resumen": "Habilitación que se suma a la licencia comercial para dar instrucción de vuelo y teórica, firmar libros de vuelo y autorizar vuelos solo.",
+      "requisitosPrevios": [
+        { "texto": "Licencia de piloto comercial vigente, como mínimo, con la habilitación de la aeronave correspondiente.", "cita": "RAAC 61.1105(b)(1)" },
+        { "texto": "Habilitación o atribuciones de vuelo por instrumentos para ser instructor de avión monomotor terrestre, multimotor terrestre o de vuelo por instrumentos.", "cita": "RAAC 61.1105(b)(2)" }
+      ],
+      "edad": [
+        { "texto": "18 años cumplidos.", "cita": "RAAC 61.1105(a)" }
+      ],
+      "aptitudPsicofisica": [
+        { "texto": "La Parte 61 no fija una clase propia para la habilitación: se necesita el CMA de la licencia base de piloto comercial, que es Clase 1.", "cita": "RAAC 61.1105(b); RAAC 67.020(a)(1)", "aConfirmar": true }
+      ],
+      "conocimientos": [
+        { "texto": "Curso teórico con, como mínimo: proceso de aprendizaje, enseñanza efectiva, técnicas de instrucción y evaluación, preparación de programas y lecciones, ayudas pedagógicas y simuladores, análisis de errores, actuación humana, peligros de simular fallas y técnicas de briefing.", "cita": "RAAC 61.1110" },
+        { "texto": "Examen teórico ante un inspector de la ANAC o un examinador designado.", "cita": "RAAC 61.1105(c)" }
+      ],
+      "experiencia": [
+        { "texto": "200 horas como piloto al mando, con al menos 5 horas en la categoría y clase para la que pide la habilitación, voladas en los 6 meses anteriores a la solicitud.", "cita": "RAAC 61.1105(d)" },
+        { "texto": "Curso aprobado de técnicas de instrucción de vuelo en la categoría y clase, ocupando el asiento del instructor.", "cita": "RAAC 61.1115" }
+      ],
+      "pericia": [
+        { "texto": "Prueba de pericia ante un inspector de la ANAC o un examinador designado: demostrar la capacidad de enseñar en vuelo, incluidos el briefing, el debriefing y la parte teórica.", "cita": "RAAC 61.1105(c); 61.1120" },
+        { "texto": "Para agregar otra categoría, clase o tipo: cumplir la 61.1115(b) y aprobar otra pericia.", "cita": "RAAC 61.1105(e)" }
+      ],
+      "atribuciones": [
+        { "texto": "Instrucción en vuelo, en simulador y teórica para licencias y habilitaciones de piloto, autorización de vuelos solo y de travesía, repasos de vuelo y experiencia reciente. Firma los libros de vuelo correspondientes.", "cita": "RAAC 61.1125(a) y (b)" },
+        { "texto": "Para formar instructores: 24 meses como instructor y 200 horas de instrucción, o un curso aprobado en un centro RAAC 142.", "cita": "RAAC 61.1125(a)(3)" },
+        { "texto": "Para instruir en un avión: 15 horas como piloto al mando en la misma marca y modelo en los últimos 24 meses.", "cita": "RAAC 61.1125(e)" },
+        { "texto": "Máximo 8 horas de instrucción de vuelo en cualquier período de 24 horas consecutivas.", "cita": "RAAC 61.1130(a)" },
+        { "texto": "Solo instruye para licencias y habilitaciones equivalentes o inferiores a las propias.", "cita": "RAAC 61.1130(b)" }
+      ],
+      "vigencia": [
+        { "texto": "Vale 24 meses y se renueva automáticamente si cumple una de estas opciones: 60 h de instrucción en el período (30 en los últimos 12 meses); curso periódico aprobado en los últimos 12 meses; examen de vuelo de instructor; 5 alumnos presentados a examen con al menos 80 % aprobados al primer intento; o actividad como examinador, inspector o instructor de un explotador 121/135.", "cita": "RAAC 61.1135(a)" },
+        { "texto": "Si venció, se revalida con una prueba de pericia ante la ANAC o un examinador.", "cita": "RAAC 61.1135(b)" }
+      ],
+      "cambiosRecientes": [
+        { "texto": "Se derogó la exigencia de 200 horas como instructor para dar la instrucción de la licencia comercial (61.1130(c) quedó \"Reservado\").", "norma": "Resolución ANAC 292/2026", "fecha": "2026-05-13", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341871/20260513" }
+      ],
+      "notas": [
+        "La 61.135(e) exime del repaso de vuelo al instructor que renovó \"según la sección 61.1050\". En la Edición VI esa sección es de globo libre; la renovación del instructor está en la 61.1135. Parece un error de remisión."
+      ],
+      "fuentes": ["raac61-ed6", "res65-2026", "res292-2026", "res292-2026-anexo", "raac67-ed5"]
+    },
+    {
+      "id": "instructor-vuelo-planeador",
+      "tipo": "habilitacion",
+      "nombre": "Instructor de vuelo de planeador",
+      "categoria": "planeador",
+      "resumen": "Habilitación sobre la licencia de piloto de planeador para formar alumnos de planeador. Se rige por el capítulo de planeador, no por el de instructor de avión.",
+      "requisitosPrevios": [
+        { "texto": "Licencia de piloto de planeador vigente.", "cita": "RAAC 61.935(a)(1)" },
+        { "texto": "Curso específico de instructor de vuelo aprobado por la ANAC.", "cita": "RAAC 61.935(a)(2)" }
+      ],
+      "edad": [
+        { "texto": "El capítulo H no fija una edad mínima propia para la habilitación. En la práctica rige la de la licencia de planeador (16 años).", "cita": "RAAC 61.935; 61.905(a)", "aConfirmar": true }
+      ],
+      "aptitudPsicofisica": [
+        { "texto": "CMA Clase 2, el de la licencia de piloto de planeador.", "cita": "RAAC 67.020(b)(4)" }
+      ],
+      "conocimientos": [
+        { "texto": "Curso teórico con: proceso de aprendizaje, enseñanza efectiva, técnicas de instrucción y evaluación, programas y lecciones, ayudas pedagógicas, corrección de errores, actuación humana, peligros de simular fallas del planeador y técnicas de briefing.", "cita": "RAAC 61.940" },
+        { "texto": "Examen teórico ante la ANAC.", "cita": "RAAC 61.935(a)(3)" }
+      ],
+      "experiencia": [
+        { "texto": "Mínimo 100 horas de vuelo en planeador. Con horas en otras categorías, la ANAC puede reducir ese total.", "cita": "RAAC 61.945" },
+        { "texto": "Bajo supervisión de un instructor calificado: instrucción en técnicas de enseñanza en vuelo y práctica de todas las maniobras de la licencia de planeador.", "cita": "RAAC 61.950" }
+      ],
+      "pericia": [
+        { "texto": "Prueba de pericia ante la ANAC: demostrar que puede dar instrucción de vuelo en todas las áreas de la licencia de planeador.", "cita": "RAAC 61.935(a)(3); 61.955" }
+      ],
+      "atribuciones": [
+        { "texto": "Dar instrucción de vuelo a postulantes a la licencia de piloto de planeador.", "cita": "RAAC 61.970" }
+      ],
+      "vigencia": [
+        { "texto": "La validez coincide con el vencimiento del certificado médico.", "cita": "RAAC 61.960" },
+        { "texto": "Se revalida junto con la licencia si en los últimos 24 meses calificó al menos a un alumno para la licencia de planeador o aprobó una prueba de pericia ante la ANAC.", "cita": "RAAC 61.965(c)" }
+      ],
+      "cambiosRecientes": [
+        { "texto": "Nueva numeración: la habilitación de instructor de planeador está en las secciones 61.935 a 61.970.", "norma": "Resolución ANAC 65/2026", "fecha": "2026-01-27", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337793/20260127" }
+      ],
+      "fuentes": ["raac61-ed6", "res65-2026", "raac67-ed5"]
+    },
+    {
+      "id": "vuelo-por-instrumentos",
+      "tipo": "habilitacion",
+      "nombre": "Habilitación de vuelo por instrumentos (HVI) – avión",
+      "categoria": "avion",
+      "resumen": "Permite volar IFR en la categoría habilitada. Se puede obtener desde la licencia de piloto privado y es necesaria para ser instructor de avión.",
+      "requisitosPrevios": [
+        { "texto": "Licencia de piloto privado vigente como mínimo, con la habilitación de la aeronave.", "cita": "RAAC 61.315(a)(1)" },
+        { "texto": "Leer, hablar y comprender el idioma español.", "cita": "RAAC 61.315(a)(2)" }
+      ],
+      "edad": [
+        { "texto": "No tiene edad propia: rige la de la licencia base (piloto privado de avión: 16 años).", "cita": "RAAC 61.315(a)(1); 61.505(a)" }
+      ],
+      "aptitudPsicofisica": [
+        { "texto": "El CMA de la licencia base. Si es piloto privado (Clase 2), además debe cumplir la agudeza visual y auditiva de la Clase 1.", "cita": "RAAC 61.315(a)(3); RAAC 67.020(b)(3)" }
+      ],
+      "conocimientos": [
+        { "texto": "Instrucción teórica en: derecho aéreo IFR; aviónica, instrumentos, automatización y fallas; planificación IFR y plan de vuelo; actuación humana; meteorología (hielo, frentes); navegación con sistemas de navegación; procedimientos operacionales y cartas IFR; radiotelefonía IFR y falla de comunicaciones.", "cita": "RAAC 61.315(b)" },
+        { "texto": "Examen teórico de la HVI; nota mínima 75 %.", "cita": "RAAC 61.315(e); 61.085" }
+      ],
+      "experiencia": [
+        { "texto": "50 horas como piloto al mando en travesía, de las cuales 10 en la categoría de la habilitación.", "cita": "RAAC 61.315(d)(1)" },
+        { "texto": "40 horas de vuelo por instrumentos, de las cuales hasta 20 en dispositivos de simulación aprobados por la ANAC y supervisados por un instructor.", "cita": "RAAC 61.315(d)(2)" },
+        { "texto": "Dentro de esas 40 horas: al menos 10 horas de doble mando con instructor autorizado, en la categoría.", "cita": "RAAC 61.315(c)(1)" },
+        { "texto": "La instrucción cubre: plan de vuelo IFR, salidas y llegadas normalizadas, en ruta, esperas, aproximaciones hasta mínimos, frustradas y aterrizajes desde aproximación por instrumentos.", "cita": "RAAC 61.315(c)(2)" }
+      ],
+      "pericia": [
+        { "texto": "Prueba de pericia en la categoría con los procedimientos de la instrucción, gestionando amenazas y errores, dentro de las limitaciones y con dominio de la aeronave.", "cita": "RAAC 61.315(f)(1)" },
+        { "texto": "Para usarla en multimotores: instrucción en doble mando en un multimotor, volando por instrumentos con un motor simuladamente inoperativo.", "cita": "RAAC 61.315(f)(2)" }
+      ],
+      "atribuciones": [
+        { "texto": "Pilotar en vuelo IFR en la categoría habilitada, si cumple los requisitos de competencia y experiencia reciente.", "cita": "RAAC 61.315(g)(1)" },
+        { "texto": "Tener la HVI vigente reemplaza la experiencia reciente nocturna de 3 despegues y 3 aterrizajes.", "cita": "RAAC 61.140(b)(2)" }
+      ],
+      "vigencia": [
+        { "texto": "La 61.315 no fija una experiencia reciente IFR específica ni un período de validez propio de la HVI. Revisar la Parte 91 y los procedimientos de la ANAC.", "cita": "RAAC 61.315; 61.140(d)", "aConfirmar": true },
+        { "texto": "Valen la experiencia reciente general y el repaso de vuelo de la licencia base.", "cita": "RAAC 61.140(a); 61.135" }
+      ],
+      "cambiosRecientes": [
+        { "texto": "La HVI quedó en la sección 61.315 tras la renumeración de la Parte 61.", "norma": "Resolución ANAC 65/2026", "fecha": "2026-01-27", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337793/20260127" }
+      ],
+      "fuentes": ["raac61-ed6", "res65-2026", "raac67-ed5"]
+    },
+    {
+      "id": "multimotor",
+      "tipo": "habilitacion",
+      "nombre": "Habilitación de clase multimotor terrestre (avión)",
+      "categoria": "avion",
+      "resumen": "Habilitación de clase para aviones multimotores certificados para un solo piloto. Se agrega a una licencia de avión con instrucción y una prueba de pericia.",
+      "requisitosPrevios": [
+        { "texto": "Licencia de piloto de avión. La habilitación se agrega como habilitación de clase.", "cita": "RAAC 61.305(d)(2)(ii); 61.310(c)" },
+        { "texto": "Certificado de instrucción teórica y libro de vuelo certificado por un instructor autorizado o un CIAC RAAC 141, que acredite instrucción teórica y en vuelo en la clase y competencia en las operaciones de la licencia.", "cita": "RAAC 61.310(c)(1)" }
+      ],
+      "edad": [
+        { "texto": "No tiene edad propia: rige la de la licencia base.", "cita": "RAAC 61.310(c)" }
+      ],
+      "aptitudPsicofisica": [
+        { "texto": "El CMA de la licencia base (Clase 2 para piloto privado, Clase 1 para piloto comercial).", "cita": "RAAC 67.020" }
+      ],
+      "conocimientos": [
+        { "texto": "Demostrar los conocimientos para usar la aeronave con seguridad como piloto al mando o copiloto.", "cita": "RAAC 61.310(c)(3)" }
+      ],
+      "experiencia": [
+        { "texto": "La Parte 61 no fija horas mínimas para la habilitación de clase multimotor: exige instrucción teórica y en vuelo certificada.", "cita": "RAAC 61.310(c)", "aConfirmar": true },
+        { "texto": "En la formación de piloto comercial, la instrucción incluye vuelo con potencia asimétrica para habilitaciones multimotor.", "cita": "RAAC 61.615(a)(6)" }
+      ],
+      "pericia": [
+        { "texto": "Prueba de pericia en vuelo, según la licencia, para la clase solicitada.", "cita": "RAAC 61.310(c)(2)" }
+      ],
+      "atribuciones": [
+        { "texto": "Actuar como piloto al mando o copiloto de aviones multimotores terrestres certificados para un solo piloto, con las atribuciones de su licencia.", "cita": "RAAC 61.305(d)(2) y (e)" },
+        { "texto": "Para volar IFR en multimotor, además hay que cumplir la 61.315(f)(2): instrucción por instrumentos con un motor inoperativo.", "cita": "RAAC 61.315(g)(2)" }
+      ],
+      "vigencia": [
+        { "texto": "Experiencia reciente por clase: 3 despegues y 3 aterrizajes en 90 días (180 para piloto privado).", "cita": "RAAC 61.140(a)" }
+      ],
+      "cambiosRecientes": [
+        { "texto": "La 61.310(d)(3) y (4) quedó \"Reservado\". En la Edición VI exigían conocimientos de TLA y habilitación multimotor previa para las habilitaciones de tipo de aeronaves con dos pilotos.", "norma": "Resolución ANAC 292/2026", "fecha": "2026-05-13", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341871/20260513" }
+      ],
+      "fuentes": ["raac61-ed6", "res292-2026", "res292-2026-anexo", "raac67-ed5"]
+    },
+    {
+      "id": "remolque-planeadores",
+      "tipo": "atribucion",
+      "nombre": "Remolque de planeadores (piloto remolcador)",
+      "categoria": "avion",
+      "resumen": "Requisitos para remolcar planeadores con avión. En la Edición VI forma parte de las atribuciones del piloto privado y del comercial, con constancia de un instructor en el libro de vuelo. No figura como habilitación aparte.",
+      "requisitosPrevios": [
+        { "texto": "Licencia de piloto privado o comercial de avión.", "cita": "RAAC 61.530(i); 61.630(i)" }
+      ],
+      "edad": [
+        { "texto": "No tiene edad propia: rige la de la licencia base.", "cita": "RAAC 61.530(i); 61.630(i)" }
+      ],
+      "aptitudPsicofisica": [
+        { "texto": "El CMA de la licencia base.", "cita": "RAAC 67.020" }
+      ],
+      "conocimientos": [
+        { "texto": "Conocimientos de: técnicas y procedimientos para el remolque seguro; emergencias en el remolque; señales entre remolcador y planeador; ángulos máximos de inclinación y limitaciones de velocidad.", "cita": "RAAC 61.530(i)(1); 61.630(i)(1)" }
+      ],
+      "experiencia": [
+        { "texto": "Desde que obtuvo la licencia de avión, 100 horas como piloto al mando en aeronaves de la misma categoría y clase que el remolcador.", "cita": "RAAC 61.530(i)(2); 61.630(i)(2)" },
+        { "texto": "Al menos 3 vuelos de remolque, o de simulación de remolque, como piloto al mando.", "cita": "RAAC 61.530(i)(2); 61.630(i)(2)" }
+      ],
+      "pericia": [
+        { "texto": "No hay prueba ante la ANAC: un instructor de vuelo deja constancia del cumplimiento en el libro de vuelo del postulante.", "cita": "RAAC 61.530(i)(3); 61.630(i)(3)" }
+      ],
+      "atribuciones": [
+        { "texto": "Remolcar planeadores con las atribuciones de la licencia: sin fines de lucro (privado) o con remuneración (comercial).", "cita": "RAAC 61.530; 61.630" }
+      ],
+      "vigencia": [
+        { "texto": "La Parte 61 no fija una experiencia reciente específica de remolque. Valen la experiencia reciente y el repaso de vuelo de la licencia.", "cita": "RAAC 61.140; 61.135" }
+      ],
+      "cambiosRecientes": [
+        { "texto": "En la nueva Parte 61 el remolque está en las atribuciones del piloto privado (61.530(i)) y comercial (61.630(i)), y no en la lista de habilitaciones de la 61.305(d).", "norma": "Resolución ANAC 65/2026", "fecha": "2026-01-27", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337793/20260127" }
+      ],
+      "notas": [
+        "Del lado del planeador, la licencia queda limitada al método de lanzamiento usado en la instrucción (61.915(b)), y el piloto debe tener experiencia en ese método (61.930(a))."
+      ],
+      "fuentes": ["raac61-ed6", "res65-2026", "raac67-ed5"]
+    },
+    {
+      "id": "vuelo-nocturno",
+      "tipo": "atribucion",
+      "nombre": "Vuelo nocturno VFR",
+      "categoria": "avion",
+      "resumen": "Ya no hay una habilitación de vuelo nocturno separada: las atribuciones VFR nocturnas se obtienen con la instrucción nocturna de la licencia de piloto privado o comercial.",
+      "requisitosPrevios": [
+        { "texto": "Licencia de piloto privado o comercial de avión, con la instrucción nocturna correspondiente.", "cita": "RAAC 61.520(a)(1)(v); 61.620(a)(1)(iv)" }
+      ],
+      "edad": [
+        { "texto": "No tiene edad propia: rige la de la licencia base.", "cita": "RAAC 61.505(a); 61.605(a)" }
+      ],
+      "aptitudPsicofisica": [
+        { "texto": "El CMA de la licencia base.", "cita": "RAAC 67.020" }
+      ],
+      "conocimientos": [
+        { "texto": "Están incluidos en los conocimientos de la licencia. No hay un examen teórico aparte.", "cita": "RAAC 61.510; 61.610" }
+      ],
+      "experiencia": [
+        { "texto": "Piloto privado: 3 horas de instrucción nocturna con 10 despegues y 10 aterrizajes, cada uno con circuito de tránsito.", "cita": "RAAC 61.520(a)(1)(v)" },
+        { "texto": "Piloto comercial: 5 horas de vuelo nocturno con 5 despegues y 5 aterrizajes como piloto al mando.", "cita": "RAAC 61.620(a)(1)(iv)" }
+      ],
+      "pericia": [
+        { "texto": "Para el piloto privado que no recibió instrucción nocturna o no tenía habilitación de vuelo nocturno (o nocturno local): acreditar la experiencia de la 61.520(a)(1)(v), y un instructor deja constancia de esa experiencia y de su aptitud para VFR nocturno en el libro de vuelo.", "cita": "RAAC 61.535(a)" }
+      ],
+      "atribuciones": [
+        { "texto": "Piloto al mando en VFR nocturno con las atribuciones de la licencia. Sin la instrucción, la licencia lleva la limitación \"Carece de atribuciones para operaciones VFR nocturnas\".", "cita": "RAAC 61.535(b)" },
+        { "texto": "La instrucción nocturna no habilita para volar IFR.", "cita": "RAAC 61.530(h)" }
+      ],
+      "vigencia": [
+        { "texto": "Para ser piloto al mando de noche en una aeronave certificada para un solo piloto: 3 despegues y 3 aterrizajes nocturnos hasta detención completa en los 180 días anteriores, o tener la HVI vigente.", "cita": "RAAC 61.140(b)" },
+        { "texto": "Si no se cumple: autoentrenamiento sin pasajeros ni carga, o reentrenamiento con instructor, con registro en el libro de vuelo (con el repaso de vuelo vigente).", "cita": "RAAC 61.140(c)(2)" }
+      ],
+      "cambiosRecientes": [
+        { "texto": "Se eliminaron las habilitaciones de vuelo nocturno local y de vuelo VFR controlado. Los considerandos dicen que todo piloto que cumpla las condiciones puede volar VFR nocturno sin limitación.", "norma": "Resolución ANAC 957/2025", "fecha": "2025-12-22", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/336551/20251222" },
+        { "texto": "Régimen transitorio: hasta el 31/12/2027, quien aspire a piloto privado y no quiera atribuciones nocturnas puede reemplazar las 3 h nocturnas por 3 h de doble comando. La licencia sale con la limitación y se puede levantar después.", "norma": "Resolución ANAC 65/2026 (RAAC 61.535(c))", "fecha": "2026-01-27", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337793/20260127" }
+      ],
+      "fuentes": ["raac61-ed6", "res65-2026", "res957-2025", "raac67-ed5"]
+    }
+  ]
+}
