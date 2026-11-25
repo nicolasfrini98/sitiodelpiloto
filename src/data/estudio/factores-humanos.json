@@ -1,0 +1,182 @@
+[
+  {
+    "id": "fh-001",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué es la hipoxia?",
+    "opciones": ["Un estado de deficiencia de oxígeno en el cuerpo", "Un aumento anormal del volumen de aire respirado", "La formación de burbujas de gas en articulaciones", "El exceso de dióxido de carbono en la cabina"],
+    "correcta": 0,
+    "explicacion": "Es la deficiencia de oxígeno en el organismo, típica al volar en altura. El aumento anormal de la respiración es la hiperventilación.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 19" },
+    "verificada": true
+  },
+  {
+    "id": "fh-002",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es la causa más probable de hiperventilación en vuelo?",
+    "opciones": ["Tensión emocional, ansiedad o miedo", "El consumo de alcohol", "Respirar muy lento con poco oxígeno", "El ruido del motor"],
+    "correcta": 0,
+    "explicacion": "La hiperventilación aparece sobre todo en períodos de estrés o ansiedad.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), preguntas 20 y 21" },
+    "verificada": true
+  },
+  {
+    "id": "fh-003",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cómo se superan los síntomas de hiperventilación?",
+    "opciones": ["Respirando más rápido", "Bajando el ritmo respiratorio, respirando en una bolsa o hablando en voz alta", "Mirando fijo los instrumentos", "Subiendo para tomar aire más fresco"],
+    "correcta": 1,
+    "explicacion": "Reducir el ritmo respiratorio recupera el CO₂ perdido; los síntomas ceden en pocos minutos.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 22" },
+    "verificada": true
+  },
+  {
+    "id": "fh-004",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "La susceptibilidad al envenenamiento por monóxido de carbono…",
+    "opciones": ["aumenta con la altitud", "disminuye con la altitud", "aumenta con la presión", "no depende de la altitud"],
+    "correcta": 0,
+    "explicacion": "El CO desplaza al oxígeno en la sangre; en altura, con menos oxígeno disponible, el efecto es mayor.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 23" },
+    "verificada": true
+  },
+  {
+    "id": "fh-005",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Ante una desorientación espacial con visibilidad restringida, ¿cuál es la mejor forma de superarla?",
+    "opciones": ["Confiar en las indicaciones de los instrumentos", "Concentrarse en las sensaciones del cuerpo", "Mover la cabeza rápido para buscar referencias", "Respirar más despacio y esperar"],
+    "correcta": 0,
+    "explicacion": "El oído interno engaña sin referencias visuales; la defensa es creer en los instrumentos.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), preguntas 24 a 27" },
+    "verificada": true
+  },
+  {
+    "id": "fh-006",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es el antídoto para la actitud peligrosa de «impulsividad»?",
+    "opciones": ["«Me puede pasar a mí»", "«No tan rápido: pensá primero»", "«Seguí las reglas»", "«Arriesgarse es tonto»"],
+    "correcta": 1,
+    "explicacion": "El impulsivo hace lo primero que se le ocurre; el antídoto es frenar y pensar antes de actuar.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 29" },
+    "verificada": true
+  },
+  {
+    "id": "fh-007",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es el antídoto para la actitud peligrosa de «invulnerabilidad»?",
+    "opciones": ["«Me puede pasar a mí»", "«No tan rápido»", "«Puedo hacer la diferencia»", "«Seguí las reglas»"],
+    "correcta": 0,
+    "explicacion": "Quien cree que los accidentes les pasan a otros toma más riesgos; el antídoto es asumir que le puede pasar.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 33" },
+    "verificada": true
+  },
+  {
+    "id": "fh-008",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es el antídoto para la actitud peligrosa de «antiautoridad» («¡no me digas qué hacer!»)?",
+    "opciones": ["«Arriesgarse es tonto»", "«Seguí las reglas: normalmente tienen razón»", "«Me puede pasar a mí»", "«No tan rápido»"],
+    "correcta": 1,
+    "explicacion": "Es el antídoto que propone la ANAC para quien rechaza las normas y procedimientos.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 28" },
+    "verificada": true
+  },
+  {
+    "id": "fh-009",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es el antídoto para la actitud peligrosa de «machismo» («¡yo puedo!»)?",
+    "opciones": ["«Arriesgarse es tonto»", "«Seguí las reglas»", "«No estoy indefenso»", "«Pensá primero»"],
+    "correcta": 0,
+    "explicacion": "El piloto que busca demostrar que es mejor que los demás toma riesgos para impresionar; el antídoto es reconocer que arriesgarse es tonto.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 34" },
+    "verificada": true
+  },
+  {
+    "id": "fh-010",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es el antídoto para la actitud peligrosa de «resignación» («¿para qué?»)?",
+    "opciones": ["«No tan rápido»", "«Puedo hacer algo: puedo hacer la diferencia»", "«Seguí las reglas»", "«Me puede pasar a mí»"],
+    "correcta": 1,
+    "explicacion": "El resignado atribuye todo a la suerte; el antídoto es recuperar la iniciativa.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 35" },
+    "verificada": true
+  },
+  {
+    "id": "fh-011",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "En la toma de decisiones, ¿cuál es el primer paso para neutralizar una actitud peligrosa?",
+    "opciones": ["Aplicar un criterio racional", "Reconocer los pensamientos peligrosos", "Consultar a otro piloto", "Cancelar el vuelo"],
+    "correcta": 1,
+    "explicacion": "Primero hay que reconocer el pensamiento peligroso; después se lo redirige con el antídoto.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 31" },
+    "verificada": true
+  },
+  {
+    "id": "fh-012",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Tenés el certificado médico vigente. ¿Quién decide si estás apto para un vuelo en particular?",
+    "opciones": ["La ANAC", "El médico examinador", "El piloto", "El jefe de aeródromo"],
+    "correcta": 2,
+    "explicacion": "El CMA no alcanza: antes de cada vuelo el piloto evalúa su propia aptitud (cansancio, enfermedad, medicamentos, estrés).",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 36" },
+    "verificada": true
+  },
+  {
+    "id": "fh-013",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es la técnica más eficaz para detectar tránsito de día?",
+    "opciones": ["Mirar fijo a las 3, 9 y 12", "Movimientos oculares cortos y regulares, de no más de 10° cada uno, deteniéndose en cada sector", "Usar solo la visión periférica", "Barrer el cielo de un lado al otro sin detenerse"],
+    "correcta": 1,
+    "explicacion": "Cada sector de unos 10° debe observarse al menos un segundo para que el ojo pueda detectar otra aeronave.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), preguntas 43 y 44" },
+    "verificada": true
+  },
+  {
+    "id": "fh-014",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Otra aeronave parece no moverse en tu parabrisas y permanece en el mismo sector. ¿Qué significa?",
+    "opciones": ["Que se aleja", "Que probablemente esté en curso de colisión con vos", "Que vuela en sentido contrario muy lejos", "Que está más alta y no hay riesgo"],
+    "correcta": 1,
+    "explicacion": "Sin movimiento relativo aparente, la marcación se mantiene constante: es la señal típica de curso de colisión.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 45" },
+    "verificada": true
+  },
+  {
+    "id": "fh-015",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es el factor común de la mayoría de los accidentes prevenibles?",
+    "opciones": ["La falla estructural", "La falla mecánica", "El error humano", "La meteorología imprevista"],
+    "correcta": 2,
+    "explicacion": "La mayoría de los accidentes prevenibles tienen al error humano como factor común.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 37" },
+    "verificada": true
+  },
+  {
+    "id": "fh-016",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Volando VFR, ¿qué suele provocar desorientación espacial o choque contra el terreno?",
+    "opciones": ["Continuar el vuelo visual en condiciones instrumentales sin estar preparado", "Volar con el sol de frente", "Usar el GPS", "Volar con viento de cola"],
+    "correcta": 0,
+    "explicacion": "Seguir VFR dentro de condiciones meteorológicas instrumentales es una causa clásica de desorientación y de impacto contra el terreno.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 38" },
+    "verificada": true
+  },
+  {
+    "id": "fh-017",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué efecto tiene la bruma (neblina atmosférica) sobre la percepción del tránsito y del terreno?",
+    "opciones": ["Los objetos parecen más cerca de lo que están", "Los objetos parecen más lejos de lo que están", "No afecta la percepción", "Mejora el contraste"],
+    "correcta": 1,
+    "explicacion": "La bruma crea la ilusión de mayor distancia: el tránsito puede estar más cerca de lo que parece.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 42" },
+    "verificada": true
+  },
+  {
+    "id": "fh-018",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "Una fatiga que afecta a la persona durante un período prolongado se clasifica como…",
+    "opciones": ["aguda", "crónica", "psicológica", "momentánea"],
+    "correcta": 1,
+    "explicacion": "La fatiga aguda es de corta duración (un día largo); la crónica se acumula durante un período prolongado y no se resuelve con un solo descanso.",
+    "fuente": { "id": "anac-ivp-2015", "seccion": "Pregunta 76" },
+    "verificada": true
+  }
+]

@@ -10,7 +10,8 @@ Sitio web para pilotos de planeador y de avión en carrera en Argentina. Seccion
 | `/licencias`    | Hecha         | Requisitos por licencia/habilitación (RAAC 61 Ed. VI + Res. 292/2026, RAAC 67 Ed. V) con cita por requisito; datos en `src/data/licencias.json`, tipos en `src/lib/licencias.ts` |
 | `/licencias/[id]` | Hecha       | Ficha de cada licencia/habilitación: requisitos, cambios recientes, fuentes oficiales |
 | `/novedades`    | Placeholder   | Noticias de vuelo a vela, carrera aérea y avisos ANAC/EANA             |
-| `/estudio`      | Placeholder   | Preguntas y respuestas por licencia ANAC                               |
+| `/estudio`      | Hecha         | Banco de preguntas para los teóricos ANAC (planeador, privado, comercial, instructor) con fuente y `verificada` por pregunta; datos en `src/data/estudio/` (un JSON por materia + `indice.json`), tipos en `src/lib/estudio.ts` |
+| `/estudio/[licencia]` | Hecha    | Modo práctica (explicación y fuente al responder, filtro por materia) y modo examen (al azar, cronómetro, revisión de errores); progreso en localStorage |
 | `/regulaciones` | Placeholder   | Informe que se actualiza cuando la ANAC cambia las RAAC                |
 
 ## Stack

@@ -1,0 +1,372 @@
+[
+  {
+    "id": "pro-001",
+    "licencias": [
+      "piloto-planeador",
+      "instructor-vuelo"
+    ],
+    "enunciado": "En un día de viento fuerte, ¿cómo se corrige la velocidad en el tramo final del aterrizaje en planeador?",
+    "opciones": [
+      "Se suma el doble de la velocidad del viento",
+      "Se aumenta un 50 % la velocidad de circuito",
+      "Se suma la mitad de la velocidad del viento a la velocidad de aproximación",
+      "No se corrige: se usan los frenos"
+    ],
+    "correcta": 2,
+    "explicacion": "Es la regla práctica del cuestionario de la ANAC: sumar la mitad del viento a la velocidad de aproximación, para compensar el gradiente y la turbulencia cerca del suelo.",
+    "fuente": {
+      "id": "anac-planeador-2014",
+      "seccion": "Pregunta 2"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-002",
+    "licencias": [
+      "piloto-planeador",
+      "instructor-vuelo"
+    ],
+    "enunciado": "Durante el remolque, el piloto remolcador te hace la señal de corte. ¿Qué hacés?",
+    "opciones": [
+      "Preguntás por radio qué problema tiene",
+      "Cortás inmediatamente",
+      "Buscás un lugar adecuado y después cortás",
+      "Te ponés en posición alta para ver mejor"
+    ],
+    "correcta": 1,
+    "explicacion": "La señal de corte del remolcador se cumple de inmediato: él puede tener una emergencia.",
+    "fuente": {
+      "id": "anac-planeador-2014",
+      "seccion": "Pregunta 11"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-003",
+    "licencias": [
+      "piloto-planeador",
+      "instructor-vuelo"
+    ],
+    "enunciado": "Durante el remolque aéreo, ¿qué posición del planeador se considera peligrosa?",
+    "opciones": [
+      "Detrás de la estela de la hélice",
+      "Muy alta",
+      "Levemente baja",
+      "Alineada con el remolcador"
+    ],
+    "correcta": 1,
+    "explicacion": "Un planeador muy alto levanta la cola del remolcador y le baja la nariz, pudiendo llevarlo contra el terreno.",
+    "fuente": {
+      "id": "anac-planeador-2014",
+      "seccion": "Pregunta 64"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-004",
+    "licencias": [
+      "piloto-planeador",
+      "instructor-vuelo"
+    ],
+    "enunciado": "Se corta la soga durante el remolque con menos de 80 m de altura. ¿Qué indica el cuestionario de la ANAC?",
+    "opciones": [
+      "Volver a la pista con un viraje hacia el lado del viento",
+      "Incorporarse rápido a inicial para aterrizar con viento de frente",
+      "Aterrizar al frente, tratando de evitar obstáculos",
+      "Hacer un viraje de 360° para perder altura"
+    ],
+    "correcta": 2,
+    "explicacion": "Con tan poca altura no hay margen para volver: se aterriza adelante. La altura de decisión concreta la fija cada aeroclub en su briefing.",
+    "fuente": {
+      "id": "anac-planeador-2014",
+      "seccion": "Pregunta 99"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-005",
+    "licencias": [
+      "piloto-planeador",
+      "instructor-vuelo"
+    ],
+    "enunciado": "¿Qué altura aproximada propone el cuestionario de la ANAC para comenzar el tramo inicial del circuito en planeador?",
+    "opciones": [
+      "150 m",
+      "250 m",
+      "400 m",
+      "600 m"
+    ],
+    "correcta": 1,
+    "explicacion": "La ANAC toma 250 m como referencia. Respetá lo que fije el manual de operaciones de tu aeroclub o aeródromo.",
+    "fuente": {
+      "id": "anac-planeador-2014",
+      "seccion": "Pregunta 10"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-007",
+    "licencias": [
+      "piloto-planeador",
+      "instructor-vuelo"
+    ],
+    "enunciado": "¿Cuál es la función del ladero que sostiene el ala en la largada?",
+    "opciones": [
+      "Empujar el planeador para ganar velocidad",
+      "Mantener los planos nivelados hasta que, con velocidad, los alerones sean efectivos",
+      "Dar la señal de corte",
+      "Controlar la dirección hasta el despegue"
+    ],
+    "correcta": 1,
+    "explicacion": "Al principio de la carrera los alerones no tienen autoridad; el ladero mantiene las alas niveladas hasta que la ganan.",
+    "fuente": {
+      "id": "anac-planeador-2014",
+      "seccion": "Pregunta 83"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-008",
+    "licencias": [
+      "piloto-planeador",
+      "piloto-privado-avion",
+      "piloto-comercial-avion",
+      "instructor-vuelo"
+    ],
+    "enunciado": "¿Qué velocidad se usa como referencia para maniobrar una aeronave?",
+    "opciones": [
+      "La velocidad sobre el terreno",
+      "La velocidad verdadera",
+      "La velocidad indicada",
+      "La velocidad del viento"
+    ],
+    "correcta": 2,
+    "explicacion": "Las velocidades de pérdida, maniobra y circuito se expresan en velocidad indicada, que refleja la presión dinámica sobre el ala.",
+    "fuente": {
+      "id": "anac-planeador-2014",
+      "seccion": "Pregunta 5"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-009",
+    "licencias": [
+      "piloto-privado-avion",
+      "piloto-comercial-avion",
+      "instructor-vuelo"
+    ],
+    "enunciado": "¿Cuál es la entrada recomendada al circuito de tránsito de un aeródromo?",
+    "opciones": [
+      "Directo a la final desde cualquier rumbo",
+      "A 45° del punto medio del tramo con viento en cola, a la altura de circuito",
+      "Sobrevolando la pista a baja altura",
+      "Por la básica, desde el lado contrario"
+    ],
+    "correcta": 1,
+    "explicacion": "Entrar a 45° hacia el punto medio del tramo inicial, a la altura de circuito, facilita ver e integrarse al tránsito.",
+    "fuente": {
+      "id": "anac-ppa-analisis",
+      "seccion": "Cap. 5 (Generalidades), pregunta 2"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-010",
+    "licencias": [
+      "piloto-privado-avion",
+      "piloto-comercial-avion",
+      "instructor-vuelo"
+    ],
+    "enunciado": "Salís de un aeródromo sin torre operativa. ¿Qué hacés con el circuito?",
+    "opciones": [
+      "Salís en cualquier dirección",
+      "Cumplís el circuito publicado; si no lo hay, hacés los virajes por izquierda",
+      "Siempre virajes por derecha",
+      "Sobrevolás la pista y salís"
+    ],
+    "correcta": 1,
+    "explicacion": "Se respeta el circuito publicado y, si no hay uno, los virajes se hacen por izquierda.",
+    "fuente": {
+      "id": "anac-ppa-analisis",
+      "seccion": "Cap. 5 (Generalidades), pregunta 1"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-011",
+    "licencias": [
+      "piloto-privado-avion",
+      "piloto-comercial-avion",
+      "instructor-vuelo"
+    ],
+    "enunciado": "En un VASI de dos barras, ¿qué indica ver luces rojas sobre luces blancas?",
+    "opciones": [
+      "Que estás por encima de la senda",
+      "Que estás en la senda de planeo",
+      "Que estás por debajo de la senda",
+      "Que la pista está cerrada"
+    ],
+    "correcta": 1,
+    "explicacion": "Rojo sobre blanco: en senda. Blanco sobre blanco: alto. Rojo sobre rojo: bajo.",
+    "fuente": {
+      "id": "anac-ppa-analisis",
+      "seccion": "Cap. 5 (Generalidades), preguntas 6 a 8"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-012",
+    "licencias": [
+      "piloto-privado-avion",
+      "piloto-comercial-avion",
+      "instructor-vuelo"
+    ],
+    "enunciado": "Rodás un avión de tren triciclo con viento fuerte de frente y cruzado desde la izquierda. ¿Cómo llevás los comandos?",
+    "opciones": [
+      "Alerón izquierdo arriba, profundidad neutral",
+      "Alerón izquierdo abajo, profundidad neutral",
+      "Alerón izquierdo arriba, profundidad abajo",
+      "Comandos neutros"
+    ],
+    "correcta": 0,
+    "explicacion": "Con viento de frente: alerón arriba del lado del viento (para que no levante esa ala) y profundidad neutral.",
+    "fuente": {
+      "id": "anac-ppa-analisis",
+      "seccion": "Cap. 5 (Generalidades), preguntas 10 y 12"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-013",
+    "licencias": [
+      "piloto-privado-avion",
+      "piloto-comercial-avion",
+      "instructor-vuelo"
+    ],
+    "enunciado": "Rodás con viento fuerte de cola y cruzado desde la izquierda. ¿Cómo llevás los comandos?",
+    "opciones": [
+      "Alerón izquierdo arriba, profundidad arriba",
+      "Alerón izquierdo abajo, profundidad abajo",
+      "Alerón izquierdo arriba, profundidad neutral",
+      "Comandos neutros"
+    ],
+    "correcta": 1,
+    "explicacion": "Con viento de cola: alerón abajo del lado del viento y profundidad abajo, para que el viento no levante el ala ni la cola. Es la condición más peligrosa en rodaje.",
+    "fuente": {
+      "id": "anac-ppa-analisis",
+      "seccion": "Cap. 5 (Generalidades), preguntas 9, 14 y 15"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-014",
+    "licencias": [
+      "piloto-privado-avion",
+      "piloto-comercial-avion",
+      "instructor-vuelo"
+    ],
+    "enunciado": "Para minimizar las cargas laterales sobre el tren en el aterrizaje, el piloto debe mantener…",
+    "opciones": [
+      "el eje longitudinal paralelo a la dirección de movimiento",
+      "la trayectoria paralela a la pista, sin importar el eje",
+      "el ala del lado del viento levantada",
+      "los alerones neutros"
+    ],
+    "correcta": 0,
+    "explicacion": "Al tocar, el eje longitudinal tiene que estar alineado con la dirección de movimiento: sin deriva no hay carga lateral sobre el tren.",
+    "fuente": {
+      "id": "anac-ppa-analisis",
+      "seccion": "Cap. 5 (Generalidades), pregunta 16"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-015",
+    "licencias": [
+      "piloto-planeador",
+      "piloto-privado-avion",
+      "piloto-comercial-avion",
+      "instructor-vuelo"
+    ],
+    "enunciado": "En radiotelefonía, ¿cuál es la palabra internacional de socorro (peligro grave e inminente)?",
+    "opciones": [
+      "PAN PAN",
+      "SOS",
+      "MAYDAY",
+      "SECURITÉ"
+    ],
+    "correcta": 2,
+    "explicacion": "MAYDAY es socorro; PAN PAN es urgencia, para situaciones que no requieren asistencia inmediata.",
+    "fuente": {
+      "id": "anac-planeador-2014",
+      "seccion": "Pregunta 77"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-016",
+    "licencias": [
+      "piloto-privado-avion",
+      "piloto-comercial-avion",
+      "instructor-vuelo"
+    ],
+    "enunciado": "Falla total de motor en vuelo, poco después del despegue. ¿Cuál es la acción inmediata y vital?",
+    "opciones": [
+      "Mantener una velocidad segura (de planeo)",
+      "Volver a la pista",
+      "Intentar arrancar el motor",
+      "Aterrizar siempre contra el viento"
+    ],
+    "correcta": 0,
+    "explicacion": "Lo primero es bajar la nariz y mantener la velocidad de planeo para no entrar en pérdida; después se elige dónde aterrizar.",
+    "fuente": {
+      "id": "anac-iva-2015",
+      "seccion": "Pregunta 42 (284)"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-017",
+    "licencias": [
+      "piloto-privado-avion",
+      "piloto-comercial-avion",
+      "instructor-vuelo"
+    ],
+    "enunciado": "Encontrás turbulencia en la aproximación. ¿Qué se recomienda?",
+    "opciones": [
+      "Reducir la velocidad bajo la normal",
+      "Aumentar ligeramente la velocidad sobre la normal de aproximación para tener mejor control",
+      "Aumentar mucho la velocidad para pasar rápido la turbulencia",
+      "Extender todo el flap"
+    ],
+    "correcta": 1,
+    "explicacion": "Un pequeño margen de velocidad da control positivo ante ráfagas, sin exceder los límites estructurales.",
+    "fuente": {
+      "id": "anac-iva-2015",
+      "seccion": "Pregunta 41 (283)"
+    },
+    "verificada": true
+  },
+  {
+    "id": "pro-018",
+    "licencias": [
+      "piloto-privado-avion",
+      "piloto-comercial-avion",
+      "instructor-vuelo"
+    ],
+    "enunciado": "¿De qué color son las luces de umbral de pista?",
+    "opciones": [
+      "Azules",
+      "Verdes",
+      "Blancas",
+      "Amarillas"
+    ],
+    "correcta": 1,
+    "explicacion": "Las luces de umbral son verdes. Las de borde de calle de rodaje son azules y las de eje de calle de rodaje, verdes.",
+    "fuente": {
+      "id": "anac-iva-2015",
+      "seccion": "Preguntas 46 y 56"
+    },
+    "verificada": true
+  }
+]

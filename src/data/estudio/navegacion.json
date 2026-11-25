@@ -1,0 +1,152 @@
+[
+  {
+    "id": "nav-001",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿A cuántos metros equivale aproximadamente una milla náutica (NM)?",
+    "opciones": ["1609 m", "1852 m", "1000 m", "1500 m"],
+    "correcta": 1,
+    "explicacion": "Una milla náutica corresponde a un minuto de arco de meridiano: unos 1852 m. La milla terrestre (1609 m) es otra unidad.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 8 (Navegación), preguntas 4 y 5" },
+    "verificada": true
+  },
+  {
+    "id": "nav-002",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Con una velocidad terrestre (GS) de 130 kt, ¿qué distancia recorrés en 1 h 30 min?",
+    "opciones": ["160 NM", "195 NM", "180 NM", "210 NM"],
+    "correcta": 1,
+    "explicacion": "Distancia = velocidad × tiempo = 130 kt × 1,5 h = 195 NM.",
+    "fuente": { "id": "anac-ppa-preguntas", "seccion": "Cap. 8 (Navegación), pregunta 11 (cálculo)" },
+    "verificada": true
+  },
+  {
+    "id": "nav-003",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Recorrés 96 NM en 40 minutos. ¿Cuál es tu velocidad terrestre?",
+    "opciones": ["120 kt", "136 kt", "144 kt", "160 kt"],
+    "correcta": 2,
+    "explicacion": "96 NM / (40/60 h) = 96 × 1,5 = 144 kt.",
+    "fuente": { "id": "anac-ppa-preguntas", "seccion": "Cap. 8 (Navegación), pregunta 14 (cálculo)" },
+    "verificada": true
+  },
+  {
+    "id": "nav-004",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cómo se convierte una velocidad de km/h a nudos?",
+    "opciones": ["Multiplicando por 1,85", "Dividiendo por 1,85", "Restando el 30 %", "Multiplicando por 1,6"],
+    "correcta": 1,
+    "explicacion": "1 kt = 1 NM/h ≈ 1,85 km/h: de km/h a nudos se divide por 1,85, y de nudos a km/h se multiplica.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 8 (Navegación), preguntas 23 y 24" },
+    "verificada": true
+  },
+  {
+    "id": "nav-005",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Trazás en la carta un curso verdadero de 090° y la declinación magnética del lugar es 8° W. ¿Cuál es el curso magnético?",
+    "opciones": ["082°", "090°", "098°", "270°"],
+    "correcta": 2,
+    "explicacion": "La declinación oeste se suma y la este se resta: 090° + 8° = 098°.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 8 (Navegación), pregunta 27" },
+    "verificada": true
+  },
+  {
+    "id": "nav-006",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Una masa de aire se desplaza de sur a norte a 25 kt. ¿Cómo se informa ese viento?",
+    "opciones": ["360/25", "180/25", "090/25", "270/25"],
+    "correcta": 1,
+    "explicacion": "La dirección del viento se informa desde donde sopla: viene del sur, 180°.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 8 (Navegación), pregunta 31" },
+    "verificada": true
+  },
+  {
+    "id": "nav-007",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué orientación indica una pista designada 09/27?",
+    "opciones": ["009° y 027° verdaderos", "090° y 270° verdaderos", "Aproximadamente 090° y 270° magnéticos", "090° y 270° de la grilla de la carta"],
+    "correcta": 2,
+    "explicacion": "El número de pista es su rumbo magnético redondeado a la decena y sin el último dígito.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 5 (Generalidades), pregunta 3" },
+    "verificada": true
+  },
+  {
+    "id": "nav-008",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuántos satélites necesita como mínimo un receptor GPS para calcular la posición en tres dimensiones?",
+    "opciones": ["3", "4", "5", "6"],
+    "correcta": 1,
+    "explicacion": "Hacen falta al menos 4 satélites: latitud, longitud, altitud y la corrección de tiempo del receptor.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 8 (Navegación), pregunta 50" },
+    "verificada": true
+  },
+  {
+    "id": "nav-009",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Con el OBS en 030°, la aguja del CDI centrada y la indicación TO, ¿en qué radial del VOR estás?",
+    "opciones": ["Radial 030°", "Radial 210°", "Radial 120°", "Radial 300°"],
+    "correcta": 1,
+    "explicacion": "Con TO, el curso 030° lleva hacia la estación: estás al sudoeste de ella, en el radial 210°.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 8 (Navegación), pregunta 39" },
+    "verificada": true
+  },
+  {
+    "id": "nav-010",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué es la declinación (variación) magnética?",
+    "opciones": ["El error del compás por los metales del avión", "La diferencia angular entre el norte verdadero y el norte magnético", "El error del giro direccional por precesión", "El ángulo entre rumbo y curso por el viento"],
+    "correcta": 1,
+    "explicacion": "La declinación depende del lugar. El error por metales y equipos de la aeronave se llama desvío.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 3 (Instrumentos), preguntas 38 y 39" },
+    "verificada": true
+  },
+  {
+    "id": "nav-011",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿Qué regla práctica propone el cuestionario de la ANAC para pasar un viento informado en nudos a km/h?",
+    "opciones": ["Multiplicar por tres y restar el 50 %", "Sumarle el 30 %", "Multiplicar por dos y restar el 10 %", "Dividir por dos"],
+    "correcta": 2,
+    "explicacion": "× 2 − 10 % equivale a × 1,8, cerca del factor real de 1,85.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 93" },
+    "verificada": true
+  },
+  {
+    "id": "nav-012",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué distancia vertical se mide cuando se habla de altitud?",
+    "opciones": ["Entre la aeronave y el terreno que sobrevuela", "Entre la aeronave (o un punto) y el nivel medio del mar", "Entre el aeródromo de salida y la aeronave", "Entre la aeronave y la superficie isobárica de 1013,25 hPa"],
+    "correcta": 1,
+    "explicacion": "La altitud se refiere al nivel medio del mar; la altura se mide desde un punto de referencia (terreno, aeródromo).",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 100" },
+    "verificada": true
+  },
+  {
+    "id": "nav-013",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "Con el altímetro en la pista indicando 0 m, ¿qué reglaje estás usando?",
+    "opciones": ["QNH", "QFE", "Nivel de vuelo (1013,25 hPa)", "QNE"],
+    "correcta": 1,
+    "explicacion": "Con QFE el altímetro indica altura sobre el aeródromo: marca cero en la pista. Con QNH indicaría la elevación.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 65" },
+    "verificada": true
+  },
+  {
+    "id": "nav-014",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "Despegás con QFE de un aeródromo de 60 m de elevación. Sobre un punto de viraje de 200 m de elevación el altímetro marca 1000 m. ¿Cuál es tu altura real sobre ese punto?",
+    "opciones": ["1040 m", "800 m", "860 m", "1000 m"],
+    "correcta": 2,
+    "explicacion": "Con QFE indicás altura sobre el aeródromo: altitud = 1000 + 60 = 1060 m. Sobre el punto: 1060 − 200 = 860 m.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 21" },
+    "verificada": true
+  },
+  {
+    "id": "nav-015",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Volás de una zona de alta presión hacia una de baja sin reajustar el altímetro. ¿Qué pasa?",
+    "opciones": ["El altímetro indica menos que la altitud real", "El altímetro indica más que la altitud real: estás más bajo de lo que creés", "No hay diferencia si la temperatura es estándar", "El altímetro queda trabado"],
+    "correcta": 1,
+    "explicacion": "De alta a baja presión sin reajustar, la altitud real es menor que la indicada. Es la situación peligrosa.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 3 (Instrumentos), pregunta 29" },
+    "verificada": true
+  }
+]

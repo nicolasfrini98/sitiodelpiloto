@@ -1,0 +1,112 @@
+[
+  {
+    "id": "ins-001",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "El principio de «primacía» (primacy) en el aprendizaje indica que el instructor debe…",
+    "opciones": ["enseñar bien la primera vez, porque lo que se aprende primero se fija con más fuerza", "dejar lo más importante para el final de la clase", "usar siempre situaciones dramáticas", "repetir cada maniobra al menos diez veces"],
+    "correcta": 0,
+    "explicacion": "La primera impresión es difícil de borrar: un procedimiento mal aprendido cuesta mucho corregirlo después.",
+    "fuente": { "id": "tc-tp4818", "seccion": "Learning Factors — Primacy" },
+    "verificada": true
+  },
+  {
+    "id": "ins-002",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "Según el principio de «lo reciente» (recency), ¿qué conviene hacer al final de cada lección?",
+    "opciones": ["Presentar un tema nuevo", "Resumir y practicar los puntos importantes", "Tomar un examen sorpresa", "Dejar que el alumno vuele solo sin comentarios"],
+    "correcta": 1,
+    "explicacion": "Lo último que se aprende y practica es lo que mejor se recuerda.",
+    "fuente": { "id": "tc-tp4818", "seccion": "Learning Factors — Recency" },
+    "verificada": true
+  },
+  {
+    "id": "ins-003",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "El principio de «efecto» dice que el aprendizaje se refuerza cuando…",
+    "opciones": ["el alumno termina la lección con una sensación de satisfacción", "el instructor marca todos los errores con dureza", "la clase es más larga", "se usan solo medios audiovisuales"],
+    "correcta": 0,
+    "explicacion": "Una experiencia satisfactoria refuerza lo aprendido; la frustración lo debilita.",
+    "fuente": { "id": "tc-tp4818", "seccion": "Learning Factors — Effect" },
+    "verificada": true
+  },
+  {
+    "id": "ins-004",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "Según el principio de «intensidad», ¿qué se recuerda por más tiempo?",
+    "opciones": ["Las explicaciones largas", "Las experiencias dramáticas, realistas o inesperadas", "Lo que se lee en el manual", "Lo que se aprende de memoria"],
+    "correcta": 1,
+    "explicacion": "Una experiencia vívida y real (por ejemplo, la demostración en vuelo) se recuerda más que un sustituto.",
+    "fuente": { "id": "tc-tp4818", "seccion": "Learning Factors — Intensity" },
+    "verificada": true
+  },
+  {
+    "id": "ins-005",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "El principio de «disposición» (readiness) pide asegurarse de que el alumno esté…",
+    "opciones": ["mental, física y emocionalmente listo para aprender", "solamente descansado", "al día con los pagos", "con el examen teórico aprobado"],
+    "correcta": 0,
+    "explicacion": "Un alumno cansado, preocupado o desmotivado aprende poco, por buena que sea la clase.",
+    "fuente": { "id": "tc-tp4818", "seccion": "Learning Factors — Readiness" },
+    "verificada": true
+  },
+  {
+    "id": "ins-006",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "El principio de «ejercicio» indica que el instructor debe…",
+    "opciones": ["mantener al alumno ocupado en actividades con sentido (práctica significativa)", "evitar que el alumno repita maniobras", "dar toda la teoría antes del primer vuelo", "volar él mismo la mayor parte del tiempo"],
+    "correcta": 0,
+    "explicacion": "Se aprende haciendo: la práctica dirigida a un objetivo consolida la habilidad.",
+    "fuente": { "id": "tc-tp4818", "seccion": "Learning Factors — Exercise" },
+    "verificada": true
+  },
+  {
+    "id": "ins-007",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "¿Cuál de estos temas exige expresamente la RAAC 61.1110 en el curso teórico del instructor de vuelo de avión?",
+    "opciones": ["Los peligros que presenta simular fallas y mal funcionamiento en la aeronave", "Derecho comercial y contratos", "Mantenimiento de motores a reacción", "Meteorología satelital avanzada"],
+    "correcta": 0,
+    "explicacion": "El inciso (a)(12) incluye los peligros de simular fallas, junto con proceso de aprendizaje, enseñanza efectiva, evaluación, preparación de lecciones, ayudas pedagógicas, análisis de errores y actuación humana.",
+    "fuente": { "id": "raac61", "seccion": "61.1110(a)" },
+    "verificada": true
+  },
+  {
+    "id": "ins-008",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "Además de los temas pedagógicos, ¿qué técnica específica debe incluir el curso teórico del instructor según la RAAC 61.1110(b)?",
+    "opciones": ["Técnicas de la reunión previa al vuelo (briefing)", "Técnicas de venta de cursos", "Programación de simuladores", "Técnicas de mantenimiento preventivo"],
+    "correcta": 0,
+    "explicacion": "La 61.1110(b) pide técnicas de briefing antes de las prácticas: objetivos de la reunión, principios de vuelo a respetar, etc.",
+    "fuente": { "id": "raac61", "seccion": "61.1110(b)" },
+    "verificada": true
+  },
+  {
+    "id": "ins-009",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "Según la RAAC 61.950, ¿en qué debe haber recibido instrucción en vuelo el aspirante a instructor de planeador?",
+    "opciones": ["En técnicas de instrucción: demostración, instrucción práctica, y reconocimiento y corrección de los errores comunes de los alumnos", "Solo en vuelo de distancia", "En acrobacia avanzada", "En remolque de planeadores con avión"],
+    "correcta": 0,
+    "explicacion": "Bajo supervisión de un instructor calificado, también debe practicar la instrucción de todas las maniobras de la licencia de planeador.",
+    "fuente": { "id": "raac61", "seccion": "61.950" },
+    "verificada": true
+  },
+  {
+    "id": "ins-010",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "¿Cómo define el aprendizaje el cuestionario de la ANAC para instructores?",
+    "opciones": ["Como un cambio o modificación en el comportamiento", "Como la memorización de los manuales", "Como la cantidad de horas de vuelo acumuladas", "Como un eslabón administrativo de la instrucción"],
+    "correcta": 0,
+    "explicacion": "Hay aprendizaje cuando el alumno cambia su comportamiento (lo que sabe, hace o cree) como resultado de la experiencia.",
+    "fuente": { "id": "anac-iva-2015", "seccion": "Pregunta 99" },
+    "verificada": true
+  },
+  {
+    "id": "ins-011",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "¿Qué puede registrar y firmar el instructor en el libro de vuelo de un alumno piloto según la RAAC 61.1125(b)?",
+    "opciones": ["La autorización para vuelos solo y de travesía de los alumnos que entrenó", "La renovación del certificado médico", "La licencia definitiva", "La habilitación de tipo de cualquier aeronave"],
+    "correcta": 0,
+    "explicacion": "La 61.1125(b) lo autoriza a firmar el libro del alumno al que entrenó y autorizó para vuelos solo y de travesía, y a certificar que un piloto está listo para la prueba escrita o de pericia.",
+    "fuente": { "id": "raac61", "seccion": "61.1125(b)" },
+    "verificada": true
+  }
+]

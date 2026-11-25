@@ -1,0 +1,109 @@
+{
+  "ultimaRevision": "2026-11-25",
+  "licencias": [
+    {
+      "id": "piloto-planeador",
+      "nombre": "Piloto de planeador",
+      "resumen": "Examen teórico de la licencia de piloto de planeador (RAAC 61, Capítulo H).",
+      "fichas": ["piloto-planeador"],
+      "materiasAnac": "Derecho aéreo; conocimiento general del planeador; performance y planificación; actuación humana; meteorología aplicada al vuelo a vela; navegación; procedimientos operacionales; principios de vuelo.",
+      "citaMaterias": "RAAC 61.910"
+    },
+    {
+      "id": "piloto-privado-avion",
+      "nombre": "Piloto privado de avión",
+      "resumen": "Examen teórico de la licencia de piloto privado de avión (RAAC 61, Capítulo D).",
+      "fichas": ["piloto-privado-avion"],
+      "materiasAnac": "Derecho aéreo; conocimiento general de la aeronave; performance, planificación y carga; actuación humana; meteorología; navegación; procedimientos operacionales; principios de vuelo; radiotelefonía.",
+      "citaMaterias": "RAAC 61.510"
+    },
+    {
+      "id": "piloto-comercial-avion",
+      "nombre": "Piloto comercial de avión",
+      "resumen": "Examen teórico de la licencia de piloto comercial de avión (RAAC 61, Capítulo E).",
+      "fichas": ["piloto-comercial-avion"],
+      "materiasAnac": "Derecho aéreo; conocimiento general de las aeronaves; performance, planificación y carga; actuación humana; meteorología; navegación; procedimientos operacionales; principios de vuelo; radiotelefonía.",
+      "citaMaterias": "RAAC 61.610"
+    },
+    {
+      "id": "instructor-vuelo",
+      "nombre": "Instructor de vuelo (avión y planeador)",
+      "resumen": "Examen teórico de la habilitación de instructor de vuelo: técnicas de instrucción más las reglas propias del instructor de avión (Capítulo J) y de planeador (61.935 a 61.970).",
+      "fichas": ["instructor-vuelo-avion", "instructor-vuelo-planeador"],
+      "materiasAnac": "Proceso de aprendizaje; enseñanza efectiva; técnicas de instrucción y evaluación; preparación de programas y lecciones; ayudas pedagógicas; análisis de errores; actuación humana y gestión de amenazas y errores; peligros de simular fallas; técnicas de briefing. Además, el instructor tiene que dominar las materias de la licencia que enseña.",
+      "citaMaterias": "RAAC 61.1110 y 61.940"
+    }
+  ],
+  "materias": [
+    { "id": "reglamentacion", "nombre": "Reglamentación (derecho aéreo)" },
+    { "id": "meteorologia", "nombre": "Meteorología" },
+    { "id": "navegacion", "nombre": "Navegación" },
+    { "id": "principios-de-vuelo", "nombre": "Principios de vuelo" },
+    { "id": "aeronave", "nombre": "Conocimiento de la aeronave" },
+    { "id": "factores-humanos", "nombre": "Factores humanos" },
+    { "id": "procedimientos", "nombre": "Procedimientos operacionales" },
+    { "id": "instruccion", "nombre": "Técnicas de instrucción" }
+  ],
+  "fuentes": [
+    {
+      "id": "raac61",
+      "documento": "RAAC Parte 61, Edición VI — anexo IF-2026-08332239-APN-DNSO#ANAC de la Res. ANAC 65/2026 (BO 27/01/2026)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422623/res65.pdf",
+      "uso": "Norma oficial (InfoLEG)."
+    },
+    {
+      "id": "res292",
+      "documento": "Res. ANAC 292/2026 — anexo IF-2026-47078747-APN-DNSO#ANAC con las secciones enmendadas de la RAAC 61 (BO 13/05/2026)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425728/res292.pdf",
+      "uso": "Norma oficial (InfoLEG)."
+    },
+    {
+      "id": "raac67",
+      "documento": "RAAC Parte 67, Edición V — anexo de la Res. ANAC 35/2026 (BO 20/01/2026)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422462/res35.pdf",
+      "uso": "Norma oficial (InfoLEG)."
+    },
+    {
+      "id": "raac91-2017",
+      "documento": "RAAC Parte 91 — texto publicado por la ANAC en 2017 (no se pudo confirmar que sea el texto consolidado vigente)",
+      "url": "https://www.anac.gov.ar/anac/web/uploads/normativa/raac/parte-91-a.pdf",
+      "uso": "Documento oficial de la ANAC; numeración sujeta a confirmación."
+    },
+    {
+      "id": "anac-ppa-analisis",
+      "documento": "ANAC, Dirección de Licencias al Personal (Control Educativo) — Piloto Privado Avión: teoría y análisis de respuestas",
+      "url": "https://www.argentina.gob.ar/sites/default/files/2021/05/teor-a-y-analisis-de-respuestas-ppa.pdf",
+      "uso": "Material de estudio publicado por la ANAC. Las preguntas del sitio están redactadas con nuestras palabras."
+    },
+    {
+      "id": "anac-ppa-preguntas",
+      "documento": "ANAC, Dirección de Licencias al Personal (Control Educativo) — Piloto Privado Avión: preguntas por capítulo",
+      "url": "https://www.argentina.gob.ar/sites/default/files/2021/05/preguntas-todos-los-capitulos-ppa.pdf",
+      "uso": "Material de estudio publicado por la ANAC (sin respuestas marcadas: van en el análisis de respuestas)."
+    },
+    {
+      "id": "anac-planeador-2014",
+      "documento": "ANAC, Dirección de Licencias al Personal — Lista de preguntas Piloto de Planeador (publicación Res. ANAC 306/2014, 2.º semestre 2014)",
+      "url": "https://www.argentina.gob.ar/sites/default/files/2021/05/modulo-ppl-julio-2014.pdf",
+      "uso": "Cuestionario publicado por la ANAC con respuestas marcadas. Redactado con nuestras palabras; algunas preguntas originales están desactualizadas."
+    },
+    {
+      "id": "anac-ivp-2015",
+      "documento": "ANAC, Dirección de Licencias al Personal — Lista de preguntas Instructor de vuelo planeador (2015)",
+      "url": "https://www.argentina.gob.ar/sites/default/files/2021/05/instructor-de-vuelo-planeador.pdf",
+      "uso": "Cuestionario publicado por la ANAC con respuestas marcadas. Redactado con nuestras palabras."
+    },
+    {
+      "id": "anac-iva-2015",
+      "documento": "ANAC, Dirección de Licencias al Personal — Lista de preguntas Control bienal de instructor de vuelo avión (2015)",
+      "url": "https://www.argentina.gob.ar/sites/default/files/2021/05/control-bienal-iva.pdf",
+      "uso": "Cuestionario publicado por la ANAC con respuestas marcadas. Redactado con nuestras palabras."
+    },
+    {
+      "id": "tc-tp4818",
+      "documento": "Transport Canada — Flight Instructor Guide (Helicopter), TP 4818, sección «Learning Factors»",
+      "url": "https://tc.canada.ca/en/aviation/publications/flight-instructor-guide-helicopter-tp-4818/learning-factors",
+      "uso": "Guía oficial de otra autoridad aeronáutica, usada como referencia pedagógica (la RAAC 61.1110 solo enumera los temas)."
+    }
+  ]
+}

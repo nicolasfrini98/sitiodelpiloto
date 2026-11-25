@@ -1,0 +1,172 @@
+[
+  {
+    "id": "aer-001",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Si se bloquea el tubo pitot, ¿qué instrumento deja de funcionar correctamente?",
+    "opciones": ["Solo el velocímetro", "El altímetro y el variómetro", "Los tres instrumentos de presión", "El horizonte artificial"],
+    "correcta": 0,
+    "explicacion": "La presión de impacto del pitot alimenta solamente al velocímetro.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 3 (Instrumentos), preguntas 1 y 4" },
+    "verificada": true
+  },
+  {
+    "id": "aer-002",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Si se bloquean las tomas estáticas, ¿qué instrumentos quedan afectados?",
+    "opciones": ["Solo el altímetro", "Velocímetro, altímetro y variómetro", "Solo el velocímetro", "El compás magnético"],
+    "correcta": 1,
+    "explicacion": "Los tres instrumentos de presión (velocímetro, altímetro y variómetro) usan la presión estática.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 3 (Instrumentos), pregunta 2" },
+    "verificada": true
+  },
+  {
+    "id": "aer-003",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué indica la línea roja del velocímetro?",
+    "opciones": ["La velocidad de maniobra (VA)", "La velocidad de nunca exceder (VNE)", "La máxima con flaps extendidos (VFE)", "La velocidad de pérdida"],
+    "correcta": 1,
+    "explicacion": "La línea roja marca VNE, el final del rango de velocidades permitido.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 3 (Instrumentos), pregunta 6" },
+    "verificada": true
+  },
+  {
+    "id": "aer-004",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "En el velocímetro, ¿qué indica el límite inferior del arco blanco?",
+    "opciones": ["VS1, pérdida en configuración limpia", "VSO, pérdida en configuración de aterrizaje", "VFE, máxima con flaps", "VNO, máxima estructural de crucero"],
+    "correcta": 1,
+    "explicacion": "El arco blanco es el rango con flaps: va de VSO (pérdida en configuración de aterrizaje) a VFE. El arco verde empieza en VS1.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 3 (Instrumentos), preguntas 8 y 11" },
+    "verificada": true
+  },
+  {
+    "id": "aer-005",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué velocidad limitante importante NO está marcada con colores en el velocímetro?",
+    "opciones": ["VNE", "VNO", "VA (velocidad de maniobra)", "VFE"],
+    "correcta": 2,
+    "explicacion": "VA no figura en el velocímetro: hay que buscarla en el manual de vuelo (y varía con el peso).",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 3 (Instrumentos), pregunta 17" },
+    "verificada": true
+  },
+  {
+    "id": "aer-006",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Después del despegue, ¿qué velocidad da la mayor ganancia de altura en el menor tiempo?",
+    "opciones": ["VX", "VY", "VA", "VNO"],
+    "correcta": 1,
+    "explicacion": "VY es la de mejor régimen de ascenso (más altura por unidad de tiempo); VX, la de mejor ángulo (más altura por distancia recorrida).",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 3 (Instrumentos), preguntas 9 y 10" },
+    "verificada": true
+  },
+  {
+    "id": "aer-007",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuándo es más confiable la lectura del compás magnético?",
+    "opciones": ["En virajes suaves", "En vuelo recto, nivelado y a velocidad constante", "Durante aceleraciones", "En ascenso con potencia máxima"],
+    "correcta": 1,
+    "explicacion": "Los errores de viraje y de aceleración desaparecen en vuelo recto y nivelado sin cambios de velocidad.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 3 (Instrumentos), pregunta 40" },
+    "verificada": true
+  },
+  {
+    "id": "aer-008",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "En un avión con hélice de paso fijo, ¿cuál es la primera indicación de hielo en el carburador?",
+    "opciones": ["Aumento de la temperatura de aceite", "Pérdida de RPM", "Funcionamiento irregular desde el arranque", "Aumento de la presión de admisión"],
+    "correcta": 1,
+    "explicacion": "Con paso fijo el primer síntoma es la caída de RPM; la marcha irregular aparece después.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 2 (Grupo motopropulsor), pregunta 11" },
+    "verificada": true
+  },
+  {
+    "id": "aer-009",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Al aplicar calefacción al carburador, ¿qué le pasa a la mezcla?",
+    "opciones": ["Se empobrece", "Se enriquece, porque el aire caliente es menos denso", "No cambia", "Se empobrece solo en altura"],
+    "correcta": 1,
+    "explicacion": "El mismo volumen de aire caliente tiene menos masa: con el mismo combustible, la mezcla se enriquece y baja algo la potencia.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 2 (Grupo motopropulsor), pregunta 10" },
+    "verificada": true
+  },
+  {
+    "id": "aer-010",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué es la detonación en un motor alternativo?",
+    "opciones": ["El encendido de la mezcla antes de la chispa", "Una combustión instantánea y explosiva de la mezcla en el cilindro", "El corte de un magneto", "La explosión del escape por mezcla rica"],
+    "correcta": 1,
+    "explicacion": "La detonación es una combustión explosiva de la mezcla. El encendido antes de la chispa es el preencendido, otro fenómeno.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 2 (Grupo motopropulsor), preguntas 23 y 24" },
+    "verificada": true
+  },
+  {
+    "id": "aer-011",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "En un avión con hélice de velocidad constante, ¿qué controla cada palanca?",
+    "opciones": ["El acelerador controla las RPM y la hélice, la presión de admisión", "El acelerador controla la potencia (presión de admisión) y el control de hélice, las RPM", "Ambas controlan las RPM", "La hélice controla la mezcla"],
+    "correcta": 1,
+    "explicacion": "El acelerador regula la potencia (manifold); el control de hélice cambia el paso y fija las RPM (tacómetro).",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 2 (Grupo motopropulsor), pregunta 38" },
+    "verificada": true
+  },
+  {
+    "id": "aer-012",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Para qué sirve el sistema de encendido doble (dos magnetos)?",
+    "opciones": ["Para arrancar sin batería solamente", "Para tener redundancia y una combustión más completa", "Para duplicar la potencia", "Para ahorrar combustible en crucero"],
+    "correcta": 1,
+    "explicacion": "Dos magnetos independientes dan seguridad ante una falla y mejor combustión con dos bujías por cilindro.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 2 (Grupo motopropulsor), pregunta 4" },
+    "verificada": true
+  },
+  {
+    "id": "aer-013",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Quién es responsable de determinar si la aeronave está en condiciones de vuelo seguro antes de cada vuelo?",
+    "opciones": ["El mecánico que hizo la última inspección", "El piloto al mando", "El propietario", "La ANAC"],
+    "correcta": 1,
+    "explicacion": "El piloto al mando decide si la aeronave está en condiciones para el vuelo. El mantenimiento es responsabilidad del dueño u operador.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 2 (Grupo motopropulsor), preguntas 44 y 46" },
+    "verificada": true
+  },
+  {
+    "id": "aer-014",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿A qué tomas va conectado el velocímetro?",
+    "opciones": ["Termo y toma estática", "Pitot y toma estática", "Solo pitot", "Solo toma estática"],
+    "correcta": 1,
+    "explicacion": "El velocímetro mide la diferencia entre la presión total (pitot) y la estática.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 19" },
+    "verificada": true
+  },
+  {
+    "id": "aer-015",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿Qué muestra la «lanita» en el parabrisas del planeador?",
+    "opciones": ["La inclinación del viraje", "Si el planeador vuela coordinado (sin deslizar ni derrapar)", "La dirección del viento en superficie", "La velocidad vertical"],
+    "correcta": 1,
+    "explicacion": "La lana indica la dirección del flujo relativo: centrada, vuelo coordinado.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 17" },
+    "verificada": true
+  },
+  {
+    "id": "aer-016",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿Qué indica el variómetro?",
+    "opciones": ["La velocidad verdadera", "La velocidad vertical", "La aceleración longitudinal", "La altitud de densidad"],
+    "correcta": 1,
+    "explicacion": "Indica el régimen de ascenso o descenso: es el instrumento central para centrar térmicas.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 74" },
+    "verificada": true
+  },
+  {
+    "id": "aer-017",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿Qué ventaja tiene un variómetro compensado por energía total?",
+    "opciones": ["Indica la velocidad sobre el terreno", "No refleja los cambios de altura producidos por el piloto con el timón de profundidad (los «tirones de palanca»)", "Funciona sin toma estática", "Indica la velocidad de pérdida"],
+    "correcta": 1,
+    "explicacion": "Al compensar el intercambio entre velocidad y altura, muestra solo el movimiento vertical de la masa de aire.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 110" },
+    "verificada": true
+  }
+]

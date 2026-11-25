@@ -1,0 +1,202 @@
+[
+  {
+    "id": "met-001",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es la temperatura de la atmósfera estándar (ISA) a nivel del mar?",
+    "opciones": ["13 °C", "15 °C", "15 °F", "20 °C"],
+    "correcta": 1,
+    "explicacion": "La atmósfera estándar fija 15 °C y 1013,25 hPa a nivel del mar.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 7" },
+    "verificada": true
+  },
+  {
+    "id": "met-002",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es el descenso promedio de la temperatura con la altura que se usa como referencia?",
+    "opciones": ["2,5 °F cada 1000 ft", "2 °C cada 300 m (1000 ft)", "2 °C cada 1000 m", "1 °C cada 1000 ft"],
+    "correcta": 1,
+    "explicacion": "El gradiente promedio de referencia es de unos 2 °C cada 1000 ft (≈ 6,5 °C por km).",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 6" },
+    "verificada": true
+  },
+  {
+    "id": "met-003",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué es el punto de rocío?",
+    "opciones": ["La temperatura a la que siempre se forma rocío", "La temperatura a la que debe enfriarse el aire, sin cambiar su humedad, para saturarse", "La temperatura en la que se igualan evaporación y condensación", "La temperatura mínima del día"],
+    "correcta": 1,
+    "explicacion": "Es la temperatura a la que el aire queda saturado si se enfría manteniendo constante la cantidad de vapor.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 10" },
+    "verificada": true
+  },
+  {
+    "id": "met-004",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué condiciones favorecen la formación de niebla de radiación?",
+    "opciones": ["Viento fuerte y cielo cubierto", "Humedad en capas bajas, viento calmo o muy débil y noche despejada", "Aire frío moviéndose sobre agua más caliente", "Aire tropical sobre aguas costeras frías"],
+    "correcta": 1,
+    "explicacion": "El suelo se enfría de noche por radiación con cielo despejado; con poco viento y humedad en capas bajas, el aire llega al punto de rocío.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 40" },
+    "verificada": true
+  },
+  {
+    "id": "met-005",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Al atravesar un frente, ¿qué cambio se produce siempre?",
+    "opciones": ["En el tipo de precipitación", "En la dirección del viento", "En la estabilidad de la masa de aire", "En la visibilidad"],
+    "correcta": 1,
+    "explicacion": "El viento siempre cambia de dirección a través de un frente. El cambio de temperatura suele ser el más fácil de notar.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), preguntas 16 y 17" },
+    "verificada": true
+  },
+  {
+    "id": "met-006",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Si una masa de aire inestable es forzada a ascender, ¿qué nubosidad se puede esperar?",
+    "opciones": ["Estratiformes de poco desarrollo vertical", "Estratiformes con turbulencia fuerte", "Nubes de considerable desarrollo vertical, con turbulencia", "Ninguna, porque el aire inestable se seca al subir"],
+    "correcta": 2,
+    "explicacion": "En aire inestable la perturbación crece al ascender: se forman nubes cumuliformes con desarrollo vertical y turbulencia.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 25" },
+    "verificada": true
+  },
+  {
+    "id": "met-007",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué características corresponden a una masa de aire estable?",
+    "opciones": ["Nubes cumuliformes y aire turbulento", "Nubes estratiformes o niebla, aire suave y visibilidad regular a mala", "Excelente visibilidad y chaparrones", "Tormentas y ráfagas"],
+    "correcta": 1,
+    "explicacion": "El aire estable tiende a dar nubes estratiformes, niebla, precipitación continua, aire calmo y visibilidad reducida.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 20" },
+    "verificada": true
+  },
+  {
+    "id": "met-008",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "En el ciclo de vida de una tormenta, ¿qué etapa se caracteriza por el predominio de corrientes descendentes?",
+    "opciones": ["Cúmulo", "Madurez", "Disipación", "Ninguna: siempre predominan las ascendentes"],
+    "correcta": 2,
+    "explicacion": "La etapa de cúmulo tiene corrientes ascendentes continuas; en la de disipación predominan las descendentes.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), preguntas 32 y 33" },
+    "verificada": true
+  },
+  {
+    "id": "met-009",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "En la final, pasás de viento de frente a viento calmo (cortante de viento). ¿Qué es lo esperable?",
+    "opciones": ["Aumenta la velocidad indicada y la nariz sube", "Disminuye la velocidad indicada, la nariz tiende a bajar y quedás por debajo de la senda", "No cambia nada si mantenés la potencia", "Aumenta la sustentación y quedás alto"],
+    "correcta": 1,
+    "explicacion": "Al perder el viento de frente cae la velocidad indicada y la sustentación: el avión baja la nariz y desciende por debajo de la senda.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 35" },
+    "verificada": true
+  },
+  {
+    "id": "met-010",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué dos condiciones son necesarias para que se forme hielo sobre una aeronave en vuelo?",
+    "opciones": ["Nubes de gran desarrollo y lluvia", "Agua en estado líquido (nube o precipitación) y temperatura del aire de 0 °C o menos", "Nube estratiforme y temperatura sobre 5 °C", "Humedad relativa mayor al 50 % y viento fuerte"],
+    "correcta": 1,
+    "explicacion": "Hace falta agua líquida visible y temperatura en o por debajo de 0 °C. La inestabilidad no es una condición necesaria.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 37" },
+    "verificada": true
+  },
+  {
+    "id": "met-011",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿En qué sentido se mueve el aire en superficie por diferencia de presión?",
+    "opciones": ["De las bajas presiones hacia las altas", "De las altas presiones hacia las bajas", "Siempre de oeste a este", "Solo por efecto de Coriolis, sin importar la presión"],
+    "correcta": 1,
+    "explicacion": "El calentamiento desigual crea diferencias de presión; el aire se desplaza de las zonas de alta hacia las de baja presión.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 3" },
+    "verificada": true
+  },
+  {
+    "id": "met-012",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "En el hemisferio sur, ¿cómo es la circulación del aire asociada a un centro de alta presión?",
+    "opciones": ["Hacia afuera, descendente y en sentido antihorario", "Hacia afuera, ascendente y en sentido horario", "Hacia adentro, descendente y en sentido horario", "Hacia adentro, ascendente y en sentido antihorario"],
+    "correcta": 0,
+    "explicacion": "En un anticiclón el aire desciende (subsidencia) y diverge en superficie; en el hemisferio sur gira en sentido antihorario.",
+    "fuente": { "id": "anac-ivp-2015", "seccion": "Pregunta 3 (076)" },
+    "verificada": true
+  },
+  {
+    "id": "met-013",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué es una inversión de temperatura?",
+    "opciones": ["Una capa en la que la temperatura aumenta con la altura", "Una capa donde la temperatura baja más rápido que lo normal", "El cambio de temperatura entre el día y la noche", "La diferencia entre temperatura y punto de rocío"],
+    "correcta": 0,
+    "explicacion": "Hay inversión cuando la temperatura aumenta con la altitud. Para el vuelo a vela es clave: frena el desarrollo de las térmicas.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 8" },
+    "verificada": true
+  },
+  {
+    "id": "met-014",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cómo puede aumentar la humedad relativa?",
+    "opciones": ["Solo con viento de más de 15 kt", "Por un aumento de la presión", "Por un descenso de la temperatura o un aumento del vapor de agua en el aire", "Por un aumento de la temperatura"],
+    "correcta": 2,
+    "explicacion": "La humedad relativa compara el vapor presente con el máximo posible a esa temperatura: sube si el aire se enfría o si recibe más vapor.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 9" },
+    "verificada": true
+  },
+  {
+    "id": "met-015",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué se puede esperar de aire estable y húmedo que asciende por una pendiente?",
+    "opciones": ["Nubes estratificadas", "Chaparrones y tormentas", "Turbulencia convectiva fuerte", "Cielo despejado"],
+    "correcta": 0,
+    "explicacion": "El aire estable forzado a subir tiende a mantener el flujo horizontal y forma nubes estratiformes.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 24" },
+    "verificada": true
+  },
+  {
+    "id": "met-016",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cómo se denominan los centros de baja presión?",
+    "opciones": ["Anticiclones", "Ciclónicos o depresiones", "Áreas de subsidencia", "Se marcan con la letra A"],
+    "correcta": 1,
+    "explicacion": "Un centro de baja presión es una depresión o ciclón; suele asociarse a nubosidad y mal tiempo.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 4" },
+    "verificada": true
+  },
+  {
+    "id": "met-017",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué tipo de nubes tiene un desarrollo vertical importante?",
+    "opciones": ["Estratiformes", "Estratocúmulos", "Cumuliformes", "Cirros"],
+    "correcta": 2,
+    "explicacion": "Las nubes cumuliformes se forman por ascenso convectivo en aire inestable y crecen en vertical.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 22" },
+    "verificada": true
+  },
+  {
+    "id": "met-018",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es la fuente principal de los cambios atmosféricos?",
+    "opciones": ["Las mareas", "El Sol", "La rotación de la Luna", "La actividad volcánica"],
+    "correcta": 1,
+    "explicacion": "El calentamiento desigual producido por el Sol genera las diferencias de temperatura y presión que mueven la atmósfera.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 1" },
+    "verificada": true
+  },
+  {
+    "id": "met-019",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Una masa de aire que se traslada sobre distintas superficies…",
+    "opciones": ["Mantiene siempre sus propiedades originales", "Va tomando propiedades de la superficie sobre la que se desplaza", "Se vuelve siempre más estable", "Pierde toda su humedad"],
+    "correcta": 1,
+    "explicacion": "Al trasladarse, la masa de aire se modifica tomando temperatura y humedad de la superficie por la que pasa.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 14" },
+    "verificada": true
+  },
+  {
+    "id": "met-020",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Cuando se encuentran una masa de aire frío y una de aire caliente, ¿qué ocurre?",
+    "opciones": ["El aire frío se ubica por encima del caliente", "El aire frío se ubica por debajo del caliente", "Se mezclan sin formar frente", "El aire caliente queda por debajo"],
+    "correcta": 1,
+    "explicacion": "El aire frío, más denso, queda abajo y el caliente es forzado a subir sobre él: así se forma la superficie frontal.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 6 (Meteorología), pregunta 15" },
+    "verificada": true
+  }
+]

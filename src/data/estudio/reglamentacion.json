@@ -1,0 +1,687 @@
+[
+  {
+    "id": "reg-001",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es el porcentaje mínimo para aprobar un examen teórico de conocimientos de la RAAC 61?",
+    "opciones": ["70 % en el total, sin mínimo por área", "75 % en el examen general y en cada área", "80 % en el examen general y 70 % por área", "60 % en el examen general y en cada área"],
+    "correcta": 1,
+    "explicacion": "La RAAC 61.085(b) fija el 75 % tanto para el examen general como para cada área de conocimientos.",
+    "fuente": { "id": "raac61", "seccion": "61.085(b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-002",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Reprobaste el examen teórico. ¿Cuándo podés pedir repetirlo?",
+    "opciones": ["Recién a los 90 días", "Al día siguiente, sin otro requisito", "A los 30 días, o antes si un instructor teórico firma que recibiste instrucción complementaria", "Solo después de rehacer el curso completo"],
+    "correcta": 2,
+    "explicacion": "Según la 61.085(c), la repetición se puede pedir 30 días después del examen anterior, o antes con una declaración firmada por una persona calificada para dar instrucción teórica.",
+    "fuente": { "id": "raac61", "seccion": "61.085(c)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-003",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué pasa si un postulante reprueba el examen teórico en tres oportunidades?",
+    "opciones": ["Debe esperar 12 meses para volver a rendir", "Debe volver a un centro de instrucción autorizado y hacer un curso teórico completo", "Pasa a rendir solo un examen oral", "Pierde la autorización de alumno piloto"],
+    "correcta": 1,
+    "explicacion": "La 61.085(d) dispone que, tras tres reprobaciones, el postulante vuelve a un centro de instrucción autorizado para un curso teórico completo.",
+    "fuente": { "id": "raac61", "seccion": "61.085(d)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-004",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Según la RAAC 61.060, ¿cuál de estas licencias NO es permanente?",
+    "opciones": ["Piloto comercial de avión", "Piloto privado de avión", "Piloto de planeador", "Piloto de transporte de línea aérea"],
+    "correcta": 2,
+    "explicacion": "La 61.060(a) declara permanentes las licencias de piloto, con excepción de la autorización de alumno piloto, la de piloto de planeador y la de globo libre.",
+    "fuente": { "id": "raac61", "seccion": "61.060(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-005",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Un piloto dejó de volar durante más de 24 meses. ¿Qué establece la RAAC 61?",
+    "opciones": ["Que pierde la licencia y debe rendir todo de nuevo", "Que solo debe renovar el certificado médico", "Que basta con hacer tres despegues y tres aterrizajes", "Que pierde las atribuciones; para recuperarlas necesita CMA vigente, reentrenamiento con instructor y pericia ante la ANAC o un examinador"],
+    "correcta": 3,
+    "explicacion": "La 61.060(a)(2) dice que pierde las atribuciones de la licencia y fija los requisitos para restablecerlas: CMA vigente, reentrenamiento con instructor y examen de pericia.",
+    "fuente": { "id": "raac61", "seccion": "61.060(a)(2)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-006",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué contenido mínimo tiene el repaso de vuelo de la RAAC 61.135?",
+    "opciones": ["1 hora de instrucción en tierra y 1 hora de instrucción en vuelo con instructor", "3 horas de vuelo solo", "2 horas en un simulador aprobado", "Un examen teórico ante la ANAC"],
+    "correcta": 0,
+    "explicacion": "La 61.135(b) exige como mínimo 1 h de instrucción en tierra y 1 h en vuelo, con repaso de reglas y de las maniobras que el instructor considere necesarias.",
+    "fuente": { "id": "raac61", "seccion": "61.135(b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-007",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Con qué frecuencia hay que cumplir el repaso de vuelo para actuar como piloto al mando?",
+    "opciones": ["Cada 12 meses", "Dentro de los 24 meses anteriores al mes en que se vuela como piloto al mando", "Cada 36 meses", "Solo al renovar el certificado médico"],
+    "correcta": 1,
+    "explicacion": "La 61.135(a) toma los 24 meses anteriores al mes del vuelo. Una prueba de pericia aprobada en ese período lo reemplaza (61.135(c)).",
+    "fuente": { "id": "raac61", "seccion": "61.135(a) y (c)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-008",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "instructor-vuelo"],
+    "enunciado": "Para un piloto privado o de planeador, ¿qué experiencia reciente exige la RAAC 61.140 para actuar como piloto al mando?",
+    "opciones": ["1 despegue y 1 aterrizaje en los últimos 12 meses", "5 despegues y 5 aterrizajes en los últimos 30 días", "3 despegues y 3 aterrizajes con sus circuitos en los últimos 180 días", "3 despegues y 3 aterrizajes en los últimos 90 días, sin excepción"],
+    "correcta": 2,
+    "explicacion": "La regla general es 3 y 3 en 90 días (61.140(a)(1)), pero para pilotos privados, de planeador y de globo libre el plazo se extiende a 180 días (61.140(a)(2)).",
+    "fuente": { "id": "raac61", "seccion": "61.140(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-009",
+    "licencias": ["piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Un piloto comercial quiere volar como piloto al mando. ¿Qué experiencia reciente general le exige la RAAC 61.140?",
+    "opciones": ["3 despegues y 3 aterrizajes con sus circuitos en los 90 días precedentes, en la categoría, clase y tipo", "3 despegues y 3 aterrizajes en los 180 días precedentes", "10 horas de vuelo en los últimos 6 meses", "Un vuelo de control con inspector cada 6 meses"],
+    "correcta": 0,
+    "explicacion": "La 61.140(a)(1) exige 3 despegues y 3 aterrizajes en 90 días como único manipulador de los controles. La extensión a 180 días es solo para privados, planeador y globo libre.",
+    "fuente": { "id": "raac61", "seccion": "61.140(a)(1)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-010",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Para volar de noche como piloto al mando de un avión certificado para un solo piloto, ¿qué exige la RAAC 61.140(b)?",
+    "opciones": ["Nada adicional a la experiencia diurna", "1 aterrizaje nocturno en los últimos 12 meses", "5 horas nocturnas en los últimos 90 días", "3 despegues y 3 aterrizajes nocturnos hasta detención completa en los 180 días precedentes, o la habilitación de vuelo por instrumentos vigente"],
+    "correcta": 3,
+    "explicacion": "La 61.140(b) pide 3 despegues y 3 aterrizajes nocturnos hasta la detención completa en 180 días, o mantener vigente la habilitación de vuelo por instrumentos.",
+    "fuente": { "id": "raac61", "seccion": "61.140(b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-011",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Un piloto que vuela bajo la Parte 91, con el repaso de vuelo vigente, no cumple la experiencia reciente. ¿Qué puede hacer según la RAAC 61?",
+    "opciones": ["Volar con pasajeros mientras complete los circuitos", "Auto-reentrenarse sin personas a bordo ni carga completando los circuitos faltantes, o reentrenarse con un instructor, y registrarlo en el libro de vuelo", "Pedir una dispensa a la torre de control", "Solo puede recuperarla con una pericia ante la ANAC"],
+    "correcta": 1,
+    "explicacion": "La 61.140(c)(2) permite el auto-reentrenamiento sin personas ni carga, o el reentrenamiento con instructor, dejando registro en el libro de vuelo personal.",
+    "fuente": { "id": "raac61", "seccion": "61.140(c)(2)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-012",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuánto tiempo tiene vigencia la autorización de alumno piloto?",
+    "opciones": ["12 meses", "36 meses", "24 meses, siempre que se tenga la certificación médica adecuada", "Es permanente"],
+    "correcta": 2,
+    "explicacion": "La 61.060(b) le da 24 meses de vigencia, contándose con la certificación médica aeronáutica adecuada.",
+    "fuente": { "id": "raac61", "seccion": "61.060(b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-013",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿Qué edad mínima exige la RAAC 61 para la autorización de vuelo solo de alumno piloto de planeador?",
+    "opciones": ["14 años", "15 años", "16 años", "17 años"],
+    "correcta": 1,
+    "explicacion": "La 61.405(b) fija 15 años para planeador, globo libre y ultraliviano motorizado. Para avión son 16 años (61.405(a)).",
+    "fuente": { "id": "raac61", "seccion": "61.405(b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-014",
+    "licencias": ["piloto-privado-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué edad mínima exige la RAAC 61 para la autorización de vuelo solo de alumno piloto privado de avión?",
+    "opciones": ["15 años", "17 años", "18 años", "16 años"],
+    "correcta": 3,
+    "explicacion": "La 61.405(a) fija 16 años para avión, helicóptero y aeronave de despegue vertical.",
+    "fuente": { "id": "raac61", "seccion": "61.405(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-015",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál de estas operaciones está permitida a un alumno piloto como piloto al mando, con el aval de su instructor?",
+    "opciones": ["Un vuelo solo de práctica con visibilidad de 8 km", "Llevar a un pasajero que comparte los gastos", "Un vuelo solo con visibilidad de 3 km", "Un vuelo internacional corto"],
+    "correcta": 0,
+    "explicacion": "La 61.415(a) prohíbe al alumno piloto llevar pasajeros, hacer vuelos internacionales y volar con visibilidad en vuelo o en tierra menor de 5 km, entre otras limitaciones.",
+    "fuente": { "id": "raac61", "seccion": "61.415(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-016",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿Qué edad mínima hay que tener para obtener la licencia de piloto de planeador?",
+    "opciones": ["15 años", "16 años", "17 años", "18 años"],
+    "correcta": 1,
+    "explicacion": "La 61.905(a) exige 16 años cumplidos. Los 15 años de la 61.405(b) corresponden a la autorización de alumno piloto de planeador.",
+    "fuente": { "id": "raac61", "seccion": "61.905(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-017",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿Qué experiencia mínima de vuelo exige la RAAC 61 para la licencia de piloto de planeador?",
+    "opciones": ["10 h de instrucción, 5 h solo y 30 lanzamientos", "6 h de instrucción en planeador, de las cuales 2 h solo, y no menos de 20 lanzamientos y aterrizajes", "15 h totales y 10 lanzamientos", "6 h solo y 40 lanzamientos"],
+    "correcta": 1,
+    "explicacion": "La 61.920(a) pide 6 h de vuelo en instrucción (2 h en vuelo solo) y al menos 20 lanzamientos y aterrizajes por remolque aéreo o despegue autopropulsado.",
+    "fuente": { "id": "raac61", "seccion": "61.920(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-018",
+    "licencias": ["piloto-planeador"],
+    "enunciado": "El aspirante a piloto de planeador ya tiene licencia de piloto de avión. ¿Qué prevé la RAAC 61?",
+    "opciones": ["Que no necesita instrucción en planeador", "Que se le pueden reducir hasta un 50 % las horas de doble comando y la cantidad de remolques y aterrizajes", "Que solo rinde el examen teórico", "Que la reducción es siempre del 100 % de las horas solo"],
+    "correcta": 1,
+    "explicacion": "La 61.920(b) permite reducir hasta un 50 % las horas de doble comando y los remolques y aterrizajes, según la pericia y experiencia en cada caso.",
+    "fuente": { "id": "raac61", "seccion": "61.920(b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-019",
+    "licencias": ["piloto-planeador"],
+    "enunciado": "¿Cuántas horas como piloto de planeador necesitás para poder llevar pasajeros?",
+    "opciones": ["5 horas", "10 horas", "20 horas", "50 horas"],
+    "correcta": 1,
+    "explicacion": "La 61.930(b) exige un mínimo de 10 horas de vuelo como piloto de planeadores para transportar pasajeros.",
+    "fuente": { "id": "raac61", "seccion": "61.930(b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-020",
+    "licencias": ["piloto-planeador"],
+    "enunciado": "¿Qué condición pone la RAAC 61 para que el titular de la licencia actúe como piloto al mando de cualquier planeador?",
+    "opciones": ["Tener una habilitación de tipo para cada modelo", "Haber volado 10 h en ese modelo", "Tener experiencia operacional en el método de lanzamiento utilizado", "Tener 100 h de vuelo totales"],
+    "correcta": 2,
+    "explicacion": "La 61.930(a) habilita a volar cualquier planeador a reserva de tener experiencia operacional en el método de lanzamiento utilizado (torno, auto, remolque aéreo o autolanzamiento).",
+    "fuente": { "id": "raac61", "seccion": "61.930(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-021",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿Hasta cuándo es válida la licencia de piloto de planeador?",
+    "opciones": ["Es permanente", "24 meses desde su emisión", "Hasta la fecha de vencimiento del certificado médico del titular", "Hasta que cumpla 65 años"],
+    "correcta": 2,
+    "explicacion": "La 61.960 hace coincidir la validez de la licencia de planeador (y de la habilitación de instructor de planeador) con el vencimiento del certificado médico.",
+    "fuente": { "id": "raac61", "seccion": "61.960" },
+    "verificada": true
+  },
+  {
+    "id": "reg-022",
+    "licencias": ["piloto-planeador"],
+    "enunciado": "Para renovar la licencia de planeador (sin licencia de avión), ¿qué experiencia reciente hay que acreditar?",
+    "opciones": ["3 vuelos de 30 minutos en el último año", "6 vuelos de al menos 15 minutos en los últimos 12 meses, 3 de ellos en el último semestre", "10 horas de vuelo en los últimos 24 meses", "Un vuelo de control con instructor"],
+    "correcta": 1,
+    "explicacion": "La 61.965(a) pide, además del CMA vigente, 6 vuelos de 15 minutos o más en 12 meses, 3 de ellos en el último semestre.",
+    "fuente": { "id": "raac61", "seccion": "61.965(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-023",
+    "licencias": ["piloto-planeador"],
+    "enunciado": "Un piloto de planeador que además tiene licencia válida de avión, ¿qué experiencia en planeador necesita para renovar?",
+    "opciones": ["2 vuelos de al menos 15 minutos en los últimos 24 meses", "6 vuelos en los últimos 12 meses", "Ninguna: la licencia de avión alcanza", "1 vuelo de 1 hora en el último año"],
+    "correcta": 0,
+    "explicacion": "La 61.965(b) reduce el requisito a 2 vuelos en planeador de 15 minutos o más en los últimos 24 meses para quien tiene licencia válida de avión.",
+    "fuente": { "id": "raac61", "seccion": "61.965(b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-024",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué clase de certificado médico aeronáutico corresponde a las licencias de piloto privado de avión y de piloto de planeador?",
+    "opciones": ["Clase 1", "Clase 2", "Clase 3", "Clase 4"],
+    "correcta": 1,
+    "explicacion": "La RAAC 67.020(b) asigna la Clase 2 al piloto privado, al piloto de planeador, al de globo libre y a la autorización de alumno piloto.",
+    "fuente": { "id": "raac67", "seccion": "67.020(b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-025",
+    "licencias": ["piloto-privado-avion"],
+    "enunciado": "Un piloto privado de 45 años renueva su certificado médico Clase 2. ¿Por cuánto tiempo es válido?",
+    "opciones": ["36 meses", "24 meses", "12 meses", "6 meses"],
+    "correcta": 2,
+    "explicacion": "La Clase 2 vale hasta 36 meses, pero para alumnos pilotos y pilotos privados mayores de 40 años se reduce a 12 meses (RAAC 67.025(a)(2)(i)).",
+    "fuente": { "id": "raac67", "seccion": "67.025(a)(2)(i)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-026",
+    "licencias": ["piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué certificado médico necesita el piloto comercial de avión y cuál es su validez general?",
+    "opciones": ["Clase 2, hasta 36 meses", "Clase 1, hasta 12 meses", "Clase 1, hasta 24 meses", "Clase 3, hasta 36 meses"],
+    "correcta": 1,
+    "explicacion": "La RAAC 67.020(a)(1) asigna la Clase 1 al piloto comercial, y la 67.025(a)(1) le da validez de hasta 12 meses (con reducciones por edad en ciertas operaciones).",
+    "fuente": { "id": "raac67", "seccion": "67.020(a)(1) y 67.025(a)(1)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-027",
+    "licencias": ["piloto-privado-avion"],
+    "enunciado": "¿Qué edad mínima exige la RAAC 61 para la licencia de piloto privado de avión?",
+    "opciones": ["16 años", "17 años", "18 años", "21 años"],
+    "correcta": 0,
+    "explicacion": "La 61.505(a) exige haber cumplido 16 años en el caso de pilotos de avión.",
+    "fuente": { "id": "raac61", "seccion": "61.505(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-028",
+    "licencias": ["piloto-privado-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es la experiencia total mínima para la licencia de piloto privado de avión según el texto vigente?",
+    "opciones": ["30 h en cualquier caso", "40 h si hizo el curso en un CIAC, o 35 h si completó íntegramente un curso reconocido en un CIAC Tipo III", "50 h, de las cuales 25 solo", "45 h en un CIAC Tipo II"],
+    "correcta": 1,
+    "explicacion": "La 61.520(a)(1), en la redacción de la Res. ANAC 292/2026, fija 40 h de instrucción y vuelo solo (curso en un CIAC) o 35 h con un curso reconocido completo en un CIAC Tipo III.",
+    "fuente": { "id": "res292", "seccion": "61.520(a)(1)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-029",
+    "licencias": ["piloto-privado-avion"],
+    "enunciado": "Dentro de la experiencia del piloto privado de avión, ¿cuántas horas de vuelo solo diurno se exigen como mínimo?",
+    "opciones": ["5 h, sin travesía", "10 h, incluyendo 5 h de travesía", "20 h, incluyendo 10 h de travesía", "15 h de circuito"],
+    "correcta": 1,
+    "explicacion": "La 61.520(a)(1)(ii) pide 10 h de vuelo solo diurno en el avión de la clase, con 5 h de travesía. Además se exigen 20 h de doble mando (61.520(a)(1)(i)).",
+    "fuente": { "id": "raac61", "seccion": "61.520(a)(1)(i) y (ii)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-030",
+    "licencias": ["piloto-privado-avion"],
+    "enunciado": "¿Qué vuelo de travesía exige la licencia de piloto privado de avión?",
+    "opciones": ["Uno de 100 NM con un aterrizaje intermedio", "Uno de 300 NM con tres aterrizajes", "Uno de al menos 150 NM (270 km) con aterrizajes completos en 2 aeródromos diferentes", "Uno de 50 NM ida y vuelta"],
+    "correcta": 2,
+    "explicacion": "La 61.520(a)(1)(iii) pide un vuelo de travesía de 150 NM como mínimo con dos aterrizajes completos en dos aeródromos distintos.",
+    "fuente": { "id": "raac61", "seccion": "61.520(a)(1)(iii)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-031",
+    "licencias": ["piloto-privado-avion"],
+    "enunciado": "¿Cuántas horas de la experiencia del piloto privado se pueden hacer en un dispositivo de instrucción para simulación de vuelo aprobado por la ANAC?",
+    "opciones": ["Ninguna", "Hasta 5 horas", "Hasta 10 horas", "Hasta 20 horas"],
+    "correcta": 1,
+    "explicacion": "La 61.520(a)(1)(iv) acepta hasta un máximo de 5 horas en un dispositivo de simulación aprobado.",
+    "fuente": { "id": "raac61", "seccion": "61.520(a)(1)(iv)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-032",
+    "licencias": ["piloto-privado-avion"],
+    "enunciado": "¿Qué instrucción nocturna incluye la licencia de piloto privado de avión?",
+    "opciones": ["1 hora con 3 aterrizajes", "3 horas con 10 despegues y 10 aterrizajes, cada aterrizaje con su circuito de tránsito", "5 horas con 5 despegues y 5 aterrizajes como piloto al mando", "Ninguna: se obtiene con una habilitación aparte"],
+    "correcta": 1,
+    "explicacion": "La 61.520(a)(1)(v) incorpora 3 h de instrucción nocturna con 10 despegues y 10 aterrizajes con circuito. Ya no existe una habilitación nocturna separada.",
+    "fuente": { "id": "raac61", "seccion": "61.520(a)(1)(v)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-033",
+    "licencias": ["piloto-privado-avion", "instructor-vuelo"],
+    "enunciado": "Un piloto privado de avión no recibió instrucción nocturna. ¿Qué limitación figura en su licencia?",
+    "opciones": ["\"Solo vuelo local\"", "\"Carece de atribuciones para operaciones VFR nocturnas\"", "\"Solo aeródromos no controlados\"", "Ninguna: puede volar de noche con 3 aterrizajes recientes"],
+    "correcta": 1,
+    "explicacion": "La 61.535(b) ordena consignar esa limitación hasta que acredite la experiencia de la 61.520(a)(1)(v) y un instructor deje constancia de su aptitud.",
+    "fuente": { "id": "raac61", "seccion": "61.535(a) y (b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-034",
+    "licencias": ["piloto-privado-avion"],
+    "enunciado": "¿Hasta qué fecha un postulante a piloto privado puede reemplazar las 3 h nocturnas por 3 h de instrucción en doble comando (y obtener la licencia sin atribuciones nocturnas)?",
+    "opciones": ["31/12/2026", "31/12/2027", "31/12/2028", "No hay plazo: es definitivo"],
+    "correcta": 1,
+    "explicacion": "El régimen transitorio de la 61.535(c) rige hasta el 31 de diciembre de 2027.",
+    "fuente": { "id": "raac61", "seccion": "61.535(c)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-035",
+    "licencias": ["piloto-privado-avion"],
+    "enunciado": "En un vuelo con pasajeros, ¿cómo pueden repartirse los gastos con un piloto privado?",
+    "opciones": ["Los pasajeros pueden pagar todo el vuelo", "El piloto no puede pagar menos que su parte prorrateada de combustible, aceite, tasas aeroportuarias o alquiler", "El piloto puede cobrar un honorario fijo", "Está prohibido compartir cualquier gasto"],
+    "correcta": 1,
+    "explicacion": "La 61.530(c) prohíbe al piloto privado pagar menos de la parte prorrateada de esos gastos operativos.",
+    "fuente": { "id": "raac61", "seccion": "61.530(c)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-036",
+    "licencias": ["piloto-privado-avion"],
+    "enunciado": "La instrucción por instrumentos y nocturna que forma parte de la licencia de piloto privado, ¿habilita para volar IFR?",
+    "opciones": ["Sí, en aeródromos controlados", "Sí, de día", "No: para volar IFR hace falta la habilitación de vuelo por instrumentos", "Sí, si tiene 100 horas"],
+    "correcta": 2,
+    "explicacion": "La 61.530(h) aclara que esa instrucción no habilita al piloto privado para vuelos IFR.",
+    "fuente": { "id": "raac61", "seccion": "61.530(h)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-037",
+    "licencias": ["piloto-privado-avion", "instructor-vuelo"],
+    "enunciado": "La declaración del instructor en el libro de vuelo, que certifica que el postulante a piloto privado está listo para la pericia, ¿cuánto tiempo vale?",
+    "opciones": ["7 días", "30 días contados desde el último vuelo de preparación", "60 días desde la firma", "No vence"],
+    "correcta": 1,
+    "explicacion": "La 61.515 le da 30 días de validez contados a partir del último vuelo de preparación para la prueba de pericia.",
+    "fuente": { "id": "raac61", "seccion": "61.515" },
+    "verificada": true
+  },
+  {
+    "id": "reg-038",
+    "licencias": ["piloto-comercial-avion"],
+    "enunciado": "¿Qué edad y qué nivel de estudios exige la RAAC 61 para la licencia de piloto comercial?",
+    "opciones": ["17 años y primario completo", "18 años y secundario completo o equivalente", "21 años y secundario completo", "18 años y título terciario"],
+    "correcta": 1,
+    "explicacion": "La 61.605(a) y (d) piden 18 años cumplidos y secundario completo o equivalente reconocido.",
+    "fuente": { "id": "raac61", "seccion": "61.605(a) y (d)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-039",
+    "licencias": ["piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuál es la experiencia total mínima para la licencia de piloto comercial de avión?",
+    "opciones": ["150 h en todos los casos", "200 h como piloto de avión, o 150 h si se acumularon en un curso integrado aprobado o reconocido", "250 h, o 200 h con curso integrado", "500 h"],
+    "correcta": 1,
+    "explicacion": "La 61.620(a)(1), en la redacción de la Res. ANAC 292/2026, fija 200 h o 150 h en un curso de instrucción integrado aprobado/reconocido.",
+    "fuente": { "id": "res292", "seccion": "61.620(a)(1)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-040",
+    "licencias": ["piloto-comercial-avion"],
+    "enunciado": "Dentro de la experiencia del piloto comercial de avión, ¿cuántas horas como piloto al mando se exigen?",
+    "opciones": ["50 h", "100 h, o 70 h si siguió un curso de instrucción aprobado/reconocido", "150 h", "200 h"],
+    "correcta": 1,
+    "explicacion": "La 61.620(a)(1)(i) pide 100 h de piloto al mando, o 70 h con curso aprobado/reconocido.",
+    "fuente": { "id": "raac61", "seccion": "61.620(a)(1)(i)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-041",
+    "licencias": ["piloto-comercial-avion"],
+    "enunciado": "¿Qué experiencia de travesía exige la licencia de piloto comercial de avión?",
+    "opciones": ["10 h de travesía con un vuelo de 150 NM", "20 h de travesía como piloto al mando, con un vuelo de al menos 300 NM (540 km) y aterrizajes completos en 2 aeródromos", "50 h de travesía con un vuelo de 500 NM", "20 h de travesía en doble comando"],
+    "correcta": 1,
+    "explicacion": "La 61.620(a)(1)(ii) pide 20 h de travesía como piloto al mando con un vuelo de 300 NM y aterrizajes completos en dos aeródromos diferentes.",
+    "fuente": { "id": "raac61", "seccion": "61.620(a)(1)(ii)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-042",
+    "licencias": ["piloto-comercial-avion"],
+    "enunciado": "¿Cuánta instrucción de vuelo por instrumentos exige la licencia de piloto comercial de avión?",
+    "opciones": ["5 h, todas en simulador", "10 h, de las cuales hasta 5 h pueden ser en un dispositivo de simulación", "20 h en avión", "40 h, como la habilitación de vuelo por instrumentos"],
+    "correcta": 1,
+    "explicacion": "La 61.620(a)(1)(iii) pide 10 h de instrucción por instrumentos, con un máximo de 5 h en dispositivo de simulación.",
+    "fuente": { "id": "raac61", "seccion": "61.620(a)(1)(iii)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-043",
+    "licencias": ["piloto-comercial-avion"],
+    "enunciado": "Para ejercer de noche las atribuciones de la licencia de piloto comercial de avión, ¿qué experiencia nocturna se exige?",
+    "opciones": ["3 h con 10 aterrizajes en doble comando", "5 h de vuelo nocturno con 5 despegues y 5 aterrizajes como piloto al mando", "10 h nocturnas en travesía", "Ninguna, si tiene la habilitación de vuelo por instrumentos"],
+    "correcta": 1,
+    "explicacion": "La 61.620(a)(1)(iv) pide 5 h nocturnas con 5 despegues y 5 aterrizajes como piloto al mando.",
+    "fuente": { "id": "raac61", "seccion": "61.620(a)(1)(iv)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-044",
+    "licencias": ["piloto-comercial-avion"],
+    "enunciado": "¿Cuántas horas de dispositivo de simulación de vuelo puede aceptar la ANAC como parte del total de la licencia comercial?",
+    "opciones": ["Hasta 5 h", "Hasta 10 h", "Hasta 20 h", "Hasta 50 h"],
+    "correcta": 2,
+    "explicacion": "La 61.620(a)(3) deja a criterio de la ANAC aceptar ese tiempo, con un máximo de 20 horas.",
+    "fuente": { "id": "raac61", "seccion": "61.620(a)(3)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-045",
+    "licencias": ["piloto-comercial-avion"],
+    "enunciado": "Un postulante a piloto comercial de avión tiene 250 h como piloto al mando de planeadores. ¿Qué crédito le da la RAAC 61 para el total de horas?",
+    "opciones": ["Ninguno", "10 horas", "25 horas", "50 horas"],
+    "correcta": 1,
+    "explicacion": "La 61.620(a)(2)(ii) da 10 h de crédito con al menos 200 h al mando de planeadores; el tope total de créditos es de 25 h.",
+    "fuente": { "id": "raac61", "seccion": "61.620(a)(2)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-046",
+    "licencias": ["piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "En la Edición VI de la RAAC 61, ¿qué licencia ya no figura entre las que otorga la ANAC?",
+    "opciones": ["Piloto privado de avión", "Piloto comercial de primera clase de avión", "Piloto de transporte de línea aérea", "Piloto de planeador"],
+    "correcta": 1,
+    "explicacion": "La lista de la 61.020 ya no incluye al comercial de primera clase: el inciso (d) figura como \"Reservado\". La eliminación viene de la nueva Parte 61 (Res. ANAC 651/2025, luego Res. 65/2026).",
+    "fuente": { "id": "raac61", "seccion": "61.020" },
+    "verificada": true
+  },
+  {
+    "id": "reg-047",
+    "licencias": ["piloto-comercial-avion"],
+    "enunciado": "Para ejercer atribuciones en transporte aéreo comercial internacional, ¿qué límite de edad fija la RAAC 61?",
+    "opciones": ["Menos de 65 años en todos los casos", "Menos de 60 años, o menos de 65 en operaciones con más de un piloto", "Menos de 70 años", "No hay límite de edad"],
+    "correcta": 1,
+    "explicacion": "La 61.635(1) fija menos de 60 años, o menos de 65 en operaciones con más de un piloto. En transporte nacional, desde los 65 se exigen los exámenes de la RAAC 67 (61.635(2)).",
+    "fuente": { "id": "raac61", "seccion": "61.635" },
+    "verificada": true
+  },
+  {
+    "id": "reg-048",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Por cuánto tiempo como máximo puede emitirse una licencia temporal de piloto?",
+    "opciones": ["30 días", "60 días", "120 días", "12 meses"],
+    "correcta": 2,
+    "explicacion": "La 61.050(a), con el texto de la Res. ANAC 292/2026, prevé que el inspector o el examinador emita una licencia temporal por 120 días como máximo.",
+    "fuente": { "id": "res292", "seccion": "61.050(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-049",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Reprobaste por primera vez la prueba de pericia en vuelo. ¿Cuándo podés repetirla?",
+    "opciones": ["Nunca antes de 60 días", "A los 30 días, o antes si presentás registros firmados por un instructor que acrediten que fuiste reentrenado y estás capacitado", "Inmediatamente, el mismo día", "Recién después de rendir otra vez el teórico"],
+    "correcta": 1,
+    "explicacion": "La 61.115 fija 30 días, pero ante una primera reprobación permite adelantarla con el libro de vuelo o registros firmados por un instructor.",
+    "fuente": { "id": "raac61", "seccion": "61.115" },
+    "verificada": true
+  },
+  {
+    "id": "reg-050",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Según la RAAC 61.165, ¿qué nivel mínimo de competencia lingüística en inglés (escala OACI) permite integrar la tripulación en vuelos donde el inglés es requerido en las comunicaciones?",
+    "opciones": ["Nivel 2, elemental", "Nivel 3, pre-operacional", "Nivel 4, operacional", "Nivel 6, experto"],
+    "correcta": 2,
+    "explicacion": "La 61.165(a)(3) exige como mínimo el nivel operacional 4 para operar donde el inglés es requerido en radiotelefonía.",
+    "fuente": { "id": "raac61", "seccion": "61.165(a)(3)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-051",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "¿Qué licencia y edad mínimas exige la RAAC 61 para la habilitación de instructor de vuelo de avión?",
+    "opciones": ["Piloto privado y 18 años", "Piloto comercial vigente con la habilitación de la aeronave, y 18 años", "Piloto comercial y 21 años", "Transporte de línea aérea y 23 años"],
+    "correcta": 1,
+    "explicacion": "La 61.1105(a) y (b) piden 18 años y, como mínimo, licencia de piloto comercial vigente con la habilitación de la aeronave (más la de vuelo por instrumentos para monomotor, multimotor o HVI).",
+    "fuente": { "id": "raac61", "seccion": "61.1105(a) y (b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-052",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "¿Cuántas horas de instrucción de vuelo puede dar como máximo un instructor en cualquier período de 24 horas consecutivas?",
+    "opciones": ["6 horas", "8 horas", "10 horas", "12 horas"],
+    "correcta": 1,
+    "explicacion": "La 61.1130(a) limita a 8 horas de instrucción de vuelo en cualquier período de 24 horas consecutivas.",
+    "fuente": { "id": "raac61", "seccion": "61.1130(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-053",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "¿Cuál de estas opciones renueva automáticamente la habilitación de instructor de vuelo de avión por otros 24 meses?",
+    "opciones": ["Haber volado 20 h solo en el período", "Haber dado al menos 60 h de instrucción en el período, 30 de ellas en los 12 meses previos al vencimiento", "Aprobar un examen teórico de reglamentación", "Tener el certificado médico vigente"],
+    "correcta": 1,
+    "explicacion": "Es la opción (1) de la 61.1135(a). Las otras vías son: curso periódico aprobado, examen de vuelo de instructor, 5 alumnos presentados con 80 % aprobados al primer intento, o actividad como examinador, inspector o instructor de un explotador 121/135.",
+    "fuente": { "id": "raac61", "seccion": "61.1135(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-054",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "Un instructor presentó 5 aspirantes a examen de vuelo en el período. ¿Qué porcentaje tiene que haber aprobado al primer intento para renovar por esa vía?",
+    "opciones": ["50 %", "60 %", "75 %", "80 %"],
+    "correcta": 3,
+    "explicacion": "La 61.1135(a)(4) exige que al menos el 80 % haya aprobado en su primer intento.",
+    "fuente": { "id": "raac61", "seccion": "61.1135(a)(4)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-055",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "Si la habilitación de instructor de vuelo de avión perdió vigencia, ¿cómo se revalida?",
+    "opciones": ["Con un curso teórico de 10 horas", "Con una prueba de pericia ante la ANAC o un examinador de vuelo, que lo anota en el libro de vuelo", "Con 10 horas de vuelo solo", "No se puede: hay que rehacer todo el curso"],
+    "correcta": 1,
+    "explicacion": "La 61.1135(b) prevé la revalidación mediante una prueba de pericia ante la ANAC o un examinador.",
+    "fuente": { "id": "raac61", "seccion": "61.1135(b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-056",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "Para dar instrucción de vuelo en un avión, ¿qué experiencia en la marca y modelo le pide la RAAC 61 al instructor?",
+    "opciones": ["5 h en los últimos 6 meses", "15 h como piloto al mando en la misma marca y modelo en los últimos 24 meses", "50 h en el modelo desde siempre", "Ninguna, si tiene la habilitación de clase"],
+    "correcta": 1,
+    "explicacion": "La 61.1125(e) exige un mínimo de 15 h como piloto al mando en la misma marca y modelo, realizadas en los últimos 24 meses.",
+    "fuente": { "id": "raac61", "seccion": "61.1125(e)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-057",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "¿Qué necesita un instructor de vuelo para formar a otros instructores (instrucción para la habilitación de instructor)?",
+    "opciones": ["Haber sido instructor al menos 24 meses y acreditar 200 h como instructor, o haber hecho un curso aprobado en un centro RAAC 142", "Tener 1000 h totales", "Ser inspector de la ANAC", "Tener licencia de transporte de línea aérea"],
+    "correcta": 0,
+    "explicacion": "Es lo que dispone la 61.1125(a)(3).",
+    "fuente": { "id": "raac61", "seccion": "61.1125(a)(3)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-058",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "Según la RAAC 61.1130(b), ¿para qué licencias y habilitaciones puede dar instrucción un instructor?",
+    "opciones": ["Para cualquiera, si tiene 1000 h", "Solo para aquellas en las que él mismo tiene, como mínimo, licencia y habilitaciones equivalentes (incluidas categoría, clase y tipo)", "Solo para alumno piloto", "Para cualquiera, con autorización del dueño de la aeronave"],
+    "correcta": 1,
+    "explicacion": "La 61.1130(b) prohíbe instruir para licencias o habilitaciones superiores a las que posee el instructor.",
+    "fuente": { "id": "raac61", "seccion": "61.1130(b)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-059",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "Tras la Res. ANAC 292/2026, ¿qué horas como instructor exige la RAAC 61 para dar la instrucción de la licencia de piloto comercial?",
+    "opciones": ["200 h como instructor", "500 h como instructor", "No fija un mínimo específico: el inciso 61.1130(c) quedó \"Reservado\"", "100 h como instructor y 1000 h totales"],
+    "correcta": 2,
+    "explicacion": "La Edición VI pedía 200 h como instructor (61.1130(c)); la Res. ANAC 292/2026 dejó ese inciso como \"Reservado\".",
+    "fuente": { "id": "res292", "seccion": "61.1130(c)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-060",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "¿Qué experiencia mínima exige la RAAC 61 para la habilitación de instructor de vuelo de planeador?",
+    "opciones": ["50 h en planeador", "100 h de vuelo en planeador (la ANAC puede reducirlas si hay horas en otras categorías)", "200 h como piloto al mando", "300 lanzamientos"],
+    "correcta": 1,
+    "explicacion": "La 61.945 fija 100 h de vuelo en planeador y deja a la ANAC la reducción por horas en otras categorías.",
+    "fuente": { "id": "raac61", "seccion": "61.945" },
+    "verificada": true
+  },
+  {
+    "id": "reg-061",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "¿Qué requisitos pide la 61.935 para la habilitación de instructor de vuelo de planeador?",
+    "opciones": ["Licencia de planeador vigente, un curso específico aprobado por la ANAC, y aprobar ante la ANAC un examen teórico y una prueba de pericia", "Licencia comercial de avión y 200 h", "Solo 100 h de planeador", "Licencia de planeador y aval del aeroclub"],
+    "correcta": 0,
+    "explicacion": "Son los tres requisitos de la 61.935(a). El teórico versa sobre los temas de la 61.940 y la pericia sigue la 61.955.",
+    "fuente": { "id": "raac61", "seccion": "61.935(a)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-062",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "Un instructor de planeador revalida su habilitación junto con la licencia. ¿Qué debe acreditar en los últimos 24 meses?",
+    "opciones": ["Haber calificado al menos a un alumno postulante a la licencia de planeador, o haber aprobado una pericia ante la ANAC", "60 h de instrucción", "Un curso periódico en un centro 142", "5 alumnos con 80 % aprobados"],
+    "correcta": 0,
+    "explicacion": "Es lo que pide la 61.965(c). Las vías de 60 h o 5 alumnos corresponden al instructor de avión (61.1135).",
+    "fuente": { "id": "raac61", "seccion": "61.965(c)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-063",
+    "licencias": ["instructor-vuelo"],
+    "enunciado": "¿Cuándo puede un instructor anotar en el libro de vuelo de un alumno la autorización para el vuelo solo inicial o de travesía?",
+    "opciones": ["Siempre que el alumno tenga 10 h de vuelo", "Solo si él mismo le dio la instrucción requerida y considera que está preparado", "Cuando lo pida el jefe de instructores, aunque no lo haya volado", "Solo con autorización previa de la ANAC"],
+    "correcta": 1,
+    "explicacion": "La 61.1130(d)(1) lo limita a los alumnos a los que el instructor dio la instrucción requerida y que considera preparados.",
+    "fuente": { "id": "raac61", "seccion": "61.1130(d)(1)" },
+    "verificada": true
+  },
+  {
+    "id": "reg-064",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion"],
+    "enunciado": "Dos aeronaves se aproximan de frente, o casi de frente, con peligro de colisión. ¿Qué deben hacer?",
+    "opciones": ["La más rápida asciende", "Ambas alteran su rumbo hacia la derecha", "Ambas alteran su rumbo hacia la izquierda", "La de mayor tamaño mantiene rumbo y la otra desciende"],
+    "correcta": 1,
+    "explicacion": "Es la regla de aproximación de frente del reglamento del aire (OACI Anexo 2): ambas viran a la derecha.",
+    "fuente": { "id": "raac91-2017", "seccion": "91.185(b)(1)" },
+    "verificada": false,
+    "nota": "Verificada contra el texto de la RAAC 91 publicado por la ANAC en 2017. No se pudo descargar el texto consolidado vigente para confirmar la numeración."
+  },
+  {
+    "id": "reg-065",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion"],
+    "enunciado": "Un avión y un planeador convergen a un nivel parecido. ¿Quién cede el paso?",
+    "opciones": ["El planeador, porque es menos maniobrable", "El que tenga al otro a su izquierda", "El avión: los aerodinos propulsados mecánicamente ceden el paso a los planeadores", "Ninguno: rige la regla de la derecha sin excepciones"],
+    "correcta": 2,
+    "explicacion": "En convergencia cede el paso quien tiene al otro a su derecha, salvo excepciones: los propulsados mecánicamente ceden a dirigibles, planeadores y globos.",
+    "fuente": { "id": "raac91-2017", "seccion": "91.185(b)(2)" },
+    "verificada": false,
+    "nota": "Verificada contra el texto de la RAAC 91 publicado por la ANAC en 2017. No se pudo confirmar la numeración del texto consolidado vigente."
+  },
+  {
+    "id": "reg-066",
+    "licencias": ["piloto-planeador"],
+    "enunciado": "Un planeador y un globo convergen a un nivel parecido. ¿Quién cede el paso?",
+    "opciones": ["El globo", "El planeador", "El que tenga al otro a su derecha", "El que esté más alto"],
+    "correcta": 1,
+    "explicacion": "Dentro de las excepciones a la regla de convergencia, los planeadores ceden el paso a los globos.",
+    "fuente": { "id": "raac91-2017", "seccion": "91.185(b)(2)(iii)" },
+    "verificada": false,
+    "nota": "Verificada contra el texto de la RAAC 91 publicado por la ANAC en 2017. No se pudo confirmar la numeración del texto consolidado vigente."
+  },
+  {
+    "id": "reg-067",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion"],
+    "enunciado": "Estás alcanzando a otra aeronave por detrás. ¿Qué establece el reglamento del aire?",
+    "opciones": ["La aeronave alcanzada debe apartarse a la izquierda", "La alcanzada tiene derecho de paso y la que alcanza se aparta cambiando su rumbo hacia la derecha", "La que alcanza tiene prioridad si es más rápida", "Ambas descienden 500 ft"],
+    "correcta": 1,
+    "explicacion": "La aeronave alcanzada tiene derecho de paso; la que alcanza se mantiene fuera de su trayectoria virando a la derecha, hasta haberla pasado por completo.",
+    "fuente": { "id": "raac91-2017", "seccion": "91.185(b)(3)" },
+    "verificada": false,
+    "nota": "Verificada contra el texto de la RAAC 91 publicado por la ANAC en 2017. No se pudo confirmar la numeración del texto consolidado vigente."
+  },
+  {
+    "id": "reg-068",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion"],
+    "enunciado": "Dos aerodinos se aproximan a un aeródromo para aterrizar. ¿Qué regla general aplica?",
+    "opciones": ["El que está más bajo cede el paso al que está más alto", "El que está a mayor nivel cede el paso al que está más bajo, aunque los propulsados mecánicamente ceden siempre a los planeadores", "Aterriza primero el más rápido", "Decide siempre el que llegó antes al circuito"],
+    "correcta": 1,
+    "explicacion": "El de mayor nivel cede el paso al más bajo (que no puede usar la regla para cortarle el camino a otro en final). Los propulsados mecánicamente ceden el paso a los planeadores.",
+    "fuente": { "id": "raac91-2017", "seccion": "91.185(b)(4)(ii)" },
+    "verificada": false,
+    "nota": "Verificada contra el texto de la RAAC 91 publicado por la ANAC en 2017. No se pudo confirmar la numeración del texto consolidado vigente."
+  }
+]

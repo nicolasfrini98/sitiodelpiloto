@@ -1,0 +1,182 @@
+[
+  {
+    "id": "pv-001",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué es el ángulo de ataque?",
+    "opciones": ["El ángulo entre el eje longitudinal y la cuerda del ala", "El ángulo entre la cuerda del ala y el viento relativo", "El ángulo entre la trayectoria y el horizonte", "El ángulo entre las alas y el horizonte"],
+    "correcta": 1,
+    "explicacion": "Es el ángulo entre la cuerda y el viento relativo. El ángulo entre eje longitudinal y cuerda es la incidencia (fijo); el de las alas con el horizonte, el diedro.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 1 (Aerodinámica básica), preguntas 1 a 4" },
+    "verificada": true
+  },
+  {
+    "id": "pv-002",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuándo se produce la pérdida de sustentación?",
+    "opciones": ["Cuando se superan los 60° de inclinación", "Cuando se excede el ángulo de ataque crítico, a cualquier velocidad y actitud", "Solo cuando la velocidad cae por debajo de la de pérdida publicada", "Cuando se reduce la potencia"],
+    "correcta": 1,
+    "explicacion": "La pérdida depende del ángulo de ataque: al superar el crítico, el flujo se desprende del extradós.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Preguntas 66 y 69" },
+    "verificada": true
+  },
+  {
+    "id": "pv-003",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Al aumentar la inclinación en un viraje nivelado, la velocidad de pérdida…",
+    "opciones": ["disminuye", "no varía", "aumenta", "se hace cero"],
+    "correcta": 2,
+    "explicacion": "Al inclinar aumenta el factor de carga y el ala necesita más sustentación: la velocidad de pérdida crece.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 15" },
+    "verificada": true
+  },
+  {
+    "id": "pv-004",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué es el factor de carga?",
+    "opciones": ["La sustentación multiplicada por el peso", "La sustentación dividida por el peso", "El peso dividido por la superficie alar", "La relación entre potencia y peso"],
+    "correcta": 1,
+    "explicacion": "Factor de carga n = sustentación / peso. El peso dividido por la superficie alar es la carga alar, otro concepto.",
+    "fuente": { "id": "anac-iva-2015", "seccion": "Pregunta 51 (36)" },
+    "verificada": true
+  },
+  {
+    "id": "pv-005",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Un avión de 1100 kg vira con 60° de inclinación manteniendo la altitud. ¿Qué carga aproximada soporta su estructura?",
+    "opciones": ["1100 kg", "1540 kg", "2200 kg", "3300 kg"],
+    "correcta": 2,
+    "explicacion": "En viraje nivelado n = 1 / cos(inclinación). Con 60°, n = 2: 1100 kg × 2 = 2200 kg.",
+    "fuente": { "id": "anac-ppa-preguntas", "seccion": "Cap. 1 (Aerodinámica básica), pregunta 17" },
+    "verificada": true
+  },
+  {
+    "id": "pv-006",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué efecto tiene el efecto suelo en el aterrizaje?",
+    "opciones": ["Aumenta los vórtices de punta de ala", "Disminuye la resistencia inducida: con exceso de velocidad, la aeronave flota", "Aumenta la resistencia y la hace caer de golpe", "Requiere menos timón de profundidad para la pérdida"],
+    "correcta": 1,
+    "explicacion": "Cerca del suelo se alteran los vórtices y baja la resistencia inducida; si llegás con velocidad de más, la aeronave tiende a flotar.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Preguntas 41 y 42" },
+    "verificada": true
+  },
+  {
+    "id": "pv-007",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Un avión cargado con el centro de gravedad detrás del límite trasero resulta…",
+    "opciones": ["más estable a toda velocidad", "menos estable a todas las velocidades", "menos estable solo a alta velocidad", "menos estable solo a baja velocidad"],
+    "correcta": 1,
+    "explicacion": "Con el CG atrás del límite se pierde estabilidad longitudinal en todo el rango de velocidades, y la recuperación de pérdidas y barrenas se complica.",
+    "fuente": { "id": "anac-ppa-preguntas", "seccion": "Cap. 1 (Aerodinámica básica), pregunta 14" },
+    "verificada": true
+  },
+  {
+    "id": "pv-008",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "Un planeador con el centro de gravedad muy atrás…",
+    "opciones": ["es muy estable y no cambia su comportamiento", "es poco estable y difícil de recuperar de barrenas", "solo es más rápido en el planeo", "entra menos en pérdida"],
+    "correcta": 1,
+    "explicacion": "El CG atrasado reduce la estabilidad longitudinal y dificulta la recuperación de barrenas. Por eso se respetan los pesos mínimos de cabina y el lastre.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 109" },
+    "verificada": true
+  },
+  {
+    "id": "pv-009",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué determina principalmente la estabilidad longitudinal de un avión?",
+    "opciones": ["La posición del CG respecto del centro de presión", "La potencia del motor", "La relación entre tracción y resistencia", "El diedro del ala"],
+    "correcta": 0,
+    "explicacion": "La ubicación del centro de gravedad respecto del centro de presión (y la acción del estabilizador) define la estabilidad longitudinal.",
+    "fuente": { "id": "anac-ppa-preguntas", "seccion": "Cap. 1 (Aerodinámica básica), pregunta 12" },
+    "verificada": true
+  },
+  {
+    "id": "pv-010",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿Qué es el alargamiento alar?",
+    "opciones": ["La distancia entre borde de ataque y borde de fuga", "La distancia entre la raíz y la puntera", "La relación entre la envergadura y la cuerda media", "El ángulo de flecha del ala"],
+    "correcta": 2,
+    "explicacion": "Es la relación envergadura / cuerda media. Los planeadores tienen alargamientos altos para reducir la resistencia inducida.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 13" },
+    "verificada": true
+  },
+  {
+    "id": "pv-011",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Durante un tirabuzón (barrena) hacia la izquierda, ¿qué ala está en pérdida?",
+    "opciones": ["Solo la izquierda", "Solo la derecha", "Ambas alas, aunque una más que la otra", "Ninguna"],
+    "correcta": 2,
+    "explicacion": "En el tirabuzón ambas alas están en pérdida; la diferencia de pérdida entre ellas mantiene la autorrotación.",
+    "fuente": { "id": "anac-ivp-2015", "seccion": "Pregunta 29" },
+    "verificada": true
+  },
+  {
+    "id": "pv-012",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿Cuál es la técnica general de recuperación del tirabuzón en un planeador (salvo que el manual de vuelo indique otra)?",
+    "opciones": ["Palanca atrás y alerón contrario al giro", "Pedal opuesto al giro hasta que cese la rotación, aflojando la palanca hacia adelante, y salir del picado con suavidad", "Palanca al neutro y levantar el plano bajo con alerón", "Frenos aerodinámicos afuera y palanca atrás"],
+    "correcta": 1,
+    "explicacion": "Pedal contrario para frenar la rotación y palanca adelante para salir de la pérdida; después, centrar pedales y recuperar el picado sin exceder velocidades. Usar alerón contra el giro puede agravarlo.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 72" },
+    "verificada": true
+  },
+  {
+    "id": "pv-013",
+    "licencias": ["piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Cuáles son las cuatro fuerzas que actúan sobre un avión en vuelo?",
+    "opciones": ["Sustentación, peso, tracción y resistencia", "Sustentación, peso, gravedad y tracción", "Sustentación, gravedad, potencia y fricción", "Peso, tracción, torque y resistencia"],
+    "correcta": 0,
+    "explicacion": "Sustentación y peso, tracción y resistencia. En vuelo a velocidad constante están en equilibrio.",
+    "fuente": { "id": "anac-ppa-preguntas", "seccion": "Cap. 1 (Aerodinámica básica), preguntas 6 y 8" },
+    "verificada": true
+  },
+  {
+    "id": "pv-014",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Qué establece el principio de Bernoulli aplicado al ala?",
+    "opciones": ["Que a cada acción corresponde una reacción igual y opuesta", "Que donde aumenta la velocidad del fluido disminuye su presión", "Que el intradós desvía el aire hacia abajo", "Que la densidad del aire aumenta con la altura"],
+    "correcta": 1,
+    "explicacion": "Mayor velocidad del flujo, menor presión: el aire que se acelera sobre el extradós genera una zona de baja presión.",
+    "fuente": { "id": "anac-ppa-analisis", "seccion": "Cap. 1 (Aerodinámica básica), pregunta 5" },
+    "verificada": true
+  },
+  {
+    "id": "pv-015",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "Por debajo del ángulo de ataque crítico, ¿qué pasa al aumentar el ángulo de ataque?",
+    "opciones": ["Más sustentación y menos resistencia", "Menos sustentación y menos resistencia", "Más sustentación y más resistencia", "Menos sustentación y más resistencia"],
+    "correcta": 2,
+    "explicacion": "Hasta el ángulo crítico, aumentan la sustentación y también la resistencia (sobre todo la inducida).",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Pregunta 52" },
+    "verificada": true
+  },
+  {
+    "id": "pv-016",
+    "licencias": ["piloto-planeador", "piloto-privado-avion", "piloto-comercial-avion", "instructor-vuelo"],
+    "enunciado": "¿Para qué sirve el timón de dirección?",
+    "opciones": ["Para controlar el rolido", "Para controlar la guiñada", "Para controlar el cabeceo", "Para aumentar la sustentación"],
+    "correcta": 1,
+    "explicacion": "El timón de dirección actúa sobre el eje vertical (guiñada). Los alerones controlan el rolido y el timón de profundidad, el cabeceo.",
+    "fuente": { "id": "anac-ppa-preguntas", "seccion": "Cap. 1 (Aerodinámica básica), pregunta 10" },
+    "verificada": true
+  },
+  {
+    "id": "pv-017",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "¿Cuál es la función principal de los frenos aerodinámicos?",
+    "opciones": ["Aumentar la sustentación", "Aumentar la resistencia y empeorar el planeo a voluntad", "Mejorar la relación de planeo", "Bajar la velocidad de pérdida"],
+    "correcta": 1,
+    "explicacion": "Aumentan la resistencia: permiten corregir exceso de altura o de velocidad en el circuito y en la aproximación.",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Preguntas 9 y 86" },
+    "verificada": true
+  },
+  {
+    "id": "pv-018",
+    "licencias": ["piloto-planeador", "instructor-vuelo"],
+    "enunciado": "En un planeador con flaps, ¿para qué se usa el flap negativo?",
+    "opciones": ["Para mejorar la performance a altas velocidades (planeo entre térmicas)", "Para subir mejor en la térmica", "Para aterrizar más corto", "Para entrar en pérdida a menor velocidad"],
+    "correcta": 0,
+    "explicacion": "El flap negativo reduce la curvatura del perfil y mejora la performance a alta velocidad. El positivo se asocia a vuelo lento (térmica, aterrizaje).",
+    "fuente": { "id": "anac-planeador-2014", "seccion": "Preguntas 73 y 94" },
+    "verificada": true
+  }
+]

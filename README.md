@@ -20,7 +20,12 @@ tiempo real, novedades, material de estudio por licencia ANAC e informe de cambi
   vuelo nocturno) según la RAAC 61 (Edición VI, Res. ANAC 65/2026, enmendada por Res. 292/2026) y la RAAC 67
   (Edición V, Res. ANAC 35/2026). Cada requisito cita su sección; los datos están en `src/data/licencias.json`.
   Resumen orientativo: la norma oficial es la que publica la [ANAC](https://www.argentina.gob.ar/anac/resoluciones-disposiciones-y-otras-normas-aeronauticas/raac).
-- 🚧 Novedades, Estudio y Regulaciones: estructura creada, contenido pendiente.
+- ✅ **Estudio** (`/estudio`, `/estudio/piloto-privado-avion`, …): banco de preguntas para los exámenes teóricos de
+  la ANAC de piloto de planeador, piloto privado de avión, piloto comercial de avión e instructor de vuelo. Modo
+  práctica (explicación y fuente al responder, filtro por materia) y modo examen (preguntas al azar, cronómetro
+  opcional, puntaje y revisión de errores). Cada pregunta cita la RAAC o el cuestionario publicado por la ANAC e indica
+  si se verificó. Datos en `src/data/estudio/`. Material orientativo, no oficial.
+- 🚧 Novedades y Regulaciones: estructura creada, contenido pendiente.
 
 ## Desarrollo
 

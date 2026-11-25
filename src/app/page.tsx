@@ -12,7 +12,7 @@ const TARJETAS = [
   { href: "/meteorologia", titulo: "Meteorología", texto: "Mapa de METAR, SIGMET, alertas del SMN, satélite y pronóstico para vuelo a vela.", listo: true },
   { href: "/licencias", titulo: "Licencias", texto: "Requisitos ANAC para cada licencia y habilitación, con la cita a la RAAC.", listo: true },
   { href: "/novedades", titulo: "Novedades", texto: "Vuelo a vela, carrera aérea y avisos oficiales.", listo: false },
-  { href: "/estudio", titulo: "Estudio", texto: "Preguntas y respuestas por licencia ANAC.", listo: false },
+  { href: "/estudio", titulo: "Estudio", texto: "Banco de preguntas para los teóricos ANAC: práctica y simulacro de examen, con la fuente de cada respuesta.", listo: true },
   { href: "/regulaciones", titulo: "Regulaciones", texto: "Informe de cambios en las RAAC.", listo: false },
 ];
 
