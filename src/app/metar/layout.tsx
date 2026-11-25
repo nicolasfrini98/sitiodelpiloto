@@ -3,7 +3,7 @@ import { BandaFoto } from "@/components/BandaFoto";
 export default function Layout({ children }: LayoutProps<"/metar">) {
   return (
     <>
-      <BandaFoto foto="torre" etiqueta="METAR · TAF" posicion="center 30%" />
+      <BandaFoto foto="aeroparque" etiqueta="METAR · TAF" posicion="center 45%" />
       {children}
     </>
   );

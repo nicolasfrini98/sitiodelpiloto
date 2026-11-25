@@ -8,7 +8,7 @@ import pa18 from "../../public/fotos/pa18-concordia.jpg";
 import planeadorTierra from "../../public/fotos/planeador-en-tierra.jpg";
 import remolque from "../../public/fotos/remolque-junin.jpg";
 import tandil from "../../public/fotos/tandil-desde-planeador.jpg";
-import torre from "../../public/fotos/torre-aeroparque.jpg";
+import aeroparque from "../../public/fotos/aeroparque-plataforma.jpg";
 
 export type Foto = {
   src: StaticImageData;
@@ -54,13 +54,13 @@ export const FOTOS = {
     licencia: "CC BY-SA 3.0",
     urlOriginal: `${COMMONS}Aconcagua_MWP.jpg`,
   },
-  torre: {
-    src: torre,
-    alt: "Torre de control del Aeroparque Jorge Newbery al amanecer, con cielo magenta",
-    lugar: "Torre de control de Aeroparque, Buenos Aires",
-    autor: "Horacio Cambeiro",
+  aeroparque: {
+    src: aeroparque,
+    alt: "Plataforma del Aeroparque Jorge Newbery al atardecer vista desde la cabina, con aviones y la ciudad de fondo",
+    lugar: "Plataforma de Aeroparque, Buenos Aires",
+    autor: "Fredlyfish4",
     licencia: "CC BY-SA 4.0",
-    urlOriginal: `${COMMONS}Amanecer_magenta_sobre_la_torre_de_control_del_Aeroparque_Jorge_Newbery,_Buenos_Aires_%E2%80%A2_(Magenta_sunrise_over_the_control_tower_of_Aeroparque_Jorge_Newbery,_Buenos_Aires).jpg`,
+    urlOriginal: `${COMMONS}Aeroparque_Jorge_Newbery_December_2015.JPG`,
   },
   cessna: {
     src: cessna,

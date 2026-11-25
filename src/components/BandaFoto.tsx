@@ -14,7 +14,7 @@ export function BandaFoto({
 }) {
   const f = FOTOS[foto];
   return (
-    <figure className="relative -mx-4 -mt-8 mb-8 h-40 sm:mt-0 overflow-hidden sm:mx-0 sm:h-56 sm:rounded-2xl">
+    <figure className="relative -mx-4 -mt-8 mb-8 h-56 sm:mt-0 overflow-hidden sm:mx-0 sm:h-80 sm:rounded-2xl">
       <Image
         src={f.src}
         alt={f.alt}

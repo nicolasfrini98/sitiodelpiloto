@@ -20,7 +20,7 @@ const TARJETAS = [
   { href: "/novedades", codigo: "NEWS", titulo: "Novedades", texto: "Vuelo a vela, aviación general, avisos de ANAC y EANA y noticias internacionales.", listo: true },
 ];
 
-const GALERIA: NombreFoto[] = ["aconcagua", "pa18", "torre", "learjet"];
+const GALERIA: NombreFoto[] = ["aconcagua", "pa18", "aeroparque", "learjet"];
 
 export default function Home() {
   return (
@@ -36,7 +36,7 @@ export default function Home() {
           className="object-cover object-[70%_center]"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#050d1c] via-[#050d1c]/70 to-transparent" />
-        <div className="relative flex min-h-[420px] flex-col justify-center gap-5 px-6 py-12 sm:px-10">
+        <div className="relative flex min-h-[480px] flex-col sm:min-h-[540px] justify-center gap-5 px-6 py-12 sm:px-10">
           <span className="etiqueta-hud w-fit">Planeador · Avión · Argentina</span>
           <h1 className="max-w-xl text-5xl leading-[0.95] font-bold text-white sm:text-6xl">
             Todo lo que un piloto necesita, en un solo lugar
@@ -111,21 +111,23 @@ export default function Home() {
 
       <section className="space-y-4">
         <h2 className="text-2xl font-semibold text-white uppercase">Desde el cielo argentino</h2>
-        <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+        <div className="grid gap-4 sm:grid-cols-2">
           {GALERIA.map((n) => {
             const f = FOTOS[n];
             return (
-              <figure key={n} className="group relative aspect-[4/3] overflow-hidden rounded-xl">
+              <figure key={n} className="group relative aspect-[16/10] overflow-hidden rounded-2xl">
                 <Image
                   src={f.src}
                   alt={f.alt}
                   fill
                   placeholder="blur"
-                  sizes="(min-width: 1024px) 280px, 50vw"
+                  sizes="(min-width: 1152px) 570px, (min-width: 640px) 50vw, 100vw"
                   className="object-cover transition duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent px-2.5 pt-8 pb-2">
-                  <p className="text-sm leading-tight font-medium text-white">{f.lugar}</p>
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent px-4 pt-12 pb-3">
+                  <p className="font-display text-xl leading-tight font-semibold tracking-wide text-white uppercase">
+                    {f.lugar}
+                  </p>
                   <CreditoFoto foto={n} className="text-left" />
                 </div>
               </figure>
