@@ -1,5 +1,5 @@
 {
-  "ultimaRevision": "2026-11-25",
+  "ultimaRevision": "2026-11-28",
   "licencias": [
     {
       "id": "piloto-planeador",
@@ -68,6 +68,12 @@
       "documento": "RAAC Parte 91 — texto publicado por la ANAC en 2017 (no se pudo confirmar que sea el texto consolidado vigente)",
       "url": "https://www.anac.gov.ar/anac/web/uploads/normativa/raac/parte-91-a.pdf",
       "uso": "Documento oficial de la ANAC; numeración sujeta a confirmación."
+    },
+    {
+      "id": "anac-ppa-2014",
+      "documento": "ANAC, Dirección de Licencias al Personal — Lista de preguntas Piloto Privado de Avión (septiembre de 2014, programa de la RAAC 61.105; publicada con el sistema de exámenes de la Res. ANAC 306/2014)",
+      "url": "https://www.argentina.gob.ar/sites/default/files/2021/05/preguntas-segun-raac-61-105.pdf",
+      "uso": "Cuestionario oficial publicado por la ANAC con las respuestas marcadas. Las preguntas se copian tal cual; quedan afuera las que usan figuras."
     },
     {
       "id": "anac-ppa-analisis",

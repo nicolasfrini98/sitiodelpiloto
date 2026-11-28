@@ -48,6 +48,12 @@ export default function Page() {
                 <span className="shrink-0 text-sm text-sky-300">{preguntas.length} preguntas</span>
               </div>
               <p className="mt-1 text-sm text-slate-400">{l.resumen}</p>
+              {preguntas.some((p) => p.oficial) && (
+                <p className="mt-2 text-sm text-ambar">
+                  Incluye {preguntas.filter((p) => p.oficial).length} preguntas del cuestionario oficial de la ANAC, que
+                  salen primero.
+                </p>
+              )}
               <ul className="mt-3 grid grid-cols-1 gap-x-4 gap-y-1 text-sm text-slate-300 sm:grid-cols-2">
                 {conteo.map(({ materia, cantidad }) => (
                   <li key={materia.id} className="flex justify-between gap-2 border-b border-white/5 py-0.5">
@@ -69,6 +75,12 @@ export default function Page() {
             Las materias siguen lo que la RAAC 61 exige para cada examen (61.510 piloto privado, 61.610 comercial, 61.910
             planeador, 61.1110 y 61.940 instructor). El examen se aprueba con {PORCENTAJE_APROBACION} % en el total y en
             cada área (61.085(b)).
+          </li>
+          <li>
+            <strong className="text-white">Cuestionario oficial (piloto privado de avión):</strong> las preguntas de la
+            lista que publicó la ANAC en septiembre de 2014 para el programa de la RAAC 61.105, copiadas tal cual con la
+            respuesta que marca la ANAC. Quedaron afuera las que dependen de figuras y las que salieron sin respuesta
+            marcada. Las de reglamentación llevan un aviso, porque la RAAC 61 cambió en 2026.
           </li>
           <li>
             <strong className="text-white">Reglamentación:</strong> preguntas redactadas a partir del texto vigente de la

@@ -17,6 +17,9 @@ type Estado =
 
 type FiltroRepaso = "todas" | "no-respondidas" | "falladas";
 
+/** De dónde salen las preguntas: el cuestionario oficial de la ANAC, el banco propio del sitio o ambos. */
+type FiltroOrigen = "oficiales" | "todas" | "propias";
+
 const LETRAS = ["A", "B", "C", "D"];
 const MINUTOS_POR_PREGUNTA = 1.5;
 
@@ -30,12 +33,22 @@ function mezclar<T>(lista: T[]): T[] {
   return copia;
 }
 
+/** Mezcla las preguntas, pero las del cuestionario oficial de la ANAC siempre van primero. */
 function crearItems(preguntas: Pregunta[]): Item[] {
-  return mezclar(preguntas).map((pregunta) => ({ pregunta, orden: mezclar(pregunta.opciones.map((_, i) => i)) }));
+  const ordenadas = [...mezclar(preguntas.filter((p) => p.oficial)), ...mezclar(preguntas.filter((p) => !p.oficial))];
+  return ordenadas.map((pregunta) => ({ pregunta, orden: mezclar(pregunta.opciones.map((_, i) => i)) }));
 }
 
-function filtrar(preguntas: Pregunta[], materia: MateriaId | "todas", repaso: FiltroRepaso, progreso: Progreso) {
+function filtrar(
+  preguntas: Pregunta[],
+  origen: FiltroOrigen,
+  materia: MateriaId | "todas",
+  repaso: FiltroRepaso,
+  progreso: Progreso,
+) {
   return preguntas.filter((p) => {
+    if (origen === "oficiales" && !p.oficial) return false;
+    if (origen === "propias" && p.oficial) return false;
     if (materia !== "todas" && p.materia !== materia) return false;
     if (repaso === "no-respondidas") return !progreso[p.id];
     if (repaso === "falladas") return progreso[p.id]?.ultima === false;
@@ -59,6 +72,9 @@ export function BancoPreguntas({
 }) {
   const progreso = useProgreso();
   const [estado, setEstado] = useState<Estado>({ modo: "inicio" });
+  const oficiales = preguntas.filter((p) => p.oficial).length;
+  // Si la licencia tiene cuestionario oficial de la ANAC, se practica con ese por defecto.
+  const [origen, setOrigen] = useState<FiltroOrigen>(oficiales > 0 ? "oficiales" : "todas");
   const [materia, setMateria] = useState<MateriaId | "todas">("todas");
   const [repaso, setRepaso] = useState<FiltroRepaso>("todas");
   const [cantidad, setCantidad] = useState(20);
@@ -74,8 +90,8 @@ export function BancoPreguntas({
   }, [estado]);
 
   const disponibles = useMemo(
-    () => filtrar(preguntas, materia, repaso, progreso),
-    [preguntas, materia, repaso, progreso],
+    () => filtrar(preguntas, origen, materia, repaso, progreso),
+    [preguntas, origen, materia, repaso, progreso],
   );
   const respondidas = preguntas.filter((p) => progreso[p.id]).length;
   const bienUltima = preguntas.filter((p) => progreso[p.id]?.ultima).length;
@@ -166,6 +182,20 @@ export function BancoPreguntas({
         <section className="space-y-4 rounded-md border border-trazo bg-slate-900/60 p-5">
           <h2 className="font-semibold text-white">Elegí qué preguntas</h2>
           <div className="grid gap-3 sm:grid-cols-2">
+            {oficiales > 0 && (
+              <label className="block text-sm text-slate-300 sm:col-span-2">
+                Preguntas
+                <select
+                  value={origen}
+                  onChange={(e) => setOrigen(e.target.value as FiltroOrigen)}
+                  className="mt-1 block w-full rounded-md border border-white/15 bg-slate-950 px-3 py-2 text-white"
+                >
+                  <option value="oficiales">Cuestionario oficial de la ANAC ({oficiales})</option>
+                  <option value="todas">Todas: primero las de la ANAC y después las del sitio ({preguntas.length})</option>
+                  <option value="propias">Solo las del sitio ({preguntas.length - oficiales})</option>
+                </select>
+              </label>
+            )}
             <label className="block text-sm text-slate-300">
               Materia
               <select
@@ -332,7 +362,7 @@ export function BancoPreguntas({
                 <p className={`font-semibold ${acerto ? "text-emerald-200" : "text-red-200"}`}>
                   {acerto ? "¡Correcto!" : "Incorrecto."}
                 </p>
-                <p className="text-sm text-slate-200">{pregunta.explicacion}</p>
+                {pregunta.explicacion && <p className="text-sm text-slate-200">{pregunta.explicacion}</p>}
                 <Fuente pregunta={pregunta} />
               </div>
             )}
@@ -547,7 +577,7 @@ export function BancoPreguntas({
                   Tu respuesta: {r == null ? "sin responder" : it.pregunta.opciones[r]}
                 </p>
                 <p className="text-sm text-emerald-300">Correcta: {it.pregunta.opciones[it.pregunta.correcta]}</p>
-                <p className="text-sm text-slate-300">{it.pregunta.explicacion}</p>
+                {it.pregunta.explicacion && <p className="text-sm text-slate-300">{it.pregunta.explicacion}</p>}
                 <Fuente pregunta={it.pregunta} />
               </li>
             ))}
@@ -590,7 +620,11 @@ function Fuente({ pregunta }: { pregunta: Pregunta }) {
         {pregunta.fuente.seccion}.
       </p>
       {pregunta.verificada ? (
-        <p className="text-emerald-300/80">✓ Respuesta contrastada con la fuente citada.</p>
+        <p className="text-emerald-300/80">
+          {pregunta.oficial
+            ? "✓ Pregunta y respuesta tal como las publicó la ANAC."
+            : "✓ Respuesta contrastada con la fuente citada."}
+        </p>
       ) : (
         <p className="text-amber-300">⚠ Sin verificar contra la norma vigente. {pregunta.nota}</p>
       )}
