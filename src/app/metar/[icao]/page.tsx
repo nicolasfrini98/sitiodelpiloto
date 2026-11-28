@@ -5,6 +5,7 @@ import { Suspense } from "react";
 import { AutoRefrescar } from "@/components/AutoRefrescar";
 import { CategoriaVuelo } from "@/components/CategoriaVuelo";
 import { Hace } from "@/components/Hace";
+import { Frecuencias, Notams } from "@/components/InfoAeronautica";
 import { buscarAerodromo, DESTACADOS, nombreProvincia } from "@/lib/aerodromos";
 import { obtenerHistorialMetar, obtenerTaf, type Metar } from "@/lib/aviationweather";
 import {
@@ -86,6 +87,14 @@ async function Ficha({ params }: Pick<PageProps<"/metar/[icao]">, "params">) {
           </pre>
         )}
       </section>
+
+      <Suspense fallback={<p className="text-sm text-slate-400">Cargando NOTAM de la ANAC…</p>}>
+        <Notams icao={icao} />
+      </Suspense>
+
+      <Suspense fallback={<p className="text-sm text-slate-400">Cargando frecuencias…</p>}>
+        <Frecuencias icao={icao} />
+      </Suspense>
 
       {historial.ok && historial.datos.length > 1 && (
         <section className="space-y-2">

@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "aerodromos": "node scripts/actualizar-aerodromos.mjs"
+    "aerodromos": "node scripts/actualizar-aerodromos.mjs",
+    "frecuencias": "python scripts/frecuencias_aip.py"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

@@ -5,7 +5,7 @@ Sitio web para pilotos de planeador y de avión en carrera en Argentina. Seccion
 | Ruta            | Estado        | Qué es                                                                 |
 | --------------- | ------------- | ---------------------------------------------------------------------- |
 | `/metar`        | Hecha         | Último METAR de cada aeródromo argentino, filtros, categoría de vuelo  |
-| `/metar/[icao]` | Hecha         | Ficha: METAR decodificado, TAF, historial 12 h, altitud de densidad, base de cúmulos |
+| `/metar/[icao]` | Hecha         | Ficha: METAR decodificado, TAF, NOTAM de la ANAC, frecuencias ATS y radioayudas (AIP/MADHEL), historial 12 h, altitud de densidad, base de cúmulos |
 | `/meteorologia` | Hecha         | Mapa de METAR (Leaflet) con SIGMET, alertas SMN y radar; SIGMET de las FIR argentinas; alertas SMN (CAP); pronóstico horario para vuelo a vela por aeródromo (`?icao=`); satélite GOES-19 |
 | `/licencias`    | Hecha         | Requisitos por licencia/habilitación (RAAC 61 Ed. VI + Res. 292/2026, RAAC 67 Ed. V) con cita por requisito; datos en `src/data/licencias.json`, tipos en `src/lib/licencias.ts` |
 | `/licencias/[id]` | Hecha       | Ficha de cada licencia/habilitación: requisitos, cambios recientes, fuentes oficiales |
@@ -27,6 +27,7 @@ Sitio web para pilotos de planeador y de avión en carrera en Argentina. Seccion
 - `npm run build` — build de producción (también genera los tipos `PageProps`/`LayoutProps`; correr antes de `npx tsc --noEmit`)
 - `npm run lint` — ESLint
 - `npm run aerodromos` — regenera `src/data/aerodromos.json` desde aviationweather.gov
+- `npm run frecuencias` — regenera `src/data/frecuencias-aip.json` (AD 2.18 y 2.19 de los PDF del AIP Argentina; necesita Python con `pymupdf`). Correrlo en cada ciclo AIRAC y revisar el diff
 
 ## Convenciones
 
@@ -54,7 +55,10 @@ Sitio web para pilotos de planeador y de avión en carrera en Argentina. Seccion
 - Mapa base: teselas de OpenStreetMap (`tile.openstreetmap.org`, oscurecidas con CSS; atribución obligatoria). Los basemaps de CARTO ahora devuelven "API KEY REQUIRED" sin clave.
 - Normativa (`/regulaciones`, `/licencias`): Boletín Oficial, página de RAAC de la ANAC e InfoLEG (`argentina.gob.ar/normativa`), relevados a mano una vez por mes (no se piden en tiempo de ejecución). `boletinoficial.gob.ar` e InfoLEG devuelven 403 a `curl`: usar WebFetch/WebSearch.
 - Noticias (`/novedades`): RSS de EANA (`eana.com.ar/rss.xml`, sin licitaciones), Aviacionline (`/rss.xml`, solo `/espanol/`), Gaceta Aeronáutica, Gliding Australia, DG Aviation, EASA y AOPA; la ANAC no tiene feed y se lee el listado HTML de `argentina.gob.ar/anac/noticias`. Cache de horas por fuente; solo título, bajada corta y enlace. Descartadas (FAVAV, FAI/IGC, WeGlide, OLC, SSA, BGA, FAA, OACI…) documentadas al final de `src/lib/novedades.ts`.
-- Pendientes de integrar: productos aeronáuticos del SMN (`smn.gob.ar`), NOTAM de EANA/ANAC (`ais.anac.gob.ar`).
+- NOTAM: `POST https://ais.anac.gob.ar/notam/json` con `indicador=<designador local de 3 letras>` (series A y C, cache 15 min). El designador local sale del MADHEL.
+- MADHEL (ANAC): `https://datos.anac.gob.ar/madhel/api/v2/airports/` (lista) y `/<local>/` (ficha con frecuencias y radioayudas). Para los aeródromos del AIP remite al AIP. Los servidores de la ANAC a veces dejan de responder un rato: todo fetch lleva timeout de 10 s.
+- Frecuencias del AIP: `src/data/frecuencias-aip.json`, extraído de los PDF "XXXX-AD-2.0" de `https://ais.anac.gob.ar/aip` (51 aeródromos).
+- Pendientes de integrar: productos aeronáuticos del SMN (`smn.gob.ar`).
 
 ## Agentes del proyecto (`.claude/agents/`)
 

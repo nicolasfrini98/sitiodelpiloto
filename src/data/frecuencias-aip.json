@@ -1,0 +1,2932 @@
+{
+ "extraido": "2026-11-28",
+ "fuente": "https://ais.anac.gob.ar/aip",
+ "aerodromos": {
+  "SAAC": {
+   "documento": "AIP Argentina, SAAC AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e10469037bf",
+   "airac": "1/2025",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "CONCORDIA TORRE / CONCORDIA TOWER",
+     "canal": "CPPL",
+     "frecuencia": "118.30 MHz",
+     "horario": "LUN a DOM 11:00-19:00 UTC / MON to SUN 11:00-19:00 UTC",
+     "observaciones": "No"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "CONCORDIA TORRE / CONCORDIA TOWER",
+     "canal": "CAUX",
+     "frecuencia": "122.10 MHz",
+     "horario": "",
+     "observaciones": "No"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": []
+  },
+  "SAAG": {
+   "documento": "AIP Argentina, SAAG AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-6b08d8a7f36cb",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "Gualeguaychú Torre Gualeguaychú Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.4 MHz",
+     "horario": "1100-1900 UTC",
+     "observaciones": "No"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "Gualeguaychú Torre Gualeguaychú Tower",
+     "canal": "CAUX",
+     "frecuencia": "119.3 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "GUA",
+     "frecuencia": "113.2 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 79X (340 km)"
+    }
+   ]
+  },
+  "SAAP": {
+   "documento": "AIP Argentina, SAAP AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e12b515db21",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "",
+     "distintivo": "Paraná Torre / Parana Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.60 MHz",
+     "horario": "10:00-01:00 UTC",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "",
+     "canal": "CAUX",
+     "frecuencia": "118.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "GND",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.7 MHz",
+     "horario": "10:00-01:00 UTC",
+     "observaciones": "NIL"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "PAR",
+     "frecuencia": "116.8 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 115X (370 km)"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "PA",
+     "frecuencia": "110.3 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a RWY 20 / CAT I to RWY"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "335.0 MHz",
+     "horario": "",
+     "observaciones": "RWY 20 - GP 3° - HGT REF 16"
+    }
+   ]
+  },
+  "SAAR": {
+   "documento": "AIP Argentina, SAAR AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e105dba2f99",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA",
+     "distintivo": "Rosario Control",
+     "canal": "CPPL",
+     "frecuencia": "125.40 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA",
+     "distintivo": "Rosario Control",
+     "canal": "CAUX",
+     "frecuencia": "123.75 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "ROSARIO TORRE / ROSARIO TOWER",
+     "canal": "CPPL",
+     "frecuencia": "118.70 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "ROSARIO TORRE / ROSARIO TOWER",
+     "canal": "CAUX",
+     "frecuencia": "119.75 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver/See GEN 3.4."
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Rosario Rodaje o Superficie / Rosario Taxiway or Surface",
+     "canal": "CPPL",
+     "frecuencia": "121.85 MHz",
+     "horario": "",
+     "observaciones": "Ver/See GEN 3.4."
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Rosario",
+     "canal": "CPPL",
+     "frecuencia": "127.40 MHz",
+     "horario": "",
+     "observaciones": "Ver/See GEN 3.4."
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "ROS",
+     "frecuencia": "117.3 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 120X (324 km) Restricciones: Ver ENR 4.1. / Restrictions: See ENR 4.1."
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "RO",
+     "frecuencia": "109.9 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a/to pista/RWY 20."
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "333.8 MHz",
+     "horario": "",
+     "observaciones": "Pista/RWY 20 GP 3° - HGT REF 15.75 m DME CH 36X"
+    }
+   ]
+  },
+  "SAAV": {
+   "documento": "AIP Argentina, SAAV AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e13318f081b",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "",
+     "distintivo": "",
+     "canal": "CPPL",
+     "frecuencia": "118.95 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "",
+     "canal": "CAUX",
+     "frecuencia": "118.45 MHz",
+     "horario": "10:00-01:00 UTC",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "NDB",
+     "id": "SVO",
+     "frecuencia": "405 KHz",
+     "horario": "H24",
+     "observaciones": "(425 km)"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "SV",
+     "frecuencia": "109.5 MHz",
+     "horario": "",
+     "observaciones": "CAT I a Pista / RWY 21"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "332.6 MHz",
+     "horario": "",
+     "observaciones": "Pista / RWY 21 - GP 3° - HGT"
+    }
+   ]
+  },
+  "SABE": {
+   "documento": "AIP Argentina, SABE AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-6a10684a7a5bd",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR",
+     "distintivo": "Aeroparque Torre / Aeroparque Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.85 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR",
+     "distintivo": "Aeroparque Torre / Aeroparque Tower",
+     "canal": "CAUX I",
+     "frecuencia": "118.25 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR",
+     "distintivo": "Aeroparque Torre / Aeroparque Tower",
+     "canal": "CAUX II",
+     "frecuencia": "128.85 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Aeroparque Rodaje o Superficie / Aeroparque Taxi or Surface",
+     "canal": "",
+     "frecuencia": "121.90 MHz",
+     "horario": "H24",
+     "observaciones": "Ver/See GEN 3.4"
+    },
+    {
+     "servicio": "APP",
+     "distintivo": "Aeroparque Aproximación / Aeroparque Approach",
+     "canal": "CPPL",
+     "frecuencia": "120.60 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "APP",
+     "distintivo": "Aeroparque Aproximación / Aeroparque Approach",
+     "canal": "CAUX",
+     "frecuencia": "119.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "CLRD",
+     "distintivo": "Aeroparque Autorizaciones (*) / Aeroparque Clearances (*)",
+     "canal": "",
+     "frecuencia": "129.30 MHz",
+     "horario": "09:00-03:30 UTC",
+     "observaciones": "Entrega de autorizaciones ATC. (*) Ver disposiciones particulares en SABE AD 2.23 Información Adicional / Delivery of ATC clearances (*) See particular provisions in SABE AD 2.23 Additional Information"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "H24",
+     "observaciones": "Ver/See GEN 3.4"
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Aeroparque / Aeroparque ATIS",
+     "canal": "",
+     "frecuencia": "127.60 MHz",
+     "horario": "09:00-03:45 UTC",
+     "observaciones": "Idioma español - inglés. Ver GEN 3.4 / Spanish - English language See GEN 3.4"
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Aeroparque / Aeroparque ATIS",
+     "canal": "",
+     "frecuencia": "127.90 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "NDB/LI",
+     "id": "N",
+     "frecuencia": "375 KHz",
+     "horario": "",
+     "observaciones": "2.3 NM a Pista/RWY 31"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "AE",
+     "frecuencia": "109.5 MHz",
+     "horario": "H24",
+     "observaciones": "CAT II a Pista/RWY 13"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "332.6 MHz",
+     "horario": "",
+     "observaciones": "Pista / RWY 13 GP 3º - HGT REF 15.30 m - DME CH 32X"
+    }
+   ]
+  },
+  "SACO": {
+   "documento": "AIP Argentina, SACO AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e1078aa7f9d",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Córdoba Torre / Córdoba Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.30 MHz",
+     "horario": "H24",
+     "observaciones": "No."
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Córdoba Torre / Córdoba Tower",
+     "canal": "CAUX I",
+     "frecuencia": "118.55 MHz",
+     "horario": "",
+     "observaciones": "No."
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Córdoba Torre / Córdoba Tower",
+     "canal": "CAUX II",
+     "frecuencia": "119.45 MHz",
+     "horario": "",
+     "observaciones": "No."
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Córdoba Rodaje o Superficie / Córdoba Taxiing or Surface",
+     "canal": "CPPL",
+     "frecuencia": "121.75 MHz",
+     "horario": "",
+     "observaciones": "Ver/See GEN 3.4."
+    },
+    {
+     "servicio": "CLRD",
+     "distintivo": "Córdoba Autorizaciones / Córdoba Clearances",
+     "canal": "CPPL",
+     "frecuencia": "129.30 MHz",
+     "horario": "",
+     "observaciones": "Entrega de autorizaciones ATC. / Delivery of ATC clearances."
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Córdoba / Córdoba ATIS",
+     "canal": "CPPL",
+     "frecuencia": "127.50 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4. Radiodifusión automática de información terminal (ATIS) / See GEN 3.4. Automatic Terminal Information Service (ATIS)"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver/See GEN 3.4."
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "CBA",
+     "frecuencia": "114.5 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 92X (343 km)"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "CB",
+     "frecuencia": "110.3 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a Pista/RWY 19"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "335 MHz",
+     "horario": "H24",
+     "observaciones": "Pista/RWY 19 GP 3° - HGT REF 16 m. DME CH 40X"
+    }
+   ]
+  },
+  "SADF": {
+   "documento": "AIP Argentina, SADF AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-6b08b720c75dd",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR",
+     "distintivo": "Fernando Torre / Fernando Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.00 MHz",
+     "horario": "H24",
+     "observaciones": "No"
+    },
+    {
+     "servicio": "TWR",
+     "distintivo": "Fernando Torre / Fernando Tower",
+     "canal": "CAUX",
+     "frecuencia": "120.05 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.5 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "127.65 MHz",
+     "horario": "",
+     "observaciones": "Idioma: español e inglés / Language: Spanish and English"
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Fernando Rodaje o Superficie / Fernando Taxiing or Surface",
+     "canal": "",
+     "frecuencia": "121.85 MHz",
+     "horario": "",
+     "observaciones": "No"
+    },
+    {
+     "servicio": "CLRD",
+     "distintivo": "Autorizaciones San Fernando San Fernando Clearances",
+     "canal": "",
+     "frecuencia": "129.50 MHz",
+     "horario": "",
+     "observaciones": "Entrega de autorizaciones ATC / Delivery of ATC clearances"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "FDO",
+     "frecuencia": "114.4 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 91X. (343 km)."
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "FD",
+     "frecuencia": "109.1 MHz",
+     "horario": "",
+     "observaciones": "CAT I RWY 05."
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "331.4 MHz",
+     "horario": "",
+     "observaciones": "RWY 05 GP 3°. HGT REF 15.20 m. DME CH 28X."
+    }
+   ]
+  },
+  "SADJ": {
+   "documento": "AIP Argentina, SADJ AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e16419c624e",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR",
+     "distintivo": "Mariano Moreno Torre / Mariano Moreno Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.70 MHz",
+     "horario": "LUN a VIE 11:00-17:00 UTC / MON to FRI 11:00-17:00 UTC",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR",
+     "distintivo": "Mariano Moreno Torre / Mariano Moreno Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.55 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": []
+  },
+  "SADM": {
+   "documento": "AIP Argentina, SADM AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e135e507da0",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR",
+     "distintivo": "Morón Torre Morón Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.50 MHz",
+     "horario": "11:00 a / to SS",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TWR",
+     "distintivo": "Morón Torre Morón Tower",
+     "canal": "CAUX",
+     "frecuencia": "120.75 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Morón Rodaje o Superficie Morón Taxiing or Surface",
+     "canal": "CPPL",
+     "frecuencia": "121.80 MHz",
+     "horario": "11:00 a / to SS",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Morón",
+     "canal": "CPPL",
+     "frecuencia": "127.70 MHz",
+     "horario": "11:00 a / to SS",
+     "observaciones": "NIL"
+    }
+   ],
+   "radioayudas": []
+  },
+  "SADP": {
+   "documento": "AIP Argentina, SADP AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e26822c76b6",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR",
+     "distintivo": "EL PALOMAR TORRE / EL PALOMAR TOWER",
+     "canal": "CPPL",
+     "frecuencia": "120.30 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR",
+     "distintivo": "EL PALOMAR TORRE / EL PALOMAR TOWER",
+     "canal": "CAUX",
+     "frecuencia": "118.90 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver / See GEN 3.4."
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "El Palomar Rodaje o Superficie / El Palomar Taxiing or Surface",
+     "canal": "",
+     "frecuencia": "121.95 MHz",
+     "horario": "H24",
+     "observaciones": "Ver / See GEN 3.4."
+    },
+    {
+     "servicio": "DIF/ATIS",
+     "distintivo": "ATIS El Palomar / El Palomar ATIS",
+     "canal": "",
+     "frecuencia": "127.625 MHz",
+     "horario": "H24",
+     "observaciones": "Ver / See GEN 3.4."
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "PAL",
+     "frecuencia": "115.2 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 99X (324 km) Restricciones - Ver ENR 4.1. / Restrictions – See ENR 4.1."
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "PR",
+     "frecuencia": "110.5 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a pista / RWY 17"
+    },
+    {
+     "tipo": "GP DME",
+     "id": "",
+     "frecuencia": "329.6 MHz",
+     "horario": "",
+     "observaciones": "Pista / RWY 17 GP 3º - HGT REF 17.40 m. DME CH 42X"
+    }
+   ]
+  },
+  "SAEZ": {
+   "documento": "AIP Argentina, SAEZ AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e10875b7c89",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR",
+     "distintivo": "EZEIZA TORRE / EZEIZA TOWER",
+     "canal": "CPPL",
+     "frecuencia": "118.60 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR",
+     "distintivo": "EZEIZA TORRE / EZEIZA TOWER",
+     "canal": "CAUX",
+     "frecuencia": "118.05 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Ezeiza Rodaje o Superficie / Ezeiza Taxiing or Surface",
+     "canal": "",
+     "frecuencia": "121.75 MHz",
+     "horario": "",
+     "observaciones": "Ver/See GEN 3.4."
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver/See GEN 3.4."
+    },
+    {
+     "servicio": "APP",
+     "distintivo": "Ezeiza Aproximación / Ezeiza Approach",
+     "canal": "CPPL",
+     "frecuencia": "119.90 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "APP",
+     "distintivo": "Ezeiza Aproximación / Ezeiza Approach",
+     "canal": "CAUX",
+     "frecuencia": "120.45 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Ezeiza / Ezeiza ATIS",
+     "canal": "",
+     "frecuencia": "127.80 MHz",
+     "horario": "H24",
+     "observaciones": "Ver/See GEN 3.4."
+    },
+    {
+     "servicio": "CLRD",
+     "distintivo": "Ezeiza Autorizaciones / Ezeiza Clearances",
+     "canal": "",
+     "frecuencia": "127.10 MHz",
+     "horario": "09:00-01:00 UTC",
+     "observaciones": "Entrega de autorizaciones ATC / Delivery of ATC clearances."
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR DME",
+     "id": "EZE",
+     "frecuencia": "116.5 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 112X (343 km)"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "PC",
+     "frecuencia": "110.1 MHz",
+     "horario": "H24",
+     "observaciones": "CAT III-A a Pista/RWY 11"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "334.4 MHz",
+     "horario": "",
+     "observaciones": "Pista/RWY 11 GP 3° - HGT REF DME CH 38X"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "EZ",
+     "frecuencia": "108.7 MHz",
+     "horario": "",
+     "observaciones": "CAT II a Pista/RWY 35"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "330.5 MHz",
+     "horario": "",
+     "observaciones": "Pista/RWY 35. GP 3° HGT REF 16.10 m. DME CH 24X"
+    }
+   ]
+  },
+  "SAME": {
+   "documento": "AIP Argentina, SAME AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69fc9d7664864",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA",
+     "distintivo": "Mendoza Control",
+     "canal": "CPPL.",
+     "frecuencia": "124.20 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA",
+     "distintivo": "Mendoza Control",
+     "canal": "CAUX",
+     "frecuencia": "122.10 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver / See GEN 3.4"
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Mendoza Torre / Mendoza Tower",
+     "canal": "CPPL.",
+     "frecuencia": "119.90 MHz",
+     "horario": "",
+     "observaciones": "Ver / See GEN 3.4"
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Mendoza Torre / Mendoza Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.65 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Mendoza Rodaje o Superficie / Mendoza Taxiing or Surface",
+     "canal": "CPPL.",
+     "frecuencia": "121.95 MHz",
+     "horario": "",
+     "observaciones": "Ver / See GEN 3.4"
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Mendoza",
+     "canal": "CPPL.",
+     "frecuencia": "127.60 MHz",
+     "horario": "",
+     "observaciones": "Ver / See GEN 3.4"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "DOZ",
+     "frecuencia": "114.9 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 96X (343 km). Ver restricción en AIP 4.1 / See restriction in AIP 4.1"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "DO",
+     "frecuencia": "109.9 MHz",
+     "horario": "",
+     "observaciones": "CAT I a Pista / RWY 36"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "333.8 MHz",
+     "horario": "",
+     "observaciones": "Pista / RWY 36 GP 3° - HGT REF 16.20 m DME CH 36X"
+    }
+   ]
+  },
+  "SAMM": {
+   "documento": "AIP Argentina, SAMM AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e168cc06ad1",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "Malargüe Torre / Malargüe Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.25 MHz",
+     "horario": "11:00-19:00 UTC O/R (*)",
+     "observaciones": "(*) COOR móvil (+54 9 260) 4306895 y (+54 9 260) 4582461. Ver AIC apertura anticipada o extensión de servicios. / COOR mobile (+54 9 260) 4306895 and (+54 9 260) 4582461. See AIC opening or service extension"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "Malargüe Torre / Malargüe Tower",
+     "canal": "CAUX",
+     "frecuencia": "119.55 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "MLG",
+     "frecuencia": "117.2 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 119X (330 km). Restricciones: Ver ENR 4.1. / Restrictions: See ENR 4.1."
+    }
+   ]
+  },
+  "SAMR": {
+   "documento": "AIP Argentina, SAMR AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-6b08dabde7b81",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "San Rafael Torre / San Rafael Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.10 MHz",
+     "horario": "LUN–VIE: 1000-2359 UTC, resto O/R / MON-FRI: 1000-2359 UTC rest O/R",
+     "observaciones": "No"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "San Rafael Torre / San Rafael Tower",
+     "canal": "CAUX",
+     "frecuencia": "119.15 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "San Rafael GND",
+     "canal": "CPPL",
+     "frecuencia": "118.10 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "San Rafael GND",
+     "canal": "CAUX",
+     "frecuencia": "119.15 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "SRA",
+     "frecuencia": "116.9 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 116X (330 km). Restricciones: Ver ENR 4.1. / Restrictions: See ENR 4.1."
+    }
+   ]
+  },
+  "SANC": {
+   "documento": "AIP Argentina, SANC AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e256ccb0f13",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "CATAMARCA TORRE / CATAMARCA TOWER",
+     "canal": "CPPL",
+     "frecuencia": "118.15 MHz",
+     "horario": "Ver / See AD 2.3-7",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "CATAMARCA TORRE / CATAMARCA TOWER",
+     "canal": "CAUX",
+     "frecuencia": "119.90 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver / See AIP GEN 3.4"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "CAT",
+     "frecuencia": "114.3 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 90X (296 km) (Calculado en gabinete) Restricciones: Ver AIP ENR 4.1 / DME CH 90X (296 km) (Calculated in laboratory). Restrictions: See AIP ENR 4.1"
+    }
+   ]
+  },
+  "SANE": {
+   "documento": "AIP Argentina, SANE AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e1098092c2d",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "SANTIAGO TORRE / SANTIAGO TOWER",
+     "canal": "CPPL",
+     "frecuencia": "118.70 MHz",
+     "horario": "10:00-23:59 UTC",
+     "observaciones": "No"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "SANTIAGO TORRE / SANTIAGO TOWER",
+     "canal": "CAUX",
+     "frecuencia": "119.25 MHz",
+     "horario": "",
+     "observaciones": "No"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR",
+     "id": "SDE",
+     "frecuencia": "114.8 MHz",
+     "horario": "H24",
+     "observaciones": "220 km (Calculado en gabinete. / Calculated in laboratory.)"
+    }
+   ]
+  },
+  "SANL": {
+   "documento": "AIP Argentina, SANL AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e254b904105",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "LA RIOJA TORRE / LA RIOJA TOWER",
+     "canal": "CPPL",
+     "frecuencia": "118.45 MHz 119.15 MHz 121.50 MHz",
+     "horario": "DOM a VIE 1900 - 2359",
+     "observaciones": "No"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "LAR",
+     "frecuencia": "113.5 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 82X 296 km. Ver restricción en AIP 4.1. / See restriction in AIP 4.1."
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "LR",
+     "frecuencia": "110.1 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a Pista / RWY 21."
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "334.4 MHz",
+     "horario": "Ver / See NOTAM´s",
+     "observaciones": "Pista / RWY 21. DME CH 38X. GP 3° - HGT REF 15.60 m."
+    }
+   ]
+  },
+  "SANR": {
+   "documento": "AIP Argentina, SANR AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e6130f69047",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Termas de Río Hondo Torre/ Termas de Río Hondo Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.85 MHz",
+     "horario": "O/R",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Termas de Río Hondo Torre/ Termas de Río Hondo Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.20 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.5 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "TRH",
+     "frecuencia": "113.70 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 84X (343 km) Ver restricciones en AIP ENR 4.1 / DME CH 84X (343 km) See restrictions in AIP ENR 4.1"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "RH",
+     "frecuencia": "108.7 MHz",
+     "horario": "H24",
+     "observaciones": "CAT II a RWY 01"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "330.5 MHz",
+     "horario": "",
+     "observaciones": "DME CH 24X - RWY 01 GP 3° – HGT REF 15.20 m"
+    }
+   ]
+  },
+  "SANT": {
+   "documento": "AIP Argentina, SANT AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e10b1142729",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Tucumán Torre / Tucumán Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.50 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Tucumán Torre / Tucumán Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.35MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Tucumán Rodaje o Superficie / Tucumán Taxiing or Surface",
+     "canal": "CPPL",
+     "frecuencia": "121.75 MHz",
+     "horario": "",
+     "observaciones": "Ver/See GEN 3.4"
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Tucumán",
+     "canal": "CPPL",
+     "frecuencia": "127.55 MHz",
+     "horario": "",
+     "observaciones": "Ver/See GEN 3.4"
+    },
+    {
+     "servicio": "TMA",
+     "distintivo": "Tucumán Control",
+     "canal": "CPPL",
+     "frecuencia": "123.85 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA",
+     "distintivo": "Tucumán Control",
+     "canal": "CAUX",
+     "frecuencia": "122.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "TUC",
+     "frecuencia": "114.1 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 88X - 343 km Restricciones - Ver ENR 4.1. / Restrictions – See ENR 4.1"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "TU",
+     "frecuencia": "109.9MHz",
+     "horario": "",
+     "observaciones": "CAT II a Pista/RWY 02"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "333.8MHz",
+     "horario": "",
+     "observaciones": "Pista/RWY 02 GP 3° - HGT REF 17.3 m - DME CH 36X"
+    }
+   ]
+  },
+  "SANU": {
+   "documento": "AIP Argentina, SANU AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e10b2277811",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "San Juan Torre / San Juan Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.35 MHz",
+     "horario": "10:00-23:59 UTC",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "San Juan Torre / San Juan Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.05 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.5 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "JUA",
+     "frecuencia": "113.1 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 78X (330 km) Restricciones: Ver ENR 4.1 Restrictions See ENR 4.1."
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "SJ",
+     "frecuencia": "110.3 MHz",
+     "horario": "10:00-23:59 UTC",
+     "observaciones": "CAT I a RWY 18. / CAT I to RWY 18."
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "335.0 MHz",
+     "horario": "10:00-23:59 UTC",
+     "observaciones": "RWY 18 - GP 3° - HGT REF 15.20 m - DME CH 40X."
+    }
+   ]
+  },
+  "SAOC": {
+   "documento": "AIP Argentina, SAOC AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e10b83ad8fa",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "RÍO CUARTO TORRE / RIO CUARTO TOWER",
+     "canal": "CPPL",
+     "frecuencia": "118.75 MHz",
+     "horario": "LUN a VIE 11:00-23:00 UTC – Resto O/R / MON to FRI 11:00-23:00 UTC – Rest O/R /",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "RÍO CUARTO TORRE / RIO CUARTO TOWER",
+     "canal": "CAUX",
+     "frecuencia": "119.55 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "RÍO CUARTO TORRE / RIO CUARTO TOWER",
+     "canal": "EMRG",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "RCU",
+     "frecuencia": "114.2 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 89X (330"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "RC",
+     "frecuencia": "110.9 MHz",
+     "horario": "",
+     "observaciones": "CAT I a RWY 05 / CAT I to RWY 05"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "330.8 MHz",
+     "horario": "",
+     "observaciones": "RWY 05 - GP 3° - HGT REF 16.51 m - DME CH 46X"
+    }
+   ]
+  },
+  "SAOR": {
+   "documento": "AIP Argentina, SAOR AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e10c27bbaf1",
+   "airac": "2/2026",
+   "ats": [
+    {
+     "servicio": "",
+     "distintivo": "Villa Reynolds Torre / Villa Reynolds Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.30 MHz",
+     "horario": "11:00-21:59 UTC LU-VI (días hábiles) / MON-FRI (working days)",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "",
+     "distintivo": "Villa Reynolds Torre / Villa Reynolds Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.50 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "RYD",
+     "frecuencia": "115.7 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 104X (343 km)"
+    }
+   ]
+  },
+  "SAOS": {
+   "documento": "AIP Argentina, SAOS AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e10c3899e4a",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "Valle del Conlara Torre / Valle del Conlara Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.95 MHz",
+     "horario": "12:00-18:00 UTC, días hábiles, resto O/R / working days, rest O/R",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "Valle del Conlara Torre / Valle del Conlara Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.85 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver / see AIP GEN 3.4."
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "SRC",
+     "frecuencia": "117.5 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 122X (320 km). Ver restricciones en AIP ENR 4.1. / See restrictions in AIP ENR 4.1."
+    }
+   ]
+  },
+  "SAOU": {
+   "documento": "AIP Argentina, SAOU AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e23dcde0868",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "San Luis Torre / San Luis Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.40 MHz",
+     "horario": "11:00-23:00 UTC. REST O/R",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "San Luis Torre / San Luis Tower",
+     "canal": "CAUX",
+     "frecuencia": "119.85 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.5 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "UIS",
+     "frecuencia": "116 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 107X (328 km)."
+    }
+   ]
+  },
+  "SARC": {
+   "documento": "AIP Argentina, SARC AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-6b08bc3be001e",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "CORRIENTES TORRE / CORRIENTES TOWER",
+     "canal": "CPPL",
+     "frecuencia": "118.30 MHz",
+     "horario": "0900-2359 UTC",
+     "observaciones": "No"
+    },
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "CORRIENTES TORRE / CORRIENTES TOWER",
+     "canal": "CAUX",
+     "frecuencia": "119.55 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "CRS",
+     "frecuencia": "115.4 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 101 X (340 km)"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "CR",
+     "frecuencia": "109.7 MHz",
+     "horario": "",
+     "observaciones": "No"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "333.2 MHz",
+     "horario": "",
+     "observaciones": "RWY 20 GP 3° - HGT REF 16.30 m - DME: CH 34 X"
+    }
+   ]
+  },
+  "SARE": {
+   "documento": "AIP Argentina, SARE AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e23557ecfd0",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA",
+     "distintivo": "Resistencia Control",
+     "canal": "CPPL",
+     "frecuencia": "119.40 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA",
+     "distintivo": "Resistencia Control",
+     "canal": "CAUX",
+     "frecuencia": "120.40 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4 / See GEN 3.4"
+    },
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "Resistencia Torre / Resistencia Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.70 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "Resistencia Torre / Resistencia Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.10 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Resistencia Rodaje o Superficie / Resistencia Taxiing or Surface",
+     "canal": "",
+     "frecuencia": "121.95 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4 / See GEN 3.4"
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Resistencia",
+     "canal": "",
+     "frecuencia": "127.85 MHz",
+     "horario": "",
+     "observaciones": "Ver / see GEN 3.4 ATIS"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "SIS",
+     "frecuencia": "115.1 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 98X (343 km)"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "RS",
+     "frecuencia": "110.3 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a RWY 21"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "335.0 MHz",
+     "horario": "",
+     "observaciones": "RWY 21 GP 3° - HGT REF 17 m DME CH 40X"
+    }
+   ]
+  },
+  "SARF": {
+   "documento": "AIP Argentina, SARF AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-6b08c458af0c7",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "Formosa Torre / Formosa Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.10 MHz",
+     "horario": "1100-2300 UTC",
+     "observaciones": "Ver GEN 3.4 / See GEN 3.4"
+    },
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "Formosa Torre / Formosa Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.25 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4 / See GEN 3.4"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.5 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "FSA",
+     "frecuencia": "115.6 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 103X (333 km). Restricciones: Ver ENR 4.1 / DME CH 103X (333 k) Restrictions See ENR 4.1"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "FS",
+     "frecuencia": "110.9 MHz",
+     "horario": "",
+     "observaciones": "CAT I a Pista 22 / CAT I to Runway 22"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "330.8 MHz",
+     "horario": "",
+     "observaciones": "Pista 22 GP 3° - HGT REF 16.20 m. DME CH 46X / Runway 22 GP 3° - HGT REF 16,20 m. DME CH 46X"
+    }
+   ]
+  },
+  "SARI": {
+   "documento": "AIP Argentina, SARI AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e6163c31b23",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "Cataratas Torre / Cataratas Tower",
+     "canal": "CPPL",
+     "frecuencia": "120.70 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "Cataratas Torre / Cataratas Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.30 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Cataratas Rodaje o Superficie / Cataratas Taxiing or Surface",
+     "canal": "",
+     "frecuencia": "121.80 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4 / See GEN 3.4"
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Cataratas",
+     "canal": "",
+     "frecuencia": "127.70 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4: Radiodifusión automática de información terminal (ATIS) / See GEN 3.4: Automatic Terminal Information Service (ATIS)."
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "IGU",
+     "frecuencia": "114.1 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 88X (328 km)."
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "IG",
+     "frecuencia": "110.9 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a Pista 31 / CAT I to Runway 31"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "330.8 MHz",
+     "horario": "",
+     "observaciones": "Pista 31 GP 3° - HGT REF 15.70 m - DME CH 46X / Runway 31 GP 3° - HGT REF 15,70 m DME CH 46X"
+    },
+    {
+     "tipo": "MM",
+     "id": "",
+     "frecuencia": "75.0 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ]
+  },
+  "SARL": {
+   "documento": "AIP Argentina, SARL AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e1113b81c2b",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/TWR/APP",
+     "distintivo": "Libres Torre / Libres Tower",
+     "canal": "CPPL",
+     "frecuencia": "120.3 MHz",
+     "horario": "LUN a DOM 12:30-20:30 UTC MON to SUN 12:30-20:30 UTC",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA/TWR/APP",
+     "distintivo": "Libres Torre / Libres Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.5 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4 / See GEN 3.4"
+    },
+    {
+     "servicio": "TMA/TWR/APP",
+     "distintivo": "Libres Torre / Libres Tower",
+     "canal": "",
+     "frecuencia": "118.1 MHz",
+     "horario": "HX",
+     "observaciones": "Servicio HX para comunicaciones en inmediaciones de Paso de los Libres, Uruguaiana y su Coordinación. / HX service for communications in the vicinity of Paso de los Libres, Uruguaiana and its Coordination."
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "LUN a DOM 12:30-20:30 UTC MON to SUN 12:30-20:30 UTC",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": []
+  },
+  "SARP": {
+   "documento": "AIP Argentina, SARP AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-6b08bdbe4bba1",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "POSADAS TORRE / POSADAS TOWER",
+     "canal": "CPPL",
+     "frecuencia": "120.10 MHz",
+     "horario": "H24",
+     "observaciones": "Ver ENR 2.1 / See ENR 2.1"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "POSADAS TORRE / POSADAS TOWER",
+     "canal": "CAUX",
+     "frecuencia": "118.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "POS",
+     "frecuencia": "114.9 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 96X. (343 km). Restricción: NO UTILIZAR por debajo de FL090 entre el RDL 070 y RDL 110 (pasando por RDL 090), por oscilaciones fuera de tolerancia. / DME CH 96X (343 km). Restriction: DO NOT USE below FL090 between RDL 070 and RDL 110 (passing through RDL 090), due to out- of-tolerance oscillations."
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "PO",
+     "frecuencia": "109.9 MHz",
+     "horario": "",
+     "observaciones": "CAT I RWY 20."
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "333.8 MHz",
+     "horario": "",
+     "observaciones": "RWY 20 GP 3° - HGT REF 15 m - DME CH 36X."
+    }
+   ]
+  },
+  "SASA": {
+   "documento": "AIP Argentina, SASA AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e1138586777",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR",
+     "distintivo": "SALTA TORRE / SALTA TOWER",
+     "canal": "CPPL",
+     "frecuencia": "128.85 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR",
+     "distintivo": "SALTA TORRE / SALTA TOWER",
+     "canal": "CAUX",
+     "frecuencia": "129.75 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA/APP",
+     "distintivo": "Salta Control",
+     "canal": "CPPL",
+     "frecuencia": "124.60 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA/APP",
+     "distintivo": "Salta Control",
+     "canal": "CAUX",
+     "frecuencia": "126.00 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "127.65 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "SAL",
+     "frecuencia": "116.7 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 114X (343 km). Restricciones Ver ENR 4.1/ DME CH 114X (343 km). Restrictions See ENR 4.1."
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "SA",
+     "frecuencia": "110.3 MHz",
+     "horario": "H24",
+     "observaciones": "CAT II a Pista 02. / CAT II to Runway 02."
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "335 MHz",
+     "horario": "H24",
+     "observaciones": "Pista 02 - GP 3° - HGT REF 16.70 m - DME CH 40X. / Runway 02 - GP 3° - HGT REF 16.70 m DME CH 40X"
+    }
+   ]
+  },
+  "SASJ": {
+   "documento": "AIP Argentina, SASJ AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e113f9e6050",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Jujuy Torre Jujuy Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.70 MHz",
+     "horario": "H24",
+     "observaciones": "Ver GEN 3.4 / See GEN 3.4"
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Jujuy Torre Jujuy Tower",
+     "canal": "CAUX",
+     "frecuencia": "119.75 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "JUJ",
+     "frecuencia": "112.9 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 76X (345 km) Restricción: Ver ENR 4.1 / DME CH 76X (345 km) Restrictions – See ENR 4.1"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "JU",
+     "frecuencia": "110.1 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a Pista 34 / CAT I to Runway 24"
+    },
+    {
+     "tipo": "GP/ DME",
+     "id": "",
+     "frecuencia": "334.4 MHz",
+     "horario": "",
+     "observaciones": "Pista 34 GP 3° - HGT REF 16 m - DME CH 38X. / Runway 34 GP 3° - HGT REF 16 m - DME CH 38X"
+    }
+   ]
+  },
+  "SATR": {
+   "documento": "AIP Argentina, SATR AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e11419cd188",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "Reconquista Torre",
+     "canal": "CPPL",
+     "frecuencia": "120.85 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "Reconquista Torre",
+     "canal": "CAUX",
+     "frecuencia": "118.50 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "RTA",
+     "frecuencia": "117.1 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 118X (343 km)"
+    }
+   ]
+  },
+  "SAVC": {
+   "documento": "AIP Argentina, SAVC AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e1143c25a85",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "COMODORO TORRE / COMODORO TOWER",
+     "canal": "CPPL",
+     "frecuencia": "119.90 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "COMODORO TORRE / COMODORO TOWER",
+     "canal": "CAUX",
+     "frecuencia": "120.80 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA",
+     "distintivo": "COMODORO CONTROL / COMODORO CONTROL",
+     "canal": "CPPL",
+     "frecuencia": "124.30 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA",
+     "distintivo": "COMODORO CONTROL / COMODORO CONTROL",
+     "canal": "CAUX",
+     "frecuencia": "126.75 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver/ See GEN 3.4"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "CRV",
+     "frecuencia": "117.5 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 122X (330 km). Restricciones: Ver ENR 4.1/ DME CH 122X (330km). Restrictions – See ENR 4.1"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "CR",
+     "frecuencia": "110.3 MHz",
+     "horario": "",
+     "observaciones": "CAT I a Pista 25. / CAT I to Runway 25."
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "335 MHz",
+     "horario": "",
+     "observaciones": "Pista 25 GP 3° - HGT REF 16.40 m. DME CH 40X. / Runway 25 GP 3° - HGT REF 16,40 m. DME CH 40X"
+    }
+   ]
+  },
+  "SAVE": {
+   "documento": "AIP Argentina, SAVE AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e114f5ef93e",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/TWR/APP",
+     "distintivo": "ESQUEL TORRE/ ESQUEL TOWER",
+     "canal": "CPPL",
+     "frecuencia": "118.8 MHz",
+     "horario": "11:00-22:00 UTC",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TMA/TWR/APP",
+     "distintivo": "ESQUEL TORRE/ ESQUEL TOWER",
+     "canal": "CAUX",
+     "frecuencia": "118.10 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    }
+   ],
+   "radioayudas": []
+  },
+  "SAVT": {
+   "documento": "AIP Argentina, SAVT AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e11508bc15d",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR/APP/TMA",
+     "distintivo": "Trelew Torre / Trelew Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.70 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR/APP/TMA",
+     "distintivo": "Trelew Torre / Trelew Tower",
+     "canal": "CAUX",
+     "frecuencia": "120.65 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4. / See GEN 3.4."
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Trelew",
+     "canal": "",
+     "frecuencia": "127.70 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4: Radiodifusión automática de información terminal (ATIS). / See GEN 3.4: Automatic Terminal Information Service (ATIS)."
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "ILS/LOC",
+     "id": "TR",
+     "frecuencia": "109.5 MHz",
+     "horario": "H24",
+     "observaciones": "CAT II a Pista/RWY 25."
+    },
+    {
+     "tipo": "VOR/DME",
+     "id": "TRE",
+     "frecuencia": "115.1MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 98X (343 km)"
+    }
+   ]
+  },
+  "SAVV": {
+   "documento": "AIP Argentina, SAVV AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-6b08dd1574e60",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "Viedma Torre/ Viedma Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.30 MHz",
+     "horario": "1100-2300 UTC",
+     "observaciones": ""
+    },
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "Viedma Torre/ Viedma Tower",
+     "canal": "CAUX",
+     "frecuencia": "120.40 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR",
+     "id": "VIE",
+     "frecuencia": "117.1 MHz",
+     "horario": "H24",
+     "observaciones": "(343 km)."
+    }
+   ]
+  },
+  "SAVY": {
+   "documento": "AIP Argentina, SAVY AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-6b08f3d6bb59b",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "Puerto Madryn Torre / Puerto Madryn Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.50 MHz",
+     "horario": "Ver AIP AD 2.3-7. / See AIP AD 2.3-7.",
+     "observaciones": "No"
+    },
+    {
+     "servicio": "APP/TWR",
+     "distintivo": "Puerto Madryn Torre / Puerto Madryn Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "DRY",
+     "frecuencia": "116.1 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 108X (370 km)"
+    }
+   ]
+  },
+  "SAWB": {
+   "documento": "AIP Argentina, SAWB AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e11573197e5",
+   "airac": "1/2024",
+   "ats": [
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Marambio Torre / Marambio Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.10 MHz",
+     "horario": "NIL",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Marambio Torre / Marambio Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.50 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "NIL",
+     "observaciones": "NIL"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "NDB",
+     "id": "MBI",
+     "frecuencia": "345 KHz",
+     "horario": "O/R",
+     "observaciones": "250 km"
+    },
+    {
+     "tipo": "VOR/DME",
+     "id": "MBI",
+     "frecuencia": "117.0 MHz",
+     "horario": "O/R",
+     "observaciones": "DME CH 117X (350 km). Restricciones ver AIP ENR 4.1/ DME CH 117X (350 km). Restricciones see AIP ENR 4.1."
+    }
+   ]
+  },
+  "SAWC": {
+   "documento": "AIP Argentina, SAWC AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e7b256c1c2c",
+   "airac": "1/2025",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "CALAFATE TORRE / CALAFATE TOWER",
+     "canal": "CPPL",
+     "frecuencia": "119.95 MHz",
+     "horario": "10:00-23:59 UTC",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "CALAFATE TORRE / CALAFATE TOWER",
+     "canal": "CAUX",
+     "frecuencia": "118.20 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver AIP GEN 3.4./ See GEN 3.4."
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "ATIS El Calafate",
+     "canal": "",
+     "frecuencia": "127.85 MHz",
+     "horario": "10:00-23:59 UTC",
+     "observaciones": "Ver /See AIP GEN 3.4 – ATIS"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "ECA",
+     "frecuencia": "114.7 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 94X (330 km) Restricciones: Ver ENR 4.1. / DME CH 94X (330 km). Restrictions: See ENR 4.1."
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "EC",
+     "frecuencia": "108.9 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a RWY 25 / CAT I to RWY 25"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "329.3 MHz",
+     "horario": "",
+     "observaciones": "Pista 25 - GP 3° - HGT REF 15,08 m - DME CH 26X / Runway 25 – GP 3° HGT REF 15.08 m – DME CH 26X"
+    }
+   ]
+  },
+  "SAWE": {
+   "documento": "AIP Argentina, SAWE AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-6b08c71c7f28b",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/ TWR",
+     "distintivo": "GRANDE TORRE / GRANDE TOWER",
+     "canal": "CPPL",
+     "frecuencia": "118.30 MHz",
+     "horario": "0900-0300 UTC",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA/APP/ TWR",
+     "distintivo": "GRANDE TORRE / GRANDE TOWER",
+     "canal": "CAUX",
+     "frecuencia": "120.20 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "GRA",
+     "frecuencia": "117.3 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 120X (348 km)"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "GR",
+     "frecuencia": "109.5 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a Pista 26 / CAT I to Runway 26."
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "332.6 MHz",
+     "horario": "H24 (HR ATC ver AD 2.3-7)",
+     "observaciones": "Pista 26 GP 3° - HGT REF 16.20 m - DME CH 32X / Runway 26 GP 3° - HGT REF 16.20 m - DME CH 32X."
+    }
+   ]
+  },
+  "SAWG": {
+   "documento": "AIP Argentina, SAWG AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e1165d02be1",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Gallegos Torre/ Gallegos Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.40 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Gallegos Torre/ Gallegos Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.80 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4./ See GEN 3.4."
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Gallegos",
+     "canal": "",
+     "frecuencia": "127.60 MHz",
+     "horario": "H24",
+     "observaciones": "Ver GEN 3.4: Radiodifusión automática de información terminal (ATIS) / See GEN 3.4. Automatic Terminal Information Service (ATIS)."
+    },
+    {
+     "servicio": "TMA",
+     "distintivo": "Gallegos Control",
+     "canal": "CPPL",
+     "frecuencia": "124.70 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA",
+     "distintivo": "Gallegos Control",
+     "canal": "CAUX",
+     "frecuencia": "128.80 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "GAL",
+     "frecuencia": "116.7 MHz",
+     "horario": "H24",
+     "observaciones": "VOR GAL OUT 40NM AND UNDER FL 060 U/S. DME CH 114X (343 km) VOR GAL OUT 40NM"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "GL",
+     "frecuencia": "110.3 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I TO RWY 26"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "335 MHz",
+     "horario": "H24",
+     "observaciones": "RWY 26 GP 3° - HGT REF 16.71 m - DME CH 40X"
+    }
+   ]
+  },
+  "SAWH": {
+   "documento": "AIP Argentina, SAWH AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e7b2b7ee74b",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Ushuaia Torre / Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.10 MHz",
+     "horario": "10:00-02:00 UTC, rest O/R",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Ushuaia Torre / Tower",
+     "canal": "CAUX",
+     "frecuencia": "122.10 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "ATIS Ushuaia",
+     "canal": "CPPL",
+     "frecuencia": "127.80 MHz",
+     "horario": "",
+     "observaciones": "Ver / See GEN 3.4"
+    },
+    {
+     "servicio": "TMA",
+     "distintivo": "Ushuaia Control",
+     "canal": "CPPL",
+     "frecuencia": "123.85 MHz",
+     "horario": "",
+     "observaciones": "Opera frecuencia PPAL TWR 118,10 Mhz / It operates MAIN TWR frequency 118.10 Mhz"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver / See GEN 3.4."
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "DVOR/DME",
+     "id": "USU",
+     "frecuencia": "113.7 MHz",
+     "horario": "H24",
+     "observaciones": "RESTRICCION: Desde RDL 070° hasta RDL 120° pasando por el RDL 090° utilizable desde 1000 FT hasta ilimitado. El resto de los sectores inutilizable por debajo de FL 130, excepto AWY W42 FL 110, por debajo de ese nivel inutilizable. se recomienda no utilizar modo NAV en piloto automático en IAC RWY 25 que utilicen VOR por oscilaciones efecto montaña. / RESTRICTION: From RDL 070° until RDL 120° passing through RDL 090° serviceable from 1000 FT until unlimited. The rest of the sectors unserviceable below FL 130, except AWY W42 FL 110, below such level unserviceable. It is recommended not to use NAV mode on automatic pilot in IAC RWY 25 and to use IAC VOR due to mountain effect fluctuations."
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "US",
+     "frecuencia": "111.3 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I RWY 25"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "332.3 MHz",
+     "horario": "H24",
+     "observaciones": "RWY 25 GP 3.5°-HGT REF 16.50 m DME CH 50X. / RWY 25 GP 3.5°-HGT REF 16.50 m DME CH 50X"
+    }
+   ]
+  },
+  "SAZB": {
+   "documento": "AIP Argentina, SAZB AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e7b314ac7f0",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "Bahía Blanca Torre/ Bahía Blanca Tower",
+     "canal": "CPPL AUX",
+     "frecuencia": "119.15 MHz 118.10 MHz",
+     "horario": "H24",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Bahía Blanca Rodaje o superficie/ Bahía Blanca Taxiing or surface",
+     "canal": "CPPL",
+     "frecuencia": "121.90 MHz U/S",
+     "horario": "",
+     "observaciones": "VER GEN 3.4/ SEE GEN 3.4"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "VER GEN 3.4/ SEE GEN 3.4"
+    },
+    {
+     "servicio": "TMA",
+     "distintivo": "Bahía Blanca Control",
+     "canal": "CPPL",
+     "frecuencia": "124.80 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "BCA",
+     "frecuencia": "114.3MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 90X (324 km)"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "BC",
+     "frecuencia": "109.7 MHz",
+     "horario": "H24",
+     "observaciones": "CAT II a RWY 17 L"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "333.2 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 34 X GP 2.7° HGT REF"
+    }
+   ]
+  },
+  "SAZM": {
+   "documento": "AIP Argentina, SAZM AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e1232468b6a",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR/APP/TMA",
+     "distintivo": "Mar del Plata Torre/ Mar del Plata Tower",
+     "canal": "CPPL",
+     "frecuencia": "118.75 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TWR/APP/TMA",
+     "distintivo": "Mar del Plata Torre/ Mar del Plata Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.20 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4/ See GEN 3.4"
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Mar del Plata Rodaje / Superficie/ Mar del Plata Taxiing / Surface",
+     "canal": "",
+     "frecuencia": "121.70 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "MDP",
+     "frecuencia": "116.2 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 109X (324 km)"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "MP",
+     "frecuencia": "109.5 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a Pista 13/ CAT I to Runway 13."
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "332.6 MHz",
+     "horario": "",
+     "observaciones": "Pista 13 GP 3° - HGT REF 15.50 m - DME CH 32X/ Runway 13 GP 3° - HGT REF 15.50 m - DME CH 32X"
+    }
+   ]
+  },
+  "SAZN": {
+   "documento": "AIP Argentina, SAZN AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e1234aab580",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/TWR/APP",
+     "distintivo": "NEUQUÉN TORRE / NEUQUÉN TOWER",
+     "canal": "CPPL",
+     "frecuencia": "119.80 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA/TWR/APP",
+     "distintivo": "NEUQUÉN TORRE / NEUQUÉN TOWER",
+     "canal": "CAUX",
+     "frecuencia": "118.85 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4./ See GEN 3.4."
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Neuquén Rodaje o Superficie / Neuquén Taxiing or Surface",
+     "canal": "",
+     "frecuencia": "121.80 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4. / See GEN 3.4."
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "Neuquén ATIS",
+     "canal": "",
+     "frecuencia": "127.65 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4: Radiodifusión automática de información terminal (ATIS). / See GEN 3.4. Automatic Terminal Information Service (ATIS)."
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "DVOR/DME",
+     "id": "NEU",
+     "frecuencia": "116.7 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 114X (350 km)"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "NE",
+     "frecuencia": "110.3 MHz",
+     "horario": "H24",
+     "observaciones": "CAT II a Pista 09/ CAT II to Runway 09."
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "335.0 MHz",
+     "horario": "H24",
+     "observaciones": "Pista 09 GP 3° - HGT REF 16.60 m. DME CH 40X / Pista 09 GP 3° - HGT REF 16.60 m. DME CH 40X"
+    }
+   ]
+  },
+  "SAZR": {
+   "documento": "AIP Argentina, SAZR AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e123c163177",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "SANTA ROSA TORRE/ SANTA ROSA TOWER",
+     "canal": "CPPL",
+     "frecuencia": "118.30 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TWR/APP",
+     "distintivo": "SANTA ROSA TORRE/ SANTA ROSA TOWER",
+     "canal": "CAUX",
+     "frecuencia": "119.70 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "OSA",
+     "frecuencia": "112.5 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 72X (350 km)"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "SR",
+     "frecuencia": "110.3 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a RWY 19/"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "335.0 MHz",
+     "horario": "",
+     "observaciones": "RWY 19 - GP 3° - HGT REF"
+    }
+   ]
+  },
+  "SAZS": {
+   "documento": "AIP Argentina, SAZS AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e8bacf19c28",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "Bariloche Torre/ Bariloche Tower",
+     "canal": "CPPL",
+     "frecuencia": "119.10 MHz",
+     "horario": "H24",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "Bariloche Torre/ Bariloche Tower",
+     "canal": "CAUX",
+     "frecuencia": "118.65 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4. / See GEN 3.4."
+    },
+    {
+     "servicio": "SMC",
+     "distintivo": "Bariloche Rodaje o Superficie / Bariloche Taxiing or Surface",
+     "canal": "",
+     "frecuencia": "119.10 MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "ATIS",
+     "distintivo": "Bariloche ATIS",
+     "canal": "",
+     "frecuencia": "127.90 MHz",
+     "horario": "",
+     "observaciones": "Ver GEN 3.4: Radiodifusión automática de información terminal (ATIS). / See GEN 3.4. Automatic Terminal Information Service (ATIS)."
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "BAR",
+     "frecuencia": "117.4 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 121X (324 KM). VOR BAR 117.4 MHZ OPR RESTRICTED BTN RDL 020-060 OUT OF 18MN OUBD FL090 BTN RDL 190-260 OUT OF 20NM OUBD BLW FL110"
+    },
+    {
+     "tipo": "ILS/LOC",
+     "id": "BR",
+     "frecuencia": "109.5 MHz",
+     "horario": "H24",
+     "observaciones": "CAT I a Pista 29 / CAT I to Runway 29"
+    },
+    {
+     "tipo": "GP/DME",
+     "id": "",
+     "frecuencia": "332.6 MHz",
+     "horario": "H24",
+     "observaciones": "Pista 29 GP 3° - HGT REF 16.46 m. DME CH 32X/ Runway 29 GP 3° - HGT REF 16.46 m. DME CH 32X"
+    }
+   ]
+  },
+  "SAZT": {
+   "documento": "AIP Argentina, SAZT AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69e12466c7a15",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TWR/APP/TMA",
+     "distintivo": "Tandil Torre/Tower",
+     "canal": "CPPL",
+     "frecuencia": "120.90 MHz",
+     "horario": "Lunes a viernes 12:00 a 20:00 UTC. / MON to FRI 12:00 a 20:00 UTC",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "TWR/APP/TMA",
+     "distintivo": "Tandil Torre/Tower",
+     "canal": "CAUX",
+     "frecuencia": "119.40 MHz",
+     "horario": "",
+     "observaciones": "NIL"
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": "Ver AIP GEN 3.4./ See AIP GEN 3.4"
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "DIL",
+     "frecuencia": "115.9 MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 106X (324 km) - CAT I a"
+    }
+   ]
+  },
+  "SAZY": {
+   "documento": "AIP Argentina, SAZY AD 2.0 (edición 01/26, vigente desde 2026-06-11)",
+   "url": "https://ais.anac.gob.ar/descarga/aip-69fcdbcd57a67",
+   "airac": "1/2026",
+   "ats": [
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "San Martín de los Andes",
+     "canal": "CPPL.",
+     "frecuencia": "119.60MHz",
+     "horario": "12:00-20:00 UTC",
+     "observaciones": ""
+    },
+    {
+     "servicio": "TMA/APP/TWR",
+     "distintivo": "San Martín de los Andes",
+     "canal": "CAUX",
+     "frecuencia": "118.35MHz",
+     "horario": "",
+     "observaciones": ""
+    },
+    {
+     "servicio": "EMERG",
+     "distintivo": "",
+     "canal": "",
+     "frecuencia": "121.50 MHz",
+     "horario": "",
+     "observaciones": ""
+    }
+   ],
+   "radioayudas": [
+    {
+     "tipo": "VOR/DME",
+     "id": "CHP",
+     "frecuencia": "117MHz",
+     "horario": "H24",
+     "observaciones": "DME CH 117X (185 KM) Ver restricciones en AIP ENR 4.1/ DME CH 117X (185 km) See restrictions in AIP ENR 4.1.)"
+    }
+   ]
+  }
+ },
+ "errores": {}
+}
