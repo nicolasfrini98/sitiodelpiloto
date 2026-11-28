@@ -76,6 +76,12 @@
       "uso": "Cuestionario oficial publicado por la ANAC con las respuestas marcadas. Las preguntas se copian tal cual; quedan afuera las que usan figuras."
     },
     {
+      "id": "anac-ppa-figuras",
+      "documento": "ANAC, Dirección de Licencias al Personal (Control Educativo) — Piloto Privado Avión: anexo de figuras",
+      "url": "https://www.argentina.gob.ar/sites/default/files/2021/05/anexo-figuras-para-las-preguntas-ppa.pdf",
+      "uso": "Figuras oficiales que acompañan a las preguntas del cuestionario de piloto privado (recortadas del PDF, sin cambios)."
+    },
+    {
       "id": "anac-ppa-analisis",
       "documento": "ANAC, Dirección de Licencias al Personal (Control Educativo) — Piloto Privado Avión: teoría y análisis de respuestas",
       "url": "https://www.argentina.gob.ar/sites/default/files/2021/05/teor-a-y-analisis-de-respuestas-ppa.pdf",

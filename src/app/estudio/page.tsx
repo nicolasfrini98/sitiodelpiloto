@@ -79,8 +79,8 @@ export default function Page() {
           <li>
             <strong className="text-white">Cuestionario oficial (piloto privado de avión):</strong> las preguntas de la
             lista que publicó la ANAC en septiembre de 2014 para el programa de la RAAC 61.105, copiadas tal cual con la
-            respuesta que marca la ANAC. Quedaron afuera las que dependen de figuras y las que salieron sin respuesta
-            marcada. Las de reglamentación llevan un aviso, porque la RAAC 61 cambió en 2026.
+            respuesta que marca la ANAC. Las que usan una figura la muestran, tomada del anexo de figuras de la ANAC.
+            Quedaron afuera las que usan imágenes que no están en ese anexo y las que salieron sin respuesta marcada. Las de reglamentación llevan un aviso, porque la RAAC 61 cambió en 2026.
           </li>
           <li>
             <strong className="text-white">Reglamentación:</strong> preguntas redactadas a partir del texto vigente de la

@@ -1,7 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { MateriaId, Pregunta } from "@/lib/estudio";
+import Image from "next/image";
+import { ANEXO_FIGURAS_PPA, type FiguraPregunta, type MateriaId, type Pregunta } from "@/lib/estudio";
 import { borrarProgreso, registrarRespuestas, useProgreso, type Progreso } from "./progresoEstudio";
 
 type MateriaOpcion = { id: MateriaId; nombre: string };
@@ -324,6 +325,7 @@ export function BancoPreguntas({
           <h2 ref={tituloRef} tabIndex={-1} className="text-lg font-medium text-white outline-none">
             {pregunta.enunciado}
           </h2>
+          {pregunta.figura && <Figura figura={pregunta.figura} />}
           <ul className="space-y-2">
             {orden.map((original, pos) => {
               const esCorrecta = original === pregunta.correcta;
@@ -431,6 +433,7 @@ export function BancoPreguntas({
           <h2 ref={tituloRef} tabIndex={-1} className="text-lg font-medium text-white outline-none">
             {pregunta.enunciado}
           </h2>
+          {pregunta.figura && <Figura figura={pregunta.figura} />}
           <ul className="space-y-2" role="list">
             {orden.map((original, pos) => {
               const elegida = respuestas[indice] === original;
@@ -573,6 +576,7 @@ export function BancoPreguntas({
             {errores.map(({ it, r }) => (
               <li key={it.pregunta.id} className="space-y-2 rounded-md border border-trazo bg-slate-900/60 p-4">
                 <p className="font-medium text-white">{it.pregunta.enunciado}</p>
+                {it.pregunta.figura && <Figura figura={it.pregunta.figura} />}
                 <p className="text-sm text-red-300">
                   Tu respuesta: {r == null ? "sin responder" : it.pregunta.opciones[r]}
                 </p>
@@ -605,6 +609,31 @@ function BarraEstado({
       </span>
       {derecha && <span>{derecha}</span>}
     </div>
+  );
+}
+
+/** Figura del anexo de la ANAC que acompaña a la pregunta. Tocándola se abre en tamaño completo. */
+function Figura({ figura }: { figura: FiguraPregunta }) {
+  return (
+    <figure className="space-y-1">
+      <a href={figura.src} target="_blank" rel="noopener noreferrer" className="block w-fit max-w-full">
+        <Image
+          src={figura.src}
+          alt={figura.titulo}
+          width={figura.ancho}
+          height={figura.alto}
+          sizes="(min-width: 768px) 560px, 100vw"
+          className="h-auto max-h-[28rem] w-auto max-w-full rounded border border-trazo bg-white"
+        />
+      </a>
+      <figcaption className="text-xs text-slate-400">
+        {figura.titulo}, del{" "}
+        <a href={ANEXO_FIGURAS_PPA.url} target="_blank" rel="noopener noreferrer" className="text-sky-300 underline">
+          anexo de figuras de la ANAC
+        </a>
+        . Tocá la imagen para verla grande.
+      </figcaption>
+    </figure>
   );
 }
 

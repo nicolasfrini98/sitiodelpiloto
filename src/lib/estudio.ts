@@ -60,6 +60,16 @@ type PreguntaCruda = {
   verificada: boolean;
   /** Motivo por el que quedó sin verificar, u otra aclaración. */
   nota?: string;
+  /** Figura que acompaña a la pregunta (imagen en public/, con su tamaño en píxeles). */
+  figura?: FiguraPregunta;
+};
+
+export type FiguraPregunta = { src: string; titulo: string; ancho: number; alto: number };
+
+/** Anexo de figuras de la ANAC para las preguntas de piloto privado de avión. */
+export const ANEXO_FIGURAS_PPA = {
+  documento: "ANAC, Dirección de Licencias al Personal (Control Educativo) — Piloto Privado Avión: anexo de figuras",
+  url: "https://www.argentina.gob.ar/sites/default/files/2021/05/anexo-figuras-para-las-preguntas-ppa.pdf",
 };
 
 /** Pregunta copiada de un cuestionario oficial de la ANAC (texto y respuesta tal como los publicó la ANAC). */
@@ -147,6 +157,7 @@ export function conteoPorMateria(preguntas: Pregunta[]): { materia: Materia; can
 /** Fuentes citadas por un grupo de preguntas, sin repetir. */
 export function fuentesCitadas(preguntas: Pregunta[]): FuenteEstudio[] {
   const urls = new Set(preguntas.map((p) => p.fuente.url));
+  if (preguntas.some((p) => p.figura)) urls.add(ANEXO_FIGURAS_PPA.url);
   return FUENTES_ESTUDIO.filter((f) => urls.has(f.url));
 }
 

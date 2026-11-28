@@ -62,6 +62,32 @@
     "nota": "Respuesta según el cuestionario ANAC de 2014. Hoy la experiencia reciente es de 3 despegues y 3 aterrizajes en los 90 días previos (180 días para piloto privado) y un repaso de vuelo cada 24 meses (RAAC 61.140 y 61.135, Edición VI)."
   },
   {
+    "id": "anac-ppa-004",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Figura 29, ilustración 1) El receptor VOR tiene la indicación que se muestra. ¿Cuál es la posición relativa del avión respecto a la estación transmisora?",
+    "opciones": [
+      "Norte.",
+      "Este.",
+      "Sur."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 4"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-29.jpg",
+      "titulo": "Figura 29. VOR",
+      "ancho": 562,
+      "alto": 611
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-005",
     "materia": "aeronave",
     "licencias": [
@@ -622,6 +648,32 @@
     "verificada": true
   },
   {
+    "id": "anac-ppa-033",
+    "materia": "principios-de-vuelo",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a la Figura 1) Al ángulo “A” mostrado en la figura se lo denomina:",
+    "opciones": [
+      "Incidencia",
+      "Ataque.",
+      "Diedro."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 33"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-1.jpg",
+      "titulo": "Figura 1. Vector de sustentación",
+      "ancho": 673,
+      "alto": 407
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-034",
     "materia": "reglamentacion",
     "licencias": [
@@ -1024,6 +1076,32 @@
     "nota": "Respuesta según el cuestionario ANAC de 2014, anterior a la RAAC 61 Edición VI (2026). Confirmá el dato con la norma vigente."
   },
   {
+    "id": "anac-ppa-054",
+    "materia": "principios-de-vuelo",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 8) ¿Cuál es el efecto de un aumento de la temperatura de 25 a 50° F en la altitud de densidad si la altitud de presión permanece en 5000 pies?",
+    "opciones": [
+      "Aumento de 1200 pies.",
+      "Aumento de 1400 pies.",
+      "Aumento de 1650 pies."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 54"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-8.jpg",
+      "titulo": "Figura 8. Tabla de altitud de densidad",
+      "ancho": 947,
+      "alto": 1091
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-055",
     "materia": "meteorologia",
     "licencias": [
@@ -1165,6 +1243,58 @@
     "nota": "Respuesta según el cuestionario ANAC de 2014, anterior a la RAAC 61 Edición VI (2026). Confirmá el dato con la norma vigente."
   },
   {
+    "id": "anac-ppa-062",
+    "materia": "principios-de-vuelo",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 8) Determine la altitud de presión con una altitud indicada de 1380 pies MSL con una configuración de altímetro de 28.22 a temperatura estándar:",
+    "opciones": [
+      "2991 pies MSL.",
+      "2913 pies MSL.",
+      "3010 pies MSL."
+    ],
+    "correcta": 0,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 62"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-8.jpg",
+      "titulo": "Figura 8. Tabla de altitud de densidad",
+      "ancho": 947,
+      "alto": 1091
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-063",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 9, área B) ¿Cómo se deberían mantener los controles de vuelo al rodar un avión con rueda de cola, con viento de frente, parcialmente cruzado, de la derecha?",
+    "opciones": [
+      "Alerón derecho arriba, elevador arriba.",
+      "Alerón derecho abajo, elevador neutro.",
+      "Alerón derecho arriba, elevador abajo."
+    ],
+    "correcta": 0,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 63"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-9.jpg",
+      "titulo": "Figura 9. Posición de control para rodaje",
+      "ancho": 533,
+      "alto": 495
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-064",
     "materia": "aeronave",
     "licencias": [
@@ -1201,6 +1331,58 @@
     "fuente": {
       "id": "anac-ppa-2014",
       "seccion": "Pregunta 65"
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-066",
+    "materia": "principios-de-vuelo",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 8) ¿Cuál es el efecto de un aumento de temperatura de 30 a 50° F en la altitud de densidad si la altitud de presión permanece en los 3000 pies MSL?",
+    "opciones": [
+      "Aumento de 900 pies.",
+      "Disminución de 1100 pies.",
+      "Aumento de 1300 pies."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 66"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-8.jpg",
+      "titulo": "Figura 8. Tabla de altitud de densidad",
+      "ancho": 947,
+      "alto": 1091
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-067",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 9, área C) ¿Cómo se deberían mantener los controles de vuelo al rodar un avión con rueda de cola con viento de cola, parcialmente cruzado, de la izquierda?",
+    "opciones": [
+      "Alerón izquierdo arriba, elevador neutro.",
+      "Alerón izquierdo abajo, elevador neutro.",
+      "Alerón izquierdo abajo, elevador abajo."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 67"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-9.jpg",
+      "titulo": "Figura 9. Posición de control para rodaje",
+      "ancho": 533,
+      "alto": 495
     },
     "verificada": true
   },
@@ -1322,6 +1504,32 @@
     "fuente": {
       "id": "anac-ppa-2014",
       "seccion": "Pregunta 73"
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-074",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 9, área C) ¿Cómo se deberían mantener los controles de vuelo al rodar un avión equipado con un tren de aterrizaje triciclo, con viento de cola, parcialmente cruzado, de la izquierda?",
+    "opciones": [
+      "Alerón izquierdo arriba, elevador neutro.",
+      "Alerón izquierdo abajo, elevador abajo.",
+      "Alerón izquierdo arriba, elevador abajo."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 74"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-9.jpg",
+      "titulo": "Figura 9. Posición de control para rodaje",
+      "ancho": 533,
+      "alto": 495
     },
     "verificada": true
   },
@@ -1507,6 +1715,58 @@
     "verificada": true
   },
   {
+    "id": "anac-ppa-084",
+    "materia": "principios-de-vuelo",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a la Figura 2) Si un avión pesa 1100 kg, ¿qué peso aproximado deberá soportar su estructura durante un viraje con 60° de inclinación mientras mantiene la altitud?",
+    "opciones": [
+      "1100 kg.",
+      "1540 Kg.",
+      "2200 kg."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 84"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-2.jpg",
+      "titulo": "Figura 2. Tabla de factor de carga",
+      "ancho": 902,
+      "alto": 598
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-085",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 37) ¿Cuál es el componente de viento cruzado para un aterrizaje en la Pista 18 si la torre informa el viento de 220° a 30 nudos?",
+    "opciones": [
+      "19 nudos.",
+      "23 nudos.",
+      "30 nudos."
+    ],
+    "correcta": 0,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 85"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-37.jpg",
+      "titulo": "Figura 37. Gráfico de componente de viento cruzado",
+      "ancho": 808,
+      "alto": 690
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-086",
     "materia": "reglamentacion",
     "licencias": [
@@ -1604,6 +1864,58 @@
     "fuente": {
       "id": "anac-ppa-2014",
       "seccion": "Pregunta 90"
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-091",
+    "materia": "principios-de-vuelo",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a la Figura 2) Si un avion pesa 1540 kg, que peso aproximado debera soportar su estructura durante un viraje con 30 de inclinacion manteniendo la altitud?",
+    "opciones": [
+      "1294 kg.",
+      "1588 kg.",
+      "1848 kg."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 91"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-2.jpg",
+      "titulo": "Figura 2. Tabla de factor de carga",
+      "ancho": 902,
+      "alto": 598
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-092",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 37) ¿Cuál es el componente de viento de frente para un aterrizaje en la Pista 18 si la torre informa el viento de 220° a 30 nudos?",
+    "opciones": [
+      "19 nudos.",
+      "23 nudos.",
+      "26 nudos."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 92"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-37.jpg",
+      "titulo": "Figura 37. Gráfico de componente de viento cruzado",
+      "ancho": 808,
+      "alto": 690
     },
     "verificada": true
   },
@@ -1728,6 +2040,58 @@
     },
     "verificada": false,
     "nota": "Respuesta según el cuestionario ANAC de 2014, anterior a la RAAC 61 Edición VI (2026). Confirmá el dato con la norma vigente."
+  },
+  {
+    "id": "anac-ppa-099",
+    "materia": "principios-de-vuelo",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a la Figura 2) Si un avion pesa 2200 kg, que peso aproximado debera soportar su estructura durante un viraje con 45°de inclinacion?",
+    "opciones": [
+      "2200 kg.",
+      "3100 kg.",
+      "3300 kg."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 99"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-2.jpg",
+      "titulo": "Figura 2. Tabla de factor de carga",
+      "ancho": 902,
+      "alto": 598
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-100",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 37) Determine la velocidad de viento máxima para viento de frente de 45° si el componente máximo de viento cruzado para el avión es de 25 nudos:",
+    "opciones": [
+      "25 nudos.",
+      "29 nudos.",
+      "35 nudos."
+    ],
+    "correcta": 0,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 100"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-37.jpg",
+      "titulo": "Figura 37. Gráfico de componente de viento cruzado",
+      "ancho": 808,
+      "alto": 690
+    },
+    "verificada": true
   },
   {
     "id": "anac-ppa-101",
@@ -1952,6 +2316,32 @@
     "verificada": true
   },
   {
+    "id": "anac-ppa-112",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 37) ¿Cuál es la velocidad de viento máxima para viento cruzado de 30° si la componente máxima de viento cruzado para el avión es de 12 nudos?",
+    "opciones": [
+      "16 nudos.",
+      "20 nudos.",
+      "24 nudos."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 112"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-37.jpg",
+      "titulo": "Figura 37. Gráfico de componente de viento cruzado",
+      "ancho": 808,
+      "alto": 690
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-113",
     "materia": "factores-humanos",
     "licencias": [
@@ -2133,6 +2523,32 @@
     "verificada": true
   },
   {
+    "id": "anac-ppa-122",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 37) Con viento del norte informado a 20 nudos, ¿cuál pista (6, 29 o 32) es aceptable para utilizar para un avión con un componente de viento cruzado máximo de 13 nudos?",
+    "opciones": [
+      "Pista 6.",
+      "Pista 29.",
+      "Pista 32."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 122"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-37.jpg",
+      "titulo": "Figura 37. Gráfico de componente de viento cruzado",
+      "ancho": 808,
+      "alto": 690
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-123",
     "materia": "reglamentacion",
     "licencias": [
@@ -2190,6 +2606,32 @@
     "fuente": {
       "id": "anac-ppa-2014",
       "seccion": "Pregunta 125"
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-126",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 37) Con viento del sur informado a 20 nudos, ¿cuál pista (10, 14 o 24) es adecuada para utilizar para un avión con un componente de viento cruzado máximo de 13 nudos?",
+    "opciones": [
+      "Pista 10.",
+      "Pista 14.",
+      "Pista 24."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 126"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-37.jpg",
+      "titulo": "Figura 37. Gráfico de componente de viento cruzado",
+      "ancho": 808,
+      "alto": 690
     },
     "verificada": true
   },
@@ -2683,6 +3125,32 @@
     "verificada": true
   },
   {
+    "id": "anac-ppa-151",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a la Figura 63) Volando en un curso rectangular, ¿cuando debería el avión realizar un viraje menor a 90°?",
+    "opciones": [
+      "En el punto 1 y 4.",
+      "En el punto 1 y 2.",
+      "En el punto 2 y 4."
+    ],
+    "correcta": 0,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 151"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-63.jpg",
+      "titulo": "Figura 63. Rumbo rectangular",
+      "ancho": 681,
+      "alto": 472
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-152",
     "materia": "factores-humanos",
     "licencias": [
@@ -2760,6 +3228,32 @@
     "fuente": {
       "id": "anac-ppa-2014",
       "seccion": "Pregunta 155"
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-156",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a la Figura 67) Mientras practica una S sobre una línea de referencia, a un lado de la misma, la trayectoria del viraje se hace más chica que del otro, y además este viraje no es completado antes de cruzar la línea. Esto ocurre generalmente porque:",
+    "opciones": [
+      "En el viraje 1-2-3, la inclinación es levantada rápidamente durante la última parte del viraje.",
+      "En el viraje 4-5-6, la inclinación es incrementada rápidamente en la primera parte del viraje.",
+      "En el viraje 4-5-6, la inclinación es incrementada muy lentamente en la última parte del viraje."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 156"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-67.jpg",
+      "titulo": "Figura 67. Diagrama de giro en S",
+      "ancho": 761,
+      "alto": 435
     },
     "verificada": true
   },
@@ -3728,6 +4222,32 @@
     "verificada": true
   },
   {
+    "id": "anac-ppa-206",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a Figura 29, ilustración 8) El receptor del VOR tiene la indicación mostrada. ¿La aeronave se encuentra sobre cuál radial?",
+    "opciones": [
+      "030°.",
+      "210°.",
+      "300°."
+    ],
+    "correcta": 0,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 206"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-29.jpg",
+      "titulo": "Figura 29. VOR",
+      "ancho": 562,
+      "alto": 611
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-208",
     "materia": "procedimientos",
     "licencias": [
@@ -3788,6 +4308,32 @@
     "verificada": true
   },
   {
+    "id": "anac-ppa-211",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a la Figura 29, ilustración 2) El receptor VOR tiene la indicación mostrada. ¿La aeronave se encuentra sobre cuál radial?",
+    "opciones": [
+      "210°.",
+      "030°.",
+      "300°."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 211"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-29.jpg",
+      "titulo": "Figura 29. VOR",
+      "ancho": 562,
+      "alto": 611
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-213",
     "materia": "procedimientos",
     "licencias": [
@@ -3844,6 +4390,32 @@
     "fuente": {
       "id": "anac-ppa-2014",
       "seccion": "Pregunta 216"
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-217",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a la Figura 29, ilustración 5) El receptor VOR tiene la indicación mostrada. ¿La aeronave se encuentra sobre cuál radial?",
+    "opciones": [
+      "210°.",
+      "030°.",
+      "300°."
+    ],
+    "correcta": 0,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 217"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-29.jpg",
+      "titulo": "Figura 29. VOR",
+      "ancho": 562,
+      "alto": 611
     },
     "verificada": true
   },
@@ -4069,6 +4641,32 @@
     "verificada": true
   },
   {
+    "id": "anac-ppa-230",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a Figura 30, ilustración 1) Determinar la marcación magnética a la estación.",
+    "opciones": [
+      "030°.",
+      "180°.",
+      "210°."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 230"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-30.jpg",
+      "titulo": "Figura 30. ADF",
+      "ancho": 630,
+      "alto": 678
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-232",
     "materia": "procedimientos",
     "licencias": [
@@ -4105,6 +4703,32 @@
     "fuente": {
       "id": "anac-ppa-2014",
       "seccion": "Pregunta 233"
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-234",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a Figura 30, ilustración 2) ¿Qué marcación magnética debería usar el piloto para volar hacia la estación?",
+    "opciones": [
+      "010°.",
+      "145°.",
+      "190°."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 234"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-30.jpg",
+      "titulo": "Figura 30. ADF",
+      "ancho": 630,
+      "alto": 678
     },
     "verificada": true
   },
@@ -4149,6 +4773,58 @@
     "verificada": true
   },
   {
+    "id": "anac-ppa-238",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a la Figura 30, ilustración 2) Determine el rumbo aproximado para interceptar la marcación 180° hacia la estación.",
+    "opciones": [
+      "040°.",
+      "160°.",
+      "220°."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 238"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-30.jpg",
+      "titulo": "Figura 30. ADF",
+      "ancho": 630,
+      "alto": 678
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-240",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a Figura 30, ilustración 3) ¿Cuál es la marcación magnética desde la estación?",
+    "opciones": [
+      "025°.",
+      "115°.",
+      "295°."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 240"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-30.jpg",
+      "titulo": "Figura 30. ADF",
+      "ancho": 630,
+      "alto": 678
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-242",
     "materia": "factores-humanos",
     "licencias": [
@@ -4169,6 +4845,32 @@
     "verificada": true
   },
   {
+    "id": "anac-ppa-243",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a Figura 30) ¿Cuál de las indicaciones representa a la aeronave en curso hacia la estación con viento cruzado de la derecha?",
+    "opciones": [
+      "1.",
+      "2.",
+      "4."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 243"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-30.jpg",
+      "titulo": "Figura 30. ADF",
+      "ancho": 630,
+      "alto": 678
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-245",
     "materia": "factores-humanos",
     "licencias": [
@@ -4185,6 +4887,84 @@
     "fuente": {
       "id": "anac-ppa-2014",
       "seccion": "Pregunta 245"
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-246",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a Figura 31, Ilustración 1) La marcación relativa a la estación es:",
+    "opciones": [
+      "045°.",
+      "180°.",
+      "315°."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 246"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-31.jpg",
+      "titulo": "Figura 31. ADF",
+      "ancho": 745,
+      "alto": 468
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-248",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a Figura 31, ilustración 4) Con un rumbo magnético de 320°, la marcación magnética hacia la estación (QDM) es:",
+    "opciones": [
+      "005°.",
+      "185°.",
+      "225°."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 248"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-31.jpg",
+      "titulo": "Figura 31. ADF",
+      "ancho": 745,
+      "alto": 468
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-250",
+    "materia": "navegacion",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Referirse a Figura 31, ilustración 6) Con un rumbo magnético de 120°, la marcación magnética a la estación (QDM) es:",
+    "opciones": [
+      "045°.",
+      "165°.",
+      "270°."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 250"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-31.jpg",
+      "titulo": "Figura 31. ADF",
+      "ancho": 745,
+      "alto": 468
     },
     "verificada": true
   },
@@ -4389,6 +5169,32 @@
     "nota": "Respuesta según el cuestionario ANAC de 2014, anterior a la RAAC 61 Edición VI (2026). Confirmá el dato con la norma vigente."
   },
   {
+    "id": "anac-ppa-262",
+    "materia": "principios-de-vuelo",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 8). Determine la altitud de densidad para estas condiciones: Lectura del altímetro.............................. 29.25 Temperatura de la pista.............................. +81° F Elevación de aeropuerto.............................. 5250 pies MSL",
+    "opciones": [
+      "4600 pies MSL.",
+      "5877 pies MSL.",
+      "8500 pies MSL."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 262"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-8.jpg",
+      "titulo": "Figura 8. Tabla de altitud de densidad",
+      "ancho": 947,
+      "alto": 1091
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-263",
     "materia": "meteorologia",
     "licencias": [
@@ -4449,6 +5255,32 @@
     "verificada": true
   },
   {
+    "id": "anac-ppa-266",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "La ilustración A indica que la aeronave se encuentra:",
+    "opciones": [
+      "Debajo de la senda de planeo.",
+      "En la senda de planeo.",
+      "Encima de la senda de planeo."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 266"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-48.jpg",
+      "titulo": "Figura 48. Ilustraciones VASI",
+      "ancho": 792,
+      "alto": 816
+    },
+    "verificada": true
+  },
+  {
     "id": "anac-ppa-267",
     "materia": "aeronave",
     "licencias": [
@@ -4488,6 +5320,32 @@
     },
     "verificada": false,
     "nota": "Respuesta según el cuestionario ANAC de 2014, anterior a la RAAC 61 Edición VI (2026). Confirmá el dato con la norma vigente."
+  },
+  {
+    "id": "anac-ppa-269",
+    "materia": "principios-de-vuelo",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 8). Determine la altitud de presión en un aeropuerto que se encuentra a 3563 pies MSL con un ajuste del altímetro de 29.96:",
+    "opciones": [
+      "3527 pies MSL.",
+      "3556 pies MSL.",
+      "3639 pies MSL."
+    ],
+    "correcta": 0,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 269"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-8.jpg",
+      "titulo": "Figura 8. Tabla de altitud de densidad",
+      "ancho": 947,
+      "alto": 1091
+    },
+    "verificada": true
   },
   {
     "id": "anac-ppa-270",
@@ -4586,6 +5444,58 @@
     "fuente": {
       "id": "anac-ppa-2014",
       "seccion": "Pregunta 274"
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-275",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "Las luces VASI, indicadas en la ilustración C, muestran que el avión se encuentra:",
+    "opciones": [
+      "Fuera de curso a la izquierda.",
+      "Encima de la senda de planeo.",
+      "Debajo de la senda de planeo."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 275"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-48.jpg",
+      "titulo": "Figura 48. Ilustraciones VASI",
+      "ancho": 792,
+      "alto": 816
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-276",
+    "materia": "principios-de-vuelo",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "(Refiérase a la Figura 8). Determine la altitud de densidad para las siguientes condiciones: Ajuste del altímetro.............................. 30.35 Temperatura de la pista.............................. +25° F Elevación de aeropuerto.............................. 3894 pies MSL",
+    "opciones": [
+      "2000 pies MSL.",
+      "2900 pies MSL.",
+      "3500 pies MSL."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 276"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-8.jpg",
+      "titulo": "Figura 8. Tabla de altitud de densidad",
+      "ancho": 947,
+      "alto": 1091
     },
     "verificada": true
   },
@@ -4706,6 +5616,32 @@
     "fuente": {
       "id": "anac-ppa-2014",
       "seccion": "Pregunta 282"
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-283",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "Durante la aproximación final a una pista de aterrizaje equipada con un VASI estándar de dos barras, las luces se ven tal como se muestra en la ilustración B. Esto significa que la aeronave se encuentra:",
+    "opciones": [
+      "Encima de la senda de planeo.",
+      "Debajo de la senda de planeo.",
+      "En la senda de planeo."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 283"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-48.jpg",
+      "titulo": "Figura 48. Ilustraciones VASI",
+      "ancho": 792,
+      "alto": 816
     },
     "verificada": true
   },
@@ -5748,6 +6684,110 @@
     "fuente": {
       "id": "anac-ppa-2014",
       "seccion": "Pregunta 345"
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-346",
+    "materia": "principios-de-vuelo",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "Mediante la Tabla de Altitud de Densidad que se muestra en la figuray las siguientes condiciones, determine la altitud de densidad. Condiciones: Ajuste del altímetro..............30.35 Temperatura del aeropuerto.............. +25° F Elevación del Aeropuerto.............. 3.894 pies",
+    "opciones": [
+      "3.500 pies",
+      "2500 pies",
+      "2000 pies"
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 346"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-8.jpg",
+      "titulo": "Figura 8. Tabla de altitud de densidad",
+      "ancho": 947,
+      "alto": 1091
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-347",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "Sobre el siguiente grafico calcular la componente para el despegue con viento a 60° de 18 Kt de intensidad.",
+    "opciones": [
+      "20 Kt de viento de frente y 15 Kt de cruzado.",
+      "16 Kt de viento de frente y 10 Kt de viento cruzado.",
+      "16Kt de viento cruzado y 10 Kt de frente."
+    ],
+    "correcta": 2,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 347"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-37.jpg",
+      "titulo": "Figura 37. Gráfico de componente de viento cruzado",
+      "ancho": 808,
+      "alto": 690
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-348",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "Sobre el siguiente grafico calcular la componente para el despegue con viento a 15° de 18 Kt de intensidad.",
+    "opciones": [
+      "20 Kt de viento de frente y 15 Kt de cruzado.",
+      "A)17 Kt de viento de frente y 3 Kt de cruzado.",
+      "A) 27 Kt de viento de frente y 15 Kt de cruzado."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 348"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-37.jpg",
+      "titulo": "Figura 37. Gráfico de componente de viento cruzado",
+      "ancho": 808,
+      "alto": 690
+    },
+    "verificada": true
+  },
+  {
+    "id": "anac-ppa-349",
+    "materia": "procedimientos",
+    "licencias": [
+      "piloto-privado-avion"
+    ],
+    "enunciado": "Sobre el siguiente grafico calcular la componente para el despegue con viento a 25° de 18 Kt de intensidad.",
+    "opciones": [
+      "16 kt de viento cruzado y 9 Kt de viento de frente",
+      "9 Kt de viento cruzado y 16 Kt de viento de frente.",
+      "19 Kt de viento cruzado y 16 Kt de viento de frente."
+    ],
+    "correcta": 1,
+    "explicacion": "",
+    "fuente": {
+      "id": "anac-ppa-2014",
+      "seccion": "Pregunta 349"
+    },
+    "figura": {
+      "src": "/estudio/figuras-ppa/figura-37.jpg",
+      "titulo": "Figura 37. Gráfico de componente de viento cruzado",
+      "ancho": 808,
+      "alto": 690
     },
     "verificada": true
   },
