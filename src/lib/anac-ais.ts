@@ -25,6 +25,18 @@ function mensajeError(e: unknown): string {
   return e instanceof Error ? e.message : "error de red";
 }
 
+/**
+ * Fija la vida en cache según el resultado: los datos buenos duran lo pedido; los errores, un minuto,
+ * para que una caída momentánea de la ANAC no quede guardada por horas.
+ */
+type Vida = "days" | { stale: number; revalidate: number; expire: number };
+function vida<T>(r: Resultado<T>, siOk: Vida): Resultado<T> {
+  if (!r.ok) cacheLife({ stale: 30, revalidate: 60, expire: 120 });
+  else if (siOk === "days") cacheLife("days");
+  else cacheLife(siOk);
+  return r;
+}
+
 type ItemMadhel = {
   local_identifier: string;
   human_readable_identifier: string;
@@ -33,7 +45,10 @@ type ItemMadhel = {
 /** OACI → designador local, sacado de los nombres del MADHEL ("JUNÍN - (NIN / SAAJ) - ..."). */
 async function indiceMadhel(): Promise<Resultado<Record<string, string>>> {
   "use cache";
-  cacheLife("days");
+  return vida(await indiceMadhelSinCache(), "days");
+}
+
+async function indiceMadhelSinCache(): Promise<Resultado<Record<string, string>>> {
   try {
     const res = await fetch(MADHEL, { headers: HEADERS, signal: AbortSignal.timeout(TIEMPO_MAX) });
     if (!res.ok)
@@ -80,7 +95,10 @@ export type FichaMadhel = {
 
 export async function obtenerFichaMadhel(local: string): Promise<Resultado<FichaMadhel>> {
   "use cache";
-  cacheLife("days");
+  return vida(await fichaMadhelSinCache(local), "days");
+}
+
+async function fichaMadhelSinCache(local: string): Promise<Resultado<FichaMadhel>> {
   try {
     const res = await fetch(`${MADHEL}${encodeURIComponent(local)}/?format=json`, {
       headers: HEADERS,
@@ -159,7 +177,10 @@ function sinHtml(s: string): string {
 /** NOTAM activos (series A y C) de un lugar, por designador local. */
 export async function obtenerNotams(local: string): Promise<Resultado<Notam[]>> {
   "use cache";
-  cacheLife({ stale: 300, revalidate: 900, expire: 3600 });
+  return vida(await notamsSinCache(local), { stale: 300, revalidate: 900, expire: 3600 });
+}
+
+async function notamsSinCache(local: string): Promise<Resultado<Notam[]>> {
   try {
     const res = await fetch(NOTAM, {
       method: "POST",
